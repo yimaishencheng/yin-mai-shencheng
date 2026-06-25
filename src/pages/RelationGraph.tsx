@@ -7,6 +7,7 @@ import { TooltipComponent, TitleComponent } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
 import { usePersons } from '../hooks/usePersons'
 import relations from '../data/relations.json'
+import { UnsealingLoader } from '../components/Illustrations'
 
 echarts.use([GraphChart, TooltipComponent, TitleComponent, CanvasRenderer])
 
@@ -147,8 +148,8 @@ export default function RelationGraph() {
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密上海特科关系图谱...</span>
+        <UnsealingLoader />
+        <span className="text-xs font-serif tracking-widest mt-4" style={{ color: '#7a8a9e' }}>解密上海特科关系图谱...</span>
       </div>
     )
   }
@@ -156,7 +157,7 @@ export default function RelationGraph() {
   const selPerson = persons.find(p => p.id === selId) || null
 
   return (
-    <div className="h-full flex flex-col fade-in-up" style={{ backgroundColor: '#08080f' }}>
+    <div className="h-full flex flex-col fade-in-up dossier-pattern-bg">
       {/* 检索条 & 关系分类指示 */}
       <div
         className="flex items-center justify-between px-6 shrink-0"

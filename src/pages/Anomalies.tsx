@@ -5,6 +5,7 @@ import { usePersons } from '../hooks/usePersons'
 import { usePlaces } from '../hooks/usePlaces'
 import relations from '../data/relations.json'
 import type { Person, Place } from '../types'
+import { UnsealingLoader, FractureSeal } from '../components/Illustrations'
 
 type P = Person; type Pl = Place
 
@@ -60,8 +61,8 @@ export default function Anomalies() {
   if (pLoading || plLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>算法审计并归档异常文献中...</span>
+        <UnsealingLoader />
+        <span className="text-xs font-serif tracking-widest mt-4" style={{ color: '#7a8a9e' }}>算法审计并归档异常文献中...</span>
       </div>
     )
   }
@@ -71,17 +72,22 @@ export default function Anomalies() {
       {/* 顶部面板 - 异常发现报告 */}
       <div className="px-8 pt-8 pb-6 shrink-0 border-b" style={{ borderColor: 'rgba(214,168,83,0.15)', backgroundColor: '#0c0c14' }}>
         <div className="flex justify-between items-start mb-4">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="w-2 h-2 rounded-full" style={{ backgroundColor: '#c44b4b' }} />
-              <span className="text-[10px] tracking-wider uppercase" style={{ color: '#7a8a9e' }}>ANOMALY DIGEST & INTELLIGENCE AUDITING</span>
+          <div className="flex items-start gap-4">
+            <div style={{ width: 48, height: 48, flexShrink: 0 }}>
+              <FractureSeal />
             </div>
-            <h1 className="text-2xl font-bold font-serif tracking-widest" style={{ color: '#d4a853' }}>
-              历史网络异常诊断
-            </h1>
-            <p className="text-xs mt-1" style={{ color: '#7a8a9e' }}>
-              基于时空重合、文献缺失、联络骤断等要素，算法智能判定民国上海地下网络的潜在异常。
-            </p>
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="w-2 h-2 rounded-full" style={{ backgroundColor: '#c44b4b' }} />
+                <span className="text-[10px] tracking-wider uppercase" style={{ color: '#7a8a9e' }}>ANOMALY DIGEST &amp; INTELLIGENCE AUDITING</span>
+              </div>
+              <h1 className="text-2xl font-bold font-serif tracking-widest" style={{ color: '#d4a853' }}>
+                历史网络异常诊断
+              </h1>
+              <p className="text-xs mt-1" style={{ color: '#7a8a9e' }}>
+                基于时空重合、文献缺失、联络骤断等要素，算法智能判定民国上海地下网络的潜在异常。
+              </p>
+            </div>
           </div>
           <span className="text-[10px] font-serif" style={{ color: '#525f6e' }}>[ 算法拟合审计结果仅供学术研判参考 ]</span>
         </div>

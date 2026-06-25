@@ -5,6 +5,7 @@ import { usePersons } from '../hooks/usePersons'
 import { usePlaces } from '../hooks/usePlaces'
 import { useEvents } from '../hooks/useEvents'
 import type { HistoricalEvent, Place } from '../types'
+import { UnsealingLoader, SecretCompass } from '../components/Illustrations'
 
 type Evt = HistoricalEvent
 
@@ -52,8 +53,8 @@ export default function MapExplorer() {
   if (pLoading || plLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>秘密地图情报校准中...</span>
+        <UnsealingLoader />
+        <span className="text-xs font-serif tracking-widest mt-4" style={{ color: '#7a8a9e' }}>秘密地图情报校准中...</span>
       </div>
     )
   }
@@ -180,7 +181,12 @@ export default function MapExplorer() {
 
         {/* 图例浮动卡 */}
         <div className="absolute bottom-5 left-4 z-[1000] p-4 rounded bg-[#0c0c14]/90 border text-xs shadow-md backdrop-blur" style={{ borderColor: 'rgba(214, 168, 83, 0.18)' }}>
-          <span className="text-[10px] block font-serif text-[#7a8a9e] mb-2 uppercase tracking-widest">图例索引</span>
+          <div className="flex items-center gap-3 mb-3">
+            <div style={{ width: 40, height: 40, opacity: 0.85 }}>
+              <SecretCompass />
+            </div>
+            <span className="text-[10px] block font-serif text-[#7a8a9e] uppercase tracking-widest">图例索引</span>
+          </div>
           <div className="grid grid-cols-2 gap-x-4 gap-y-2">
             {Object.entries(TYPE_COLORS).map(([t, c]) => (
               <div key={t} className="flex items-center gap-2">

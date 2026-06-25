@@ -9,6 +9,7 @@ import { MapContainer, CircleMarker, TileLayer, Tooltip } from 'react-leaflet'
 import { usePersons } from '../hooks/usePersons'
 import { usePlaces } from '../hooks/usePlaces'
 import { useEvents } from '../hooks/useEvents'
+import { HeroSilhouette, UnsealingLoader } from '../components/Illustrations'
 
 echarts.use([
   LineChart,
@@ -49,8 +50,8 @@ export default function Dashboard() {
   if (pLoading || plLoading || eLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-12 h-12 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-sm font-serif tracking-wider" style={{ color: '#7a8a9e' }}>正在启封上海地下党历史档案...</span>
+        <UnsealingLoader />
+        <span className="text-sm font-serif tracking-wider mt-4" style={{ color: '#7a8a9e' }}>正在启封上海地下党历史档案...</span>
       </div>
     )
   }
@@ -207,8 +208,12 @@ export default function Dashboard() {
       `}</style>
 
       {/* ── 顶部数据及刊头区域 ── */}
-      <div className="flex items-center justify-between px-8 shrink-0 border-b" style={{ height: '14%', backgroundColor: '#0c0c14', borderColor: 'rgba(214, 168, 83, 0.15)' }}>
-        <div className="flex flex-col">
+      <div className="flex items-center justify-between px-8 shrink-0 border-b relative overflow-hidden" style={{ height: '14%', backgroundColor: '#0c0c14', borderColor: 'rgba(214, 168, 83, 0.15)' }}>
+        {/* 背景装饰：申城暗脉插画 */}
+        <div className="absolute inset-0 opacity-30">
+          <HeroSilhouette style={{ width: '100%', height: '100%' }} preserveAspectRatio="xMidYMid slice" />
+        </div>
+        <div className="flex flex-col relative z-10">
           <div className="flex items-center gap-2 mb-1">
             <span className="w-2 h-2 rounded-full" style={{ backgroundColor: '#c44b4b' }} />
             <span className="text-[10px] tracking-wider uppercase" style={{ color: '#7a8a9e' }}>Shanghai Secret Agent Intelligence Visualization Platform</span>

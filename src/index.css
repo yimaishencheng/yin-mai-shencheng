@@ -110,3 +110,30 @@ body {
     transform: translateY(0);
   }
 }
+
+/* 加载动画 —— 启封中 */
+.loading-spin-circle {
+  transform-origin: 30px 30px;
+  animation: re-spin 4s linear infinite;
+}
+
+.loading-pulse-glow {
+  animation: re-pulse 2s ease-in-out infinite;
+}
+
+@keyframes re-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes re-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.9; }
+}
+
+/* 暗网纹样背景图案（用于关系图谱页） */
+.dossier-pattern-bg {
+  background-color: var(--bg-primary);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg stroke='%23d4a853' stroke-width='0.5' stroke-opacity='0.04' fill='none'%3E%3Cpath d='M 0 0 L 100 100 M 100 0 L 0 100'/%3E%3Cpath d='M 50 0 L 50 100 M 0 50 L 100 50'/%3E%3Ccircle cx='50' cy='50' r='30'/%3E%3Ccircle cx='50' cy='50' r='45' stroke-dasharray='2,4'/%3E%3Cpolygon points='50,10 90,50 50,90 10,50'/%3E%3C/g%3E%3Cg fill='%23d4a853' fill-opacity='0.06'%3E%3Ccircle cx='50' cy='10' r='1.5'/%3E%3Ccircle cx='50' cy='90' r='1.5'/%3E%3Ccircle cx='10' cy='50' r='1.5'/%3E%3Ccircle cx='90' cy='50' r='1.5'/%3E%3Ccircle cx='50' cy='50' r='2.5' fill='%23c44b4b' fill-opacity='0.1'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}

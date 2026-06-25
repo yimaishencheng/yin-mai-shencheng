@@ -10,6 +10,7 @@ import { usePersons } from '../hooks/usePersons'
 import relations from '../data/relations.json'
 import { useEvents } from '../hooks/useEvents'
 import type { HistoricalEvent, Person } from '../types'
+import { UnsealingLoader, ArchiveSeal, DustyArchive } from '../components/Illustrations'
 
 echarts.use([GraphChart, TooltipComponent, CanvasRenderer])
 type P = Person
@@ -25,8 +26,8 @@ export default function Portrait() {
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密人物机密生平卷宗中...</span>
+        <UnsealingLoader />
+        <span className="text-xs font-serif tracking-widest mt-4" style={{ color: '#7a8a9e' }}>解密人物机密生平卷宗中...</span>
       </div>
     )
   }
@@ -87,8 +88,13 @@ export default function Portrait() {
               </button>
             ))}
             {st && results.length === 0 && (
-              <div className="text-center py-6 text-xs" style={{ color: '#7a8a9e' }}>
-                未在保密机要档案中检索到匹配人员
+              <div className="flex flex-col items-center py-8">
+                <div style={{ width: 160, height: 128, opacity: 0.7 }}>
+                  <DustyArchive />
+                </div>
+                <p className="text-xs font-serif mt-4" style={{ color: '#7a8a9e' }}>
+                  未在保密机要档案中检索到匹配人员
+                </p>
               </div>
             )}
           </div>
@@ -141,10 +147,9 @@ function LeftPanel({ person }: { person: P }) {
   return (
     <div className="flex flex-col p-6 overflow-y-auto" style={{ width: '26%', backgroundColor: '#0c0c14' }}>
       <div className="text-center pb-5 mb-5 border-b border-double" style={{ borderColor: 'rgba(214,168,83,0.25)' }}>
-        {/* 特科火漆印章 */}
-        <div className="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-double flex items-center justify-center text-xs font-serif font-bold rotate-[-12deg]"
-          style={{ borderColor: '#c44b4b', color: '#c44b4b', backgroundColor: 'rgba(196,75,75,0.04)' }}>
-          密卷特科
+        {/* 绝密档案火漆印章 */}
+        <div className="w-20 h-20 mx-auto mb-4">
+          <ArchiveSeal />
         </div>
 
         <h2 className="font-serif text-2xl font-bold tracking-widest mb-1.5" style={{ color: '#d4a853' }}>

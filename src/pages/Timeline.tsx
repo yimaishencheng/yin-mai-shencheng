@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { usePersons } from '../hooks/usePersons'
 import { useEvents } from '../hooks/useEvents'
 import type { HistoricalEvent } from '../types'
+import { UnsealingLoader, BookSpine } from '../components/Illustrations'
 
 const PAGE = 40
 type Evt = HistoricalEvent
@@ -37,8 +38,8 @@ export default function Timeline() {
   if (pLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>秘密纪年史料编纂中...</span>
+        <UnsealingLoader />
+        <span className="text-xs font-serif tracking-widest mt-4" style={{ color: '#7a8a9e' }}>秘密纪年史料编纂中...</span>
       </div>
     )
   }
@@ -153,6 +154,9 @@ export default function Timeline() {
 
       {/* 主纪年时间轴视图 */}
       <div className="flex-1 overflow-y-auto px-6 py-12 relative">
+        <div className="max-w-4xl mx-auto mb-6" style={{ height: 30 }}>
+          <BookSpine />
+        </div>
         <div style={{ position: 'relative' }} className="max-w-4xl mx-auto">
           {/* 中轴贯穿红绳/旧书脊连线效果 */}
           <div
