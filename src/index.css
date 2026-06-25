@@ -1,33 +1,85 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #111118;
-  --bg-card: #1a1a25;
-  --text-primary: #e8e8ea;
-  --text-secondary: #888899;
-  --accent-amber: #d97706;
-  --accent-red: #dc2626;
-  --border-color: #2a2a3a;
+  --bg-primary: #08080f;
+  --bg-secondary: #0d0d16;
+  --bg-card: rgba(22, 22, 32, 0.75);
+  --text-primary: #ececed;
+  --text-secondary: #7a8a9e; /* 烟青 */
+  --accent-amber: #d4a853;    /* 旧纸黄/琥珀 */
+  --accent-red: #c44b4b;      /* 朱砂红 */
+  --accent-indigo: #3d5a80;   /* 靛蓝 */
+  --border-color: rgba(212, 168, 83, 0.15); /* 微妙古金色边框 */
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+  --font-sans: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* 宣纸与干油墨般的微妙底质颗粒感纹理 */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
-    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  font-family: var(--font-sans);
   background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(20, 20, 35, 0.2) 0%, rgba(8, 8, 15, 0.65) 100%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.004) 0px, rgba(255, 255, 255, 0.004) 1px, transparent 1px, transparent 2px);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {
+/* 民国刻字印章或刊物标题感 */
+.republican-header {
+  font-family: var(--font-serif);
+  letter-spacing: 0.15em;
+  text-shadow: 0 0 12px rgba(214, 168, 83, 0.22);
+}
+
+/* 尘封档案卷宗角签隐喻 */
+.archive-label {
+  position: relative;
+  border-left: 3px double var(--accent-amber);
+  padding-left: 8px;
+}
+
+/* 密折、电报折角信封样式 */
+.telegram-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(24, 24, 36, 0.92) 0%, rgba(16, 16, 26, 0.96) 100%);
+  border: 1px solid rgba(214, 168, 83, 0.18);
+  box-shadow: inset 0 0 15px rgba(214, 168, 83, 0.03);
+}
+
+.telegram-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12px 12px 0;
+  border-color: transparent transparent rgba(214, 168, 83, 0.3) transparent;
+  pointer-events: none;
+}
+
+/* 金属铆钉/档案夹扣质感 */
+.rivet {
   width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #7a8a9e 20%, #22222f 80%);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* 自定义暗色时空图例提示 */
+.custom-leaflet-tooltip {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -35,10 +87,26 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border-color);
-  border-radius: 3px;
+  background: rgba(214, 168, 83, 0.25);
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a3a4a;
+  background: var(--accent-amber);
+}
+
+/* 页面/卡片级微妙动效 */
+.fade-in-up {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

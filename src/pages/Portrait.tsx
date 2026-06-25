@@ -15,133 +15,278 @@ echarts.use([GraphChart, TooltipComponent, CanvasRenderer])
 type P = Person
 
 export default function Portrait() {
-  const { personId } = useParams(); const nav = useNavigate()
+  const { personId } = useParams()
+  const nav = useNavigate()
   const [st, setSt] = useState('')
   const { persons, loading } = usePersons()
   const id = personId ? decodeURIComponent(personId) : ''
   const { events } = useEvents()
 
   if (loading) {
-    return <div className="flex items-center justify-center h-96 text-gray-500">加载数据中…</div>
+    return (
+      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
+        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密人物机密生平卷宗中...</span>
+      </div>
+    )
   }
 
   const person = persons.find(p => p.id === id) || null
+  const results = useMemo(() => persons.filter(p => p.name.includes(st)), [st, persons])
 
-  const results = useMemo(() => persons.filter(p => p.name.includes(st)), [st])
-
-  if (id === 'search') {
+  if (id === 'search' || !personId) {
     return (
-      <div className="h-full flex items-center justify-center" style={{ backgroundColor: '#0a0a0f' }}>
-        <div className="w-full max-w-lg px-6">
-          <h1 style={{ color: '#d97706', fontSize: 22, fontWeight: 700, marginBottom: 16, textAlign: 'center' }}>\u4eba\u7269\u753b\u50cf\u641c\u7d22</h1>
-          <input type="text" value={st} onChange={e => setSt(e.target.value)} placeholder="\u8f93\u5165\u5386\u53f2\u4eba\u7269\u59d3\u540d\u2026"
-            className="w-full px-4 py-3 rounded-lg text-sm outline-none" style={{ backgroundColor: '#111118', border: '1px solid #2a2a3a', color: '#e8e8ea' }} />
-          <div className="mt-4 flex flex-col gap-2">
+      <div className="h-full flex items-center justify-center fade-in-up" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-full max-w-xl px-6 py-12 rounded border" style={{ backgroundColor: '#0c0c14', borderColor: 'rgba(214, 168, 83, 0.18)', boxShadow: '0 12px 36px rgba(0,0,0,0.6)' }}>
+          <div className="text-center mb-8 relative">
+            <div className="absolute top-0 right-0 rivet" />
+            <span className="text-[10px] uppercase tracking-widest" style={{ color: '#7a8a9e' }}>Dossier Query Service</span>
+            <h1 className="text-3xl font-bold font-serif tracking-wider mt-1" style={{ color: '#d4a853' }}>
+              申城地下党特勤生平检索
+            </h1>
+            <p className="text-xs font-sans mt-2" style={{ color: '#7a8a9e' }}>
+              请在下方输入拟校阅人物生平、代号或化名以调阅绝密生平。
+            </p>
+          </div>
+
+          <input
+            type="text"
+            value={st}
+            onChange={e => setSt(e.target.value)}
+            placeholder="输入历史人物姓名（如：潘汉年、李白）..."
+            className="w-full px-4 py-3 rounded text-sm outline-none transition-all focus:border-[#d4a853]/50"
+            style={{
+              backgroundColor: '#12121a',
+              border: '1px solid rgba(214, 168, 83, 0.25)',
+              color: '#ececed'
+            }}
+          />
+
+          <div className="mt-6 flex flex-col gap-2 max-h-72 overflow-y-auto pr-1">
             {results.map(p => (
-              <button key={p.id} onClick={() => nav('/portrait/' + encodeURIComponent(p.id))}
-                className="flex items-center justify-between w-full px-4 py-3 rounded-lg text-left"
-                style={{ backgroundColor: '#111118', border: '1px solid #1f1f2e' }}>
-                <div><div style={{ color: '#e8e8ea', fontSize: 14, fontWeight: 600 }}>{p.name}</div><div style={{ color: '#888899', fontSize: 11 }}>{p.occupation || ''}</div></div>
-                <div style={{ color: '#666677', fontSize: 11 }}>{p.active_from || '?'}-{p.active_to || '"\u81f3\u4eca"'}</div>
+              <button
+                key={p.id}
+                onClick={() => nav('/portrait/' + encodeURIComponent(p.id))}
+                className="flex items-center justify-between w-full px-4 py-3 rounded text-left transition-all hover:bg-[#d4a853]/10 border"
+                style={{
+                  backgroundColor: '#12121a',
+                  borderColor: 'rgba(214, 168, 83, 0.1)'
+                }}
+              >
+                <div>
+                  <div style={{ color: '#d4a853', fontSize: '14px', fontWeight: 600 }} className="font-serif">
+                    {p.name}
+                  </div>
+                  <div style={{ color: '#7a8a9e', fontSize: '11px' }}>
+                    {p.occupation || '生平社会职业不详'}
+                  </div>
+                </div>
+                <div style={{ color: '#525f6e', fontSize: '11px' }} className="font-serif">
+                  活跃段：{p.active_from || '?'}-{p.active_to || '不详'}
+                </div>
               </button>
             ))}
-            {st && results.length === 0 && <div style={{ color: '#666677', fontSize: 13, textAlign: 'center' }}>\u672a\u627e\u5230\u5339\u914d\u4eba\u7269</div>}
+            {st && results.length === 0 && (
+              <div className="text-center py-6 text-xs" style={{ color: '#7a8a9e' }}>
+                未在保密机要档案中检索到匹配人员
+              </div>
+            )}
           </div>
         </div>
       </div>
     )
   }
 
-  if (!person) return <div className="h-full flex items-center justify-center" style={{ color: '#888899', backgroundColor: '#0a0a0f' }}>\u4eba\u7269\u672a\u627e\u5230</div>
+  if (!person) {
+    return (
+      <div className="h-full flex items-center justify-center fade-in-up" style={{ backgroundColor: '#08080f' }}>
+        <p className="text-xs font-serif" style={{ color: '#7a8a9e' }}>未找到该人物档案</p>
+      </div>
+    )
+  }
 
   const rels = relations.filter(r => r.source === person.id || r.target === person.id)
   const relPids = new Set(rels.map(r => r.source === person.id ? r.target : r.source))
   const relPersons = persons.filter(p => relPids.has(p.id))
-  const relEvts = events.filter(e => ((e as any).person_ids||[]).includes(person.id) || e.description.includes(person.name)).slice(0, 10)
+  const relEvts = events.filter(e => ((e as any).person_ids || []).includes(person.id) || e.description.includes(person.name)).slice(0, 10)
   const actEvts = events.filter(e => e.description.includes(person.name) || e.name.includes(person.name)).sort((a, b) => a.year - b.year)
 
   return (
-    <div className="h-full flex flex-col" style={{ backgroundColor: '#0a0a0f' }}>
-      <div className="px-5 py-2 shrink-0" style={{ borderBottom: '1px solid #1a1a25', backgroundColor: '#111118' }}>
-        <button onClick={() => nav(-1)} style={{ color: '#f59e0b', fontSize: 13, cursor: 'pointer', background: 'none', border: 'none' }}>\u2190 \u8fd4\u56de</button>
+    <div className="h-full flex flex-col fade-in-up" style={{ backgroundColor: '#08080f' }}>
+      {/* 顶部简易返回条 */}
+      <div className="px-6 py-3.5 shrink-0 flex items-center justify-between border-b" style={{ borderColor: 'rgba(214, 168, 83, 0.15)', backgroundColor: '#0c0c14' }}>
+        <button
+          onClick={() => nav('/portrait/search')}
+          className="text-xs font-serif flex items-center gap-1.5 transition-colors hover:text-[#d4a853] cursor-pointer"
+          style={{ color: '#7a8a9e' }}
+        >
+          <span>◀</span>
+          <span>返回档案库柜架</span>
+        </button>
+        <span className="text-[10px] font-serif" style={{ color: '#525f6e' }}>[ 当前校阅机密号：SH-30-{person.id.slice(0,4).toUpperCase()} ]</span>
       </div>
+
       <div className="flex-1 flex min-h-0">
         <LeftPanel person={person} />
-        <div style={{ width: 1, backgroundColor: '#2a2a3a' }} />
+        <div style={{ width: 1, backgroundColor: 'rgba(214,168,83,0.12)' }} />
         <MiddlePanel person={person} rels={rels} relPersons={relPersons} relEvts={relEvts} nav={nav} />
-        <div style={{ width: 1, backgroundColor: '#2a2a3a' }} />
+        <div style={{ width: 1, backgroundColor: 'rgba(214,168,83,0.12)' }} />
         <RightPanel person={person} actEvts={actEvts} />
       </div>
-
-
     </div>
   )
 }
 
 function LeftPanel({ person }: { person: P }) {
   return (
-    <div className="flex flex-col p-5 overflow-y-auto" style={{ width: '25%' }}>
-      <h2 style={{ color: '#f59e0b', fontSize: 24, fontWeight: 700, marginBottom: 2 }}>{person.name}</h2>
-      {person.aliases && person.aliases.length > 0 && <p style={{ color: '#666677', fontSize: 11, marginBottom: 4 }}>{person.aliases.join('\u3001')}</p>}
-      {person.occupation && <span className="inline-block px-2 py-0.5 rounded-full text-xs mb-4" style={{ backgroundColor: 'rgba(128,128,140,0.15)', color: '#888899', alignSelf: 'flex-start' }}>{person.occupation}</span>}
-      <hr style={{ borderColor: '#2a2a3a', marginBottom: 12 }} />
-      <InfoRow label="\u6d3b\u8dc3\u5e74\u4efd" value={`${person.active_from || '?'} - ${person.active_to || '\u81f3\u4eca'}`} />
-      <InfoRow label="\u4e3b\u8981\u533a\u57df" value={person.district || '\u672a\u77e5'} />
-      <InfoRow label="\u5173\u8054\u7ec4\u7ec7" value={person.organizations?.join('\u3001') || '\u65e0'} />
-      <hr style={{ borderColor: '#2a2a3a', marginBlock: 12 }} />
+    <div className="flex flex-col p-6 overflow-y-auto" style={{ width: '26%', backgroundColor: '#0c0c14' }}>
+      <div className="text-center pb-5 mb-5 border-b border-double" style={{ borderColor: 'rgba(214,168,83,0.25)' }}>
+        {/* 特科火漆印章 */}
+        <div className="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-double flex items-center justify-center text-xs font-serif font-bold rotate-[-12deg]"
+          style={{ borderColor: '#c44b4b', color: '#c44b4b', backgroundColor: 'rgba(196,75,75,0.04)' }}>
+          密卷特科
+        </div>
+
+        <h2 className="font-serif text-2xl font-bold tracking-widest mb-1.5" style={{ color: '#d4a853' }}>
+          {person.name}
+        </h2>
+        {person.aliases && person.aliases.length > 0 && (
+          <p className="text-xs italic" style={{ color: '#7a8a9e' }}>
+            化名、曾用名：{person.aliases.join('、')}
+          </p>
+        )}
+      </div>
+
+      <div className="flex flex-col gap-3.5 mb-6 text-xs">
+        <InfoRow label="社会公开身份" value={person.occupation || '未知职业'} />
+        <InfoRow label="活跃历史年段" value={`${person.active_from || '?'} - ${person.active_to || '不详'}`} />
+        <InfoRow label="主要革命区域" value={person.district || '暂无精确记载'} />
+        <InfoRow label="党团秘密组织" value={person.organizations?.join('、') || '暂无登记'} />
+      </div>
+
+      {/* 人物异常历史标注 */}
       {person.is_anomaly && (
-        <div className="p-3 rounded-lg mb-3" style={{ backgroundColor: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.3)' }}>
-          <p style={{ color: '#ef4444', fontSize: 12, fontWeight: 600, marginBottom: 2 }}>\u26a0 \u5386\u53f2\u5f02\u5e38\u6807\u6ce8</p>
-          {person.anomaly_note && <p style={{ color: '#fca5a5', fontSize: 11 }}>{person.anomaly_note}</p>}</div>
+        <div className="p-4 rounded-md mb-5" style={{ backgroundColor: 'rgba(196, 75, 75, 0.08)', border: '1px solid rgba(196, 75, 75, 0.35)' }}>
+          <p style={{ color: '#c44b4b', fontSize: '11px', fontWeight: 700, marginBottom: '4px' }}>
+            ⚠️ 历史档案断裂警示
+          </p>
+          {person.anomaly_note && (
+            <p className="text-[11px] leading-relaxed" style={{ color: '#fca5a5' }}>
+              {person.anomaly_note}
+            </p>
+          )}
+        </div>
       )}
-      <p style={{ color: '#555566', fontSize: 10, marginTop: 'auto' }}>\u6570\u636e\u6765\u6e90: {person.source}</p>
+
+      {person.description && (
+        <div className="p-4 rounded text-xs leading-relaxed" style={{ backgroundColor: '#12121a', border: '1px solid rgba(214,168,83,0.06)', color: '#ececed' }}>
+          <p style={{ textIndent: '2em' }} className="line-clamp-6">{person.description}</p>
+        </div>
+      )}
+
+      <p className="text-[10px] mt-auto text-center" style={{ color: '#525f6e' }}>
+        史学界定考证出处: {person.source}
+      </p>
     </div>
   )
 }
 
 function InfoRow({ label, value }: { label: string; value: string }) {
-  return <div className="flex gap-2 mb-2" style={{ fontSize: 12 }}><span style={{ color: '#888899', minWidth: 60 }}>{label}</span><span style={{ color: '#e8e8ea' }}>{value}</span></div>
+  return (
+    <div className="flex justify-between items-center py-1 border-b border-dashed border-[#d4a853]/10">
+      <span style={{ color: '#7a8a9e' }} className="font-serif">{label}</span>
+      <span style={{ color: '#ececed', fontWeight: 500 }}>{value}</span>
+    </div>
+  )
 }
 
-function MiddlePanel({ person, rels, relPersons, relEvts, nav }: { person: P; rels: typeof relations; relPersons: P[]; relEvts: HistoricalEvent[]; nav: ReturnType<typeof import('react-router-dom').useNavigate> }) {
+function MiddlePanel({
+  person,
+  rels,
+  relPersons,
+  relEvts,
+  nav
+}: {
+  person: P;
+  rels: typeof relations;
+  relPersons: P[];
+  relEvts: HistoricalEvent[];
+  nav: ReturnType<typeof import('react-router-dom').useNavigate>
+}) {
   const opt = useMemo(() => ({
+    backgroundColor: 'transparent',
     tooltip: { show: false },
     series: [{
-      type: 'graph', layout: 'force', roam: true,
+      type: 'graph',
+      layout: 'force',
+      roam: true,
       data: [
-        { id: person.id, name: person.name, symbolSize: 35, itemStyle: { color: '#f59e0b' } },
-        ...relPersons.map(p => ({ id: p.id, name: p.name, symbolSize: 20, itemStyle: { color: '#e8e8ea' } })),
+        { id: person.id, name: person.name, symbolSize: 32, itemStyle: { color: '#d4a853' } },
+        ...relPersons.map(p => ({ id: p.id, name: p.name, symbolSize: 18, itemStyle: { color: '#7a8a9e' } })),
       ],
-      links: rels.map(r => ({ source: r.source, target: r.target, lineStyle: { color: '#2a2a3a', width: r.strength * 2.5 } })),
-      force: { repulsion: 250, edgeLength: [60, 150], gravity: 0.1 },
-      label: { show: true, color: '#e5e7eb', fontSize: 10 },
+      links: rels.map(r => ({ source: r.source, target: r.target, lineStyle: { color: 'rgba(214,168,83,0.18)', width: r.strength * 2 } })),
+      force: { repulsion: 180, edgeLength: [50, 120], gravity: 0.12 },
+      label: { show: true, color: '#ececed', fontFamily: 'var(--font-serif)', fontSize: 10 },
       lineStyle: { curveness: 0.2 },
       emphasis: { focus: 'adjacency' },
     }],
   }), [person, relPersons, rels])
+
   const [graphKey, setGraphKey] = useState(0)
   useEffect(() => setGraphKey(k => k + 1), [person.id])
 
   return (
     <div className="flex flex-col" style={{ width: '40%' }}>
-      <div style={{ height: '50%' }}>
-        <p style={{ color: '#e8e8ea', fontSize: 14, fontWeight: 500, padding: '10px 14px 0' }}>\u5173\u7cfb\u7f51\u7edc</p>
+      {/* 局部社交图谱 */}
+      <div style={{ height: '50%' }} className="relative border-b border-dashed border-[#d4a853]/12">
+        <div className="absolute top-3 left-4 z-10">
+          <p className="font-serif text-xs font-bold" style={{ color: '#d4a853' }}>直接关联网脉图谱</p>
+        </div>
+
         {relPersons.length > 0 ? (
-          <ReactEChartsCore key={graphKey} echarts={echarts} option={opt} style={{ height: 'calc(100% - 30px)', width: '100%' }}
-            onEvents={{ click: (ps: any) => { if (ps.dataType === 'node' && ps.data.id !== person.id) nav('/portrait/' + encodeURIComponent(ps.data.id)) } }} notMerge />
+          <ReactEChartsCore
+            key={graphKey}
+            echarts={echarts}
+            option={opt}
+            style={{ height: '100%', width: '100%' }}
+            onEvents={{
+              click: (ps: any) => {
+                if (ps.dataType === 'node' && ps.data.id !== person.id) {
+                  nav('/portrait/' + encodeURIComponent(ps.data.id))
+                }
+              }
+            }}
+            notMerge
+          />
         ) : (
-          <div className="flex items-center justify-center" style={{ height: 'calc(100% - 30px)', color: '#888899', fontSize: 13 }}>\u6682\u65e0\u5173\u8054\u6570\u636e</div>
+          <div className="flex items-center justify-center h-full text-xs" style={{ color: '#7a8a9e' }}>
+            档案中未记有其他同案人物直接交叉网点
+          </div>
         )}
       </div>
-      <div className="flex-1 overflow-y-auto px-3" style={{ borderTop: '1px solid #1a1a25' }}>
-        <p style={{ color: '#e8e8ea', fontSize: 14, fontWeight: 500, padding: '10px 0' }}>\u5173\u8054\u4e8b\u4ef6</p>
-        {relEvts.length === 0 && <p style={{ color: '#888899', fontSize: 12 }}>\u6682\u65e0\u5173\u8054\u4e8b\u4ef6</p>}
-        {relEvts.map((ev, i) => (
-          <div key={ev.id || i} className="flex items-center gap-2 py-1.5 border-t" style={{ borderColor: '#1a1a25' }}>
-            <span style={{ color: '#f59e0b', fontSize: 10, minWidth: 32 }}>{ev.year || '?'}</span>
-            <span style={{ color: '#e8e8ea', fontSize: 12, lineHeight: 1.3 }} className="line-clamp-2">{ev.name}</span>
+
+      {/* 关联涉案大事件 */}
+      <div className="flex-1 overflow-y-auto p-4 flex flex-col">
+        <p className="font-serif text-xs font-bold mb-3" style={{ color: '#d4a853' }}>相关涉案历史纪要事件</p>
+        {relEvts.length === 0 ? (
+          <p className="text-xs italic" style={{ color: '#7a8a9e' }}>暂无直接考证史料事件</p>
+        ) : (
+          <div className="flex flex-col gap-2 overflow-y-auto flex-1 pr-1">
+            {relEvts.map((ev, i) => (
+              <div
+                key={ev.id || i}
+                className="p-2.5 rounded transition-colors hover:bg-[#0c0c14] border flex items-center justify-between gap-3"
+                style={{ backgroundColor: '#12121a', borderColor: 'rgba(214,168,83,0.08)' }}
+              >
+                <div className="min-w-0">
+                  <span style={{ color: '#c44b4b', fontSize: '10px' }} className="font-serif block mb-0.5">⏱ {ev.year || '?'} 年</span>
+                  <span style={{ color: '#ececed', fontSize: '11.5px', fontWeight: 500 }} className="line-clamp-1">{ev.name}</span>
+                </div>
+                <span className="text-[9px] shrink-0 font-serif" style={{ color: '#525f6e' }}>[ 查看详案 ]</span>
+              </div>
+            ))}
           </div>
-        ))}
+        )}
       </div>
     </div>
   )
@@ -149,22 +294,78 @@ function MiddlePanel({ person, rels, relPersons, relEvts, nav }: { person: P; re
 
 function RightPanel({ person, actEvts }: { person: P; actEvts: HistoricalEvent[] }) {
   return (
-    <div className="flex flex-col p-5 overflow-y-auto" style={{ width: '35%' }}>
-      <p style={{ color: '#e8e8ea', fontSize: 14, fontWeight: 500, marginBottom: 12 }}>\u6d3b\u52a8\u8f68\u8ff9</p>
-      <div style={{ position: 'relative', paddingLeft: 20 }}>
-        <div style={{ position: 'absolute', left: 8, top: 4, bottom: 4, width: 2, backgroundColor: '#2a2a3a' }} />
+    <div className="flex flex-col p-6 overflow-y-auto" style={{ width: '34%', backgroundColor: '#0c0c14' }}>
+      <p className="font-serif text-xs font-bold mb-5 pb-1 border-b border-dashed border-[#d4a853]/15" style={{ color: '#d4a853' }}>
+        👣 地下活动轨迹与存亡纪年
+      </p>
+
+      <div className="relative pl-4 flex-1">
+        {/* 时间脊骨连线 */}
+        <div
+          style={{
+            position: 'absolute',
+            left: '4px',
+            top: '4px',
+            bottom: '4px',
+            width: '2px',
+            background: 'linear-gradient(to bottom, #d4a853, rgba(212,168,83,0.1))'
+          }}
+        />
+
         {actEvts.map((ev, i) => (
-          <div key={ev.id || i} style={{ position: 'relative', paddingBottom: 12 }}>
-            <div style={{ position: 'absolute', left: -14, top: 4, width: 8, height: 8, borderRadius: '50%', backgroundColor: '#f59e0b' }} />
-            <div style={{ color: '#f59e0b', fontSize: 10, marginBottom: 1 }}>{ev.year}{ev.date ? ' ' + ev.date : ''}</div>
-            <div style={{ color: '#e8e8ea', fontSize: 12, lineHeight: 1.4 }} className="line-clamp-2">{ev.name}</div>
+          <div key={ev.id || i} style={{ position: 'relative', paddingBottom: '20px' }}>
+            <div
+              style={{
+                position: 'absolute',
+                left: '-16px',
+                top: '3px',
+                width: '8px',
+                height: '8px',
+                borderRadius: '50%',
+                backgroundColor: '#d4a853',
+                boxShadow: '0 0 4px #d4a853'
+              }}
+            />
+            <div style={{ color: '#d4a853', fontSize: '10px', fontWeight: 700 }} className="font-serif mb-1">
+              {ev.year}年{ev.date ? ' ' + ev.date : ''}
+            </div>
+            <div
+              className="p-3 rounded text-[11px] leading-relaxed"
+              style={{ backgroundColor: '#12121a', border: '1px solid rgba(214,168,83,0.06)', color: '#ececed' }}
+            >
+              <span className="font-semibold text-xs block mb-1" style={{ color: '#ececed' }}>{ev.name}</span>
+              <p className="line-clamp-3 text-[#7a8a9e]">{ev.description || '暂无详情'}</p>
+            </div>
           </div>
         ))}
-        {actEvts.length === 0 && <p style={{ color: '#888899', fontSize: 12 }}>\u6682\u65e0\u6d3b\u52a8\u8bb0\u5f55</p>}
+
+        {actEvts.length === 0 && (
+          <p className="text-xs" style={{ color: '#7a8a9e' }}>暂无具体涉案活动时间节点登记</p>
+        )}
+
+        {/* 活动戛然而止的史学存疑视觉节点 */}
         {person.active_to && (
-          <div style={{ position: 'relative', paddingBottom: 8 }}>
-            <div style={{ position: 'absolute', left: -16, top: 4, width: 12, height: 12, borderRadius: '50%', backgroundColor: '#ef4444' }} />
-            <div style={{ color: '#ef4444', fontSize: 12, fontStyle: 'italic' }}>\u25cf \u6b64\u540e\u53f2\u6599\u4e2d\u672a\u89c1\u8bb0\u8f7d</div>
+          <div style={{ position: 'relative', paddingBottom: '10px', marginTop: '10px' }}>
+            <div
+              style={{
+                position: 'absolute',
+                left: '-18px',
+                top: '4px',
+                width: '12px',
+                height: '12px',
+                borderRadius: '50%',
+                backgroundColor: '#c44b4b',
+                boxShadow: '0 0 6px #c44b4b'
+              }}
+            />
+            <div className="p-3 rounded" style={{ backgroundColor: 'rgba(196, 75, 75, 0.05)', border: '1px solid rgba(196, 75, 75, 0.2)' }}>
+              <div style={{ color: '#c44b4b', fontSize: '11.5px', fontWeight: 700 }} className="font-serif">
+                ☠️ 存疑：此后断绝记载
+              </div>
+              <p className="text-[10px] mt-1 leading-normal" style={{ color: '#7a8a9e' }}>
+                史料纪年自 {person.active_to} 年后再无该人活动，推测被捕、转移或英勇牺牲。
+              </p>
+            </div>
           </div>
         )}
       </div>

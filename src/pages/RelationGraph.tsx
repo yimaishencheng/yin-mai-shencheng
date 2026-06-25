@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react'
+import React, { useState, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ReactEChartsCore from 'echarts-for-react/lib/core'
 import * as echarts from 'echarts/core'
@@ -12,22 +12,20 @@ echarts.use([GraphChart, TooltipComponent, TitleComponent, CanvasRenderer])
 
 import type { Person } from '../types'
 type P = Person
-type R = (typeof relations)[number]
 
 const REL_META: Record<string, { color: string; label: string }> = {
-  '合作': { color: '#f59e0b', label: '合作' },
-  '文献共现': { color: '#6b7280', label: '文献共现' },
-  '被同时逮捕': { color: '#ef4444', label: '被同时逮捕' },
-  '同组织成员': { color: '#457b9d', label: '同组织成员' },
+  '合作': { color: '#d4a853', label: '深层革命合作' },
+  '文献共现': { color: '#7a8a9e', label: '文献史料共现' },
+  '被同时逮捕': { color: '#c44b4b', label: '被捕共患难关联' },
+  '同组织成员': { color: '#3d5a80', label: '中共党团组织共属' },
 }
 
 function occColor(occ: string): string {
   const o = occ || ''
-  if (/[作家文学]/.test(o)) return '#e63946'
-  if (/[编辑出版]/.test(o)) return '#f4a261'
-  if (/[革命政治]/.test(o)) return '#2a9d8f'
-  if (/[教]/.test(o)) return '#457b9d'
-  return '#6a4c93'
+  if (/[作家编辑出版文学]/.test(o)) return '#9a815a'
+  if (/[革命政治特委特科地下]/.test(o)) return '#d4a853'
+  if (/[教大理学]/.test(o)) return '#3d5a80'
+  return '#6e5a4f'
 }
 
 export default function RelationGraph() {
@@ -37,7 +35,12 @@ export default function RelationGraph() {
   const { persons, loading } = usePersons()
 
   if (loading) {
-    return <div className="flex items-center justify-center h-96 text-gray-500">加载数据中…</div>
+    return (
+      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
+        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密上海特科关系图谱...</span>
+      </div>
+    )
   }
 
   const selPerson = persons.find(p => p.id === selId) || null
@@ -46,7 +49,7 @@ export default function RelationGraph() {
     const m: Record<string, { color: string; dashed: boolean }> = {}
     for (const r of relations) {
       if (!m[r.type]) {
-        const c = REL_META[r.type]?.color || '#374151'
+        const c = REL_META[r.type]?.color || '#525f6e'
         m[r.type] = { color: c, dashed: r.type === '文献共现' }
       }
     }
@@ -61,38 +64,49 @@ export default function RelationGraph() {
       return {
         id: p.id,
         name: p.name,
-        symbolSize: p.is_anomaly ? 32 : 22,
+        symbolSize: p.is_anomaly ? 34 : 22,
         itemStyle: {
           color: occColor(occ),
-          borderColor: p.is_anomaly ? '#ef4444' : 'transparent',
-          borderWidth: p.is_anomaly ? 2 : 0,
-          shadowBlur: p.is_anomaly ? 10 : 0,
-          shadowColor: '#ef4444',
-          opacity: match ? 1 : 0.1,
+          borderColor: p.is_anomaly ? '#c44b4b' : 'rgba(214,168,83,0.3)',
+          borderWidth: p.is_anomaly ? 2.5 : 1,
+          shadowBlur: p.is_anomaly ? 15 : 0,
+          shadowColor: '#c44b4b',
+          opacity: match ? 1 : 0.12,
         },
-        label: { show: true, color: '#e5e7eb', fontSize: 11, opacity: match ? 1 : 0.1 },
+        label: {
+          show: true,
+          color: '#ececed',
+          fontFamily: 'var(--font-serif)',
+          fontSize: 11,
+          opacity: match ? 1 : 0.12
+        },
         _occ: occ,
         _from: p.active_from || 0,
         _to: p.active_to || 0,
         _relCnt: relCnt,
       }
     })
+
     const links = relations.map(r => {
       const srcMatch = !term || (persons.find(p => p.id === r.source)?.name || '').includes(term)
       const tgtMatch = !term || (persons.find(p => p.id === r.target)?.name || '').includes(term)
       const isDim = !srcMatch || !tgtMatch
-      const meta = linkMeta[r.type] || { color: '#374151', dashed: false }
+      const meta = linkMeta[r.type] || { color: '#525f6e', dashed: false }
       return {
-        source: r.source, target: r.target,
+        source: r.source,
+        target: r.target,
         lineStyle: {
-          color: meta.color, width: r.strength * 3,
+          color: meta.color,
+          width: r.strength * 2.8,
           type: meta.dashed ? 'dashed' as const : 'solid' as const,
-          opacity: isDim ? 0.05 : 0.6,
+          opacity: isDim ? 0.04 : 0.55,
         },
-        emphasis: { lineStyle: { opacity: 1, width: r.strength * 5 } },
+        emphasis: { lineStyle: { opacity: 0.95, width: r.strength * 4.5 } },
       }
     })
+
     return {
+      backgroundColor: 'transparent',
       tooltip: {
         formatter: (ps: any) => {
           const d = ps.data
@@ -100,25 +114,36 @@ export default function RelationGraph() {
           const p = persons.find(x => x.id === d.id)
           if (!p) return ''
           const rc = relations.filter(r => r.source === p.id || r.target === p.id).length
-          return '<div style="font-weight:700;color:#f59e0b;font-size:15px;margin-bottom:4px">' + p.name + '</div>' +
-            '<div style="color:#888;font-size:12px">' + (p.occupation || '未知职业') + '</div>' +
-            '<div style="color:#666;font-size:11px;margin-top:2px">' +
-            (p.active_from || '?') + ' - ' + (p.active_to || '至今') + '</div>' +
-            '<div style="color:#666;font-size:11px">关系 ' + rc + ' 条</div>'
+          return `<div style="padding: 6px 10px; background-color:#12121a; border: 1px solid rgba(214,168,83,0.3); border-radius:4px">
+            <div style="font-family:var(--font-serif);font-weight:700;color:#d4a853;font-size:14px;margin-bottom:4px">${p.name}</div>
+            <div style="color:#7a8a9e;font-size:11px">${p.occupation || '暂未查明职业'}</div>
+            <div style="color:#525f6e;font-size:10px;margin-top:4px">活跃年份: ${p.active_from || '?'} - ${p.active_to || '至今'}</div>
+            <div style="color:#d4a853;font-size:10px">史料关联强度: ${rc} 处</div>
+          </div>`
         },
-        backgroundColor: '#1a1a25', borderColor: '#2a2a3a',
-        textStyle: { color: '#e8e8ea', fontSize: 12 },
+        backgroundColor: 'transparent',
+        borderWidth: 0,
+        textStyle: { color: '#ececed', fontSize: 11 },
       },
       series: [{
-        type: 'graph', layout: 'force', roam: true, draggable: true,
-        data: nodes, links: links,
-        force: { repulsion: 400, edgeLength: [60, 200], gravity: 0.05, layoutAnimation: true },
-        lineStyle: { curveness: 0.3 },
+        type: 'graph',
+        layout: 'force',
+        roam: true,
+        draggable: true,
+        data: nodes,
+        links: links,
+        force: {
+          repulsion: 380,
+          edgeLength: [80, 180],
+          gravity: 0.08,
+          layoutAnimation: true
+        },
+        lineStyle: { curveness: 0.25 },
         edgeSymbol: ['none', 'none'],
-        emphasis: { focus: 'adjacency' as const, lineStyle: { width: 4 } },
+        emphasis: { focus: 'adjacency' as const },
       }],
     }
-  }, [term, linkMeta])
+  }, [term, linkMeta, persons])
 
   const handleEvents = useMemo(() => ({
     click: (ps: any) => {
@@ -130,35 +155,66 @@ export default function RelationGraph() {
   }), [nav])
 
   return (
-    <div className="h-full flex flex-col" style={{ backgroundColor: '#0a0a0f' }}>
-      {/* search bar */}
-      <div className="flex items-center gap-3 px-4 shrink-0" style={{ height: 60, backgroundColor: '#111118', borderBottom: '1px solid #2a2a3a' }}>
-        <input type="text" value={term} onChange={e => setTerm(e.target.value)}
-          placeholder="搜索人物姓名…"
-          className="flex-1 max-w-xs px-3 py-1.5 rounded text-sm outline-none"
-          style={{ backgroundColor: '#1f1f2e', border: '1px solid #2a2a3a', color: '#e8e8ea' }} />
-        <div className="flex items-center gap-4 text-xs" style={{ color: '#888899' }}>
+    <div className="h-full flex flex-col fade-in-up" style={{ backgroundColor: '#08080f' }}>
+      {/* 检索条 & 关系分类指示 */}
+      <div
+        className="flex items-center justify-between px-6 shrink-0"
+        style={{ height: 64, backgroundColor: '#0c0c14', borderBottom: '2px solid rgba(214, 168, 83, 0.15)' }}
+      >
+        <div className="flex items-center gap-4 flex-1">
+          <input
+            type="text"
+            value={term}
+            onChange={e => setTerm(e.target.value)}
+            placeholder="🔍 输入特勤/革命人物姓名检索..."
+            className="px-3 py-1.5 rounded text-xs outline-none w-64 transition-all duration-300 focus:w-80"
+            style={{
+              backgroundColor: '#12121a',
+              border: '1px solid rgba(214, 168, 83, 0.2)',
+              color: '#ececed'
+            }}
+          />
+          <span className="text-[10px] italic hidden md:inline" style={{ color: '#525f6e' }}>提示: 双击人物节点可直接调阅详尽人物数字画像</span>
+        </div>
+
+        {/* 指标图例 */}
+        <div className="flex items-center gap-5 text-[11px]" style={{ color: '#7a8a9e' }}>
           {Object.values(REL_META).map((m, i) => (
             <span key={i} className="flex items-center gap-1.5">
-              <span style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: m.color, display: 'inline-block' }} />
-              {m.label}
+              <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: m.color }} />
+              <span className="font-serif">{m.label}</span>
             </span>
           ))}
         </div>
       </div>
-      {/* main area */}
+
+      {/* 主画布图谱 */}
       <div className="flex-1 flex min-h-0 relative">
         <div className="flex-1 min-w-0">
-          <ReactEChartsCore echarts={echarts} option={graphOpt} style={{ height: '100%', width: '100%' }}
-            onEvents={handleEvents} notMerge />
+          <ReactEChartsCore
+            echarts={echarts}
+            option={graphOpt}
+            style={{ height: '100%', width: '100%' }}
+            onEvents={handleEvents}
+            notMerge
+          />
         </div>
-        {/* right drawer */}
-        <div className="shrink-0 overflow-y-auto transition-transform duration-300"
+
+        {/* 悬浮侧拉式人物简档抽屉 */}
+        <div
+          className="shrink-0 overflow-y-auto transition-all duration-300 shadow-2xl"
           style={{
-            width: 280, backgroundColor: '#111118', borderLeft: '1px solid #2a2a3a',
+            width: 300,
+            backgroundColor: '#0c0c14',
+            borderLeft: '2px solid rgba(214, 168, 83, 0.15)',
             transform: selId ? 'translateX(0)' : 'translateX(100%)',
-            position: 'absolute' as const, right: 0, top: 0, bottom: 0, zIndex: 10,
-          }}>
+            position: 'absolute' as const,
+            right: 0,
+            top: 0,
+            bottom: 0,
+            zIndex: 100,
+          }}
+        >
           {selPerson && <PersonDrawer p={selPerson} nav={nav} onClose={() => setSelId(null)} />}
         </div>
       </div>
@@ -169,28 +225,64 @@ export default function RelationGraph() {
 function PersonDrawer({ p, nav, onClose }: { p: P; nav: ReturnType<typeof useNavigate>; onClose: () => void }) {
   const relCnt = relations.filter(r => r.source === p.id || r.target === p.id).length
   return (
-    <div className="p-5">
-      <button onClick={onClose} className="float-right text-lg" style={{ color: '#666677' }}>✖</button>
-      <h2 style={{ color: '#f59e0b', fontSize: 18, fontWeight: 700, marginBottom: 4 }}>{p.name}</h2>
+    <div className="p-6 relative flex flex-col h-full">
+      <div className="absolute top-2 right-2 rivet" />
+
+      <div className="flex justify-between items-start mb-4">
+        <span className="text-[10px] font-serif" style={{ color: '#525f6e' }}>[ 人物简报 ]</span>
+        <button
+          onClick={onClose}
+          className="text-sm transition-colors hover:text-[#c44b4b] cursor-pointer"
+          style={{ color: '#7a8a9e' }}
+        >
+          ✕ 关 闭
+        </button>
+      </div>
+
+      <h2 className="font-serif text-xl font-bold tracking-widest mb-1.5" style={{ color: '#d4a853' }}>
+        {p.name}
+      </h2>
+
       {p.aliases && p.aliases.length > 0 && (
-        <p style={{ color: '#666677', fontSize: 11, marginBottom: 4 }}>{p.aliases.join('、')}</p>
-      )}
-      {p.occupation && (
-        <span className="inline-block px-2 py-0.5 rounded-full text-xs mb-3"
-          style={{ backgroundColor: 'rgba(128,128,140,0.15)', color: '#888899' }}>{p.occupation}</span>
-      )}
-      <p style={{ color: '#888899', fontSize: 11, marginBottom: 8 }}>
-        活跃年份: {p.active_from || '?'} - {p.active_to || '至今'} | 关系 {relCnt} 条
-      </p>
-      {p.description && (
-        <p className="line-clamp-3" style={{ color: '#e8e8ea', fontSize: 12, lineHeight: 1.6, marginBottom: 16 }}>
-          {p.description}
+        <p className="text-xs italic mb-3" style={{ color: '#7a8a9e' }}>
+          曾用化名：{p.aliases.join('、')}
         </p>
       )}
-      <button onClick={() => nav('/portrait/' + encodeURIComponent(p.id))}
-        className="px-4 py-2 rounded text-sm font-medium w-full text-center"
-        style={{ backgroundColor: '#d97706', color: '#0a0a0f' }}>
-        查看完整画像 →
+
+      {p.occupation && (
+        <div className="mb-4">
+          <span
+            className="inline-block px-2 py-0.5 rounded text-[11px] font-serif"
+            style={{ backgroundColor: 'rgba(214, 168, 83, 0.08)', color: '#d4a853', border: '1px solid rgba(214, 168, 83, 0.2)' }}
+          >
+            {p.occupation}
+          </span>
+        </div>
+      )}
+
+      <div className="border-t border-b border-dashed border-[#d4a853]/15 py-3 mb-5 text-xs flex flex-col gap-1.5">
+        <div className="flex justify-between">
+          <span style={{ color: '#7a8a9e' }}>活跃年段:</span>
+          <span style={{ color: '#ececed' }} className="font-serif">{p.active_from || '?'} - {p.active_to || '不详'}</span>
+        </div>
+        <div className="flex justify-between">
+          <span style={{ color: '#7a8a9e' }}>关联点广度:</span>
+          <span style={{ color: '#ececed' }}>共 {relCnt} 处交叉关联</span>
+        </div>
+      </div>
+
+      {p.description && (
+        <div className="p-4 rounded text-xs leading-relaxed mb-6 flex-1 overflow-y-auto" style={{ backgroundColor: '#12121a', border: '1px solid rgba(214, 168, 83, 0.08)', color: '#ececed' }}>
+          <p style={{ textIndent: '2em' }} className="line-clamp-6">{p.description}</p>
+        </div>
+      )}
+
+      <button
+        onClick={() => nav('/portrait/' + encodeURIComponent(p.id))}
+        className="px-4 py-2.5 rounded text-xs font-serif font-bold tracking-widest w-full text-center hover:scale-102 hover:brightness-110 active:scale-98 transition-all duration-300"
+        style={{ backgroundColor: '#d4a853', color: '#08080f' }}
+      >
+        查阅数字画像档案 →
       </button>
     </div>
   )
