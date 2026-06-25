@@ -1,0 +1,72 @@
+[
+  {
+    "source": "http://data.library.sh.cn/entity/person/x5xiy94zid7u351t",
+    "target": "http://data.library.sh.cn/entity/person/t3qypozz7y13mfdt",
+    "type": "合作",
+    "strength": 0.9,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/x5xiy94zid7u351t",
+    "target": "http://data.library.sh.cn/entity/person/jtmpaqflg24kpllp",
+    "type": "合作",
+    "strength": 0.85,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/x5xiy94zid7u351t",
+    "target": "http://data.library.sh.cn/entity/person/vpipu6ss81lpf70k",
+    "type": "合作",
+    "strength": 0.8,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/qvzb8rdncvqumcv7",
+    "target": "http://data.library.sh.cn/entity/person/t3qypozz7y13mfdt",
+    "type": "合作",
+    "strength": 0.7,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/jw5l5kzmesq4pdtl",
+    "target": "http://data.library.sh.cn/entity/person/qbgltkj76hxptyyy",
+    "type": "合作",
+    "strength": 0.75,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/s88o14ruipalcfrf",
+    "target": "http://data.library.sh.cn/entity/person/vpipu6ss81lpf70k",
+    "type": "合作",
+    "strength": 0.7,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/nzz3qlmjh3rgpvab",
+    "target": "http://data.library.sh.cn/entity/person/8zdvu83fe43b2ffv",
+    "type": "合作",
+    "strength": 0.8,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/iuj7depelhu0mosv",
+    "target": "http://data.library.sh.cn/entity/person/wziyg2v2vqp085dq",
+    "type": "同时被捕",
+    "strength": 0.9,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/jtmpaqflg24kpllp",
+    "target": "http://data.library.sh.cn/entity/person/iuj7depelhu0mosv",
+    "type": "同时被捕",
+    "strength": 0.85,
+    "year": 0
+  },
+  {
+    "source": "http://data.library.sh.cn/entity/person/4al6oubf5ttxmwbe",
+    "target": "http://data.library.sh.cn/entity/person/hpipr9w2fbbmdx73",
+    "type": "合作",
+    "strength": 0.9,
+    "year": 0
+  }
+]

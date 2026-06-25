@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "http://data.library.sh.cn/entity/organization/3ov2po25sdk4uccz",
+    "name": "上海商务印书馆@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/cigya7wj0rudnibi",
+    "name": "商务印书馆编译所@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/cka1rwef07jnxpkv",
+    "name": "中国商务印书馆编译所@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/kx543ii4dzzkybt8",
+    "name": "商务印书馆编译所@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/oo4kcdqkifsidpyx",
+    "name": "上海商务印书馆@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/vqybil2a4oldu3ux",
+    "name": "商务印书馆编译所@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/9935g7eoc0invbma",
+    "name": "商务印书馆@chs",
+    "type": "组织",
+    "description": "清光绪二十三年正月初十，夏瑞芳、鲍咸恩、鲍咸昌、鲍咸亨、高凤池等合资4000元创办。夏瑞芳主持。馆址初设江西路德昌里。以印刷商业簿册报表为主。次年，增资更新设备，并收购日本人办修文印刷局，业务扩大。光绪二十六年，在国内首先使用纸型印书。光绪二十八年，张元济出任编译所所长，业务转向出版，创编《最新教科书》《简明教科书》《简易课本》《半日学校科本》等教科书，翻译出版科学图书，创办杂志。在福建北路设立印刷厂，唐家弄设编译所。光绪二十九年，吸收日资，成立股份有限公司，并在国内首先采用著作印花。同年，在北京、汉口设立分馆。光绪三十年，设黄杨木版部。光绪三十一年，在国内最先采用雕刻铜版。宣统元年，在国内最先创造正楷铅字。先后出版《英华大辞典》《东方杂志》《小说月报》等书刊。民国时期，业务发展迅速。1913年，在国内最先使用自动铸字机，并开始经营原版西文图书。1914年，收购日股。1915年，在国内最先引进彩色胶印机。1916年改组，实行“一处三所”制。1911～1920年出书2657种。1921～1930年出书4400余种。主要出版物有《辞源》《四部丛刊初编》《百衲本二十四史》《万有文库》《华英字典》《华英大词典》《新字典》《中国人名大辞典》《中国古今地名大辞典》《汉译世界名著》《丛书集成》和《教育杂志》《妇女杂志》《学生杂志》《自然界》等。员工4000余人。1924年，创建图书馆涵芬楼，1926年改为东方图书馆，对外开放。1932年一·二八事变中，宝山路印刷厂、编译所、东方图书馆均被毁，被迫停业。是年8月复业。全盛时期在北京、香港设有印刷厂，85处国内分馆和新加坡、吉隆坡分馆，成为国内最大出版机构。1937年八一三事变后总管理处迁长沙，1941年迁重庆，1946年迁回上海。1954年总管理处迁北京。历任编译所长有张元济、高梦旦、王云五、何炳松，总经理有夏瑞芳、鲍咸昌、王云五、张元济、朱经农。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/062ghw0euyvucbow",
+    "name": "shangwuyinshuguanhuodongyingxibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0rydfuzzngxgenzy",
+    "name": "zhongguoshangwuyinshuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/28v6vzvj4tsa1neh",
+    "name": "zhongguoshangwuyinshuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/2akqatqudhrcs4dz",
+    "name": "zhongguoshangwuyinshuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/2vgnmntobes84duc",
+    "name": "xianggangshangwuyinshuguanzhigonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/3e1tutwcdc5qtrae",
+    "name": "zhongguoshangwuyinshuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4rvf558oazzv5n4k",
+    "name": "shangwuyinshuguanzhaoxiangfang@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/a7jzxfrb76irz330",
+    "name": "shangwuyinshuguanhanshouxuexiaogongyeke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/b72cfy7zhrca504u",
+    "name": "shangwuyinshuguanhuodongyingxibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/bbibodk5osf3xix6",
+    "name": "shangwuyinshuguanyinshuachang@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/d21jgpv57q4hg0c8",
+    "name": "shangwuyinshuguanhanshouxuexiaoguowenke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/f0051rfjfzsefgm7",
+    "name": "shangwuyinshuguanxihutudiaochake@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ffx05ftp6kkuefba",
+    "name": "shangwuyinshuguanhanshouxueshe@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/gefz763bxrjd7raf",
+    "name": "shangwuyinshuguanfaxingsuozhigonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/k4kf47dhtofu3sd7",
+    "name": "shangwuyinshuguantongrenhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ls3awrn7q33sm2zf",
+    "name": "shangwuyinshuguanshanhoubanshichu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/m5e88265oqlwsvhp",
+    "name": "shangwuyinshuguanhanshouxuesheguowenke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/n0flk0ua83gmfuk6",
+    "name": "shangwuyinshuguanhanshouxuexiaotushuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/nftbg5rzj0ll3jmd",
+    "name": "shangwuyinshuguanshanghaifaxingsuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/r3e3js3g2uc202k5",
+    "name": "商务印书馆股份有限公司总管理处主计部@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/tro0dlyuojkb506k",
+    "name": "shangwuyinshuguanhuodongyingxibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ue12amy5on4cs8o2",
+    "name": "shangwuyinshuguanhanshouxuexiaotushuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/vileml2nzuqme7eg",
+    "name": "shangwuyinshuguangonghuidiwujiezhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/vum71sokzft3mc8m",
+    "name": "shangwuyinshuguanhanshouxuexiaoshangyeke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/w6yr23ireul25kzj",
+    "name": "shangwuyinshuguanzhaoxiangzhibanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/wpkoswr3gaffpr0x",
+    "name": "shangwuyinshuguanhanshouxuexiao@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xhafjvzv0jrhci0x",
+    "name": "shangwuyinshuguanbianshenweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xlbu5jf5cbebmtma",
+    "name": "shangwuyinshuguanyingpianbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zdnovvvijqlfef23",
+    "name": "上海市商务印书馆产业工会一周年纪念特刊编辑委员会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zi5wd0u0nj2pkc3w",
+    "name": "shangwuyinshuguanzhaoxiangzhibanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zj4qur8q15afzb5c",
+    "name": "shangwuyinshuguandongshihui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/2h6ihssc136naw9w",
+    "name": "世界书局@chs",
+    "type": "组织",
+    "description": "1917年，沈知方创办。初以广大书局和世界书局、中国第一书局等名义出版图书。后定名世界书局。局址初设闸北义品里和福州路其昌旅馆。1921年，改股份有限公司。局址福州路怀远里，并在怀远里口设门市部，因店面漆红，号称红屋。同时，在闸北香山路和虬江路设编辑所和印刷所。沈知方、陆高谊先后任总经理。设世界商业储蓄银行。初以出版奇侠、侦探、言情小说为主，有张恨水《春明外史》《金粉世家》、石肖生《江湖奇侠传》、程小青《霍桑探案》等。期刊有《红杂志》（后改名《红玫瑰》）、《快活》。后转出教科书、文学名著、国学名著和医学著作，有林汉达《英文文学读本》、《福尔摩斯探案大全》、朱生豪译《莎士比亚戏剧全集》。1924年起出版小学教科书，因价廉质好，形成与商务、中华竞争局面。1927年起，出版中学教科书。所出丛书有《ABC丛书》《生活丛书》《世界少年文库》《哲学丛书》《心理学丛书》《经济学丛书》《社会学丛书》《农村生活丛书》《珍本医学丛书》，工具书《英汉四用辞典》，古籍《十三经注疏》《说文解字段注》《四史》《资治通鉴》等，出版连环画有《三国演义》《水浒传》《西游记》《封神榜》《岳传》等。1923年，盘入俄商西伯利亚印书馆。1925年，虬江路印刷所失火，以所获保险金建大连湾路总厂，1926年总务处、编辑所、印刷所迁入。1932年，建5层厂房，大量增添设备。同年，发行所迁福州路390号。后因沈投资房地产失利，与世界社李石曾集团合资经营。1934年，沈辞总经理，陆高谊继任，资金73万元，规模仅次商务印书馆和中华书局。1937年八一三事变后，总厂被日军占用，损失严重。1945年，李石曾投资，任总经理，转由官僚资本控制。1950年，上海市军管会接管，没收其中在前民国政府资本，是年2月私股公私合营。1917～1950年，先后在广州、北京、汉口、奉天等地设立22个分局，出版图书5580种。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4hwuyi6ajhjs8rmr",
+    "name": "大东书局@chs",
+    "type": "组织",
+    "description": "1916年，吕子泉、王幼堂、沈骏声、王均卿合资3万元创办。孟寿椿任编译长。1924年，改股份公司，资本10万元，在北京、杭州、长沙、汉口、广州等8省市设有分店10余处。1932年，资本增至60万。先后合并上海大东橡皮印刷公司、别美彩色照相制版公司、龙飞印刷公司等，发展成为铅印、胶印、凹印、制版等工艺完全的印刷厂。抗日战争时期，印刷设备内迁，留沪部分收缩业务。1944年，杜月笙、陶百川接办。1945年返沪，官僚资本侵入，杜月笙任董事长，陶百川任总经理。此后业务发展迅速，建立3家印刷厂，承印钞票、印花税票。主要出版中小学教科书，承供教科书量占市场的8%，发行量仅次于商务印书馆、中华书局和世界书局。主要出版有郭沫若《甲骨文研究》《中国古代社会研究》，《法律丛书》《现行法典丛刊》《四库全书总目提要》《曲海总目提要》《中国医学大成总目提要》《福尔摩斯探案全集》，中外地图和杂志《现代学生》《紫罗兰》《游戏世界》等7～8种。1949年8月，上海市军管会接管，没收官僚资本，其后，出版工程技术书籍多种。1955年撤并，印刷厂迁往广西。门市部初设福州路昼锦里，后迁福州路110号。1921年，发行所迁福州路怀远里，1931年迁福州路310号。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ekv9uc0iztji3tn4",
+    "name": "商务印书馆活动影戏部@chs",
+    "type": "组织",
+    "description": "商务印书馆所属印刷所照相制版部1917年开始兼营活动摄影业务，拍摄《商务印书馆放工》《上海焚毁存土》等短纪录片。1918年成立活动影戏部，陈春生任主任，任彭年为助手，并修建厂房，扩充设备，以“抵制外来有伤风化之品，冀为通俗教育之助”、“表彰吾国文化”为制片方针，先后摄制风景、时事（新闻）、教育、古剧（戏曲）、新剧（故事片）等短片40余部。风景片有《西湖风景》《泰山名胜》等，时事片有《美国红十字会上海大游行》《东方六大学运动会》等，教育片有《女子体育观》《驱灭蚊蝇》等，古剧片有《春香闹学》《天女散花》等，新剧片有《死好赌》《猛回头》等。1923年前后转向长故事片制作，先后拍摄《大义灭亲》《孝妇羹》《爱国伞》等7部。因拍片的教育目的与市场经营产生矛盾，与商务印书馆领导有分歧，1926年，活动影戏部和馆本部分离，另组国光影片公司，终因营业亏损，1927年停办。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/n07mlzz3lslicn77",
+    "name": "新月书店@chs",
+    "type": "组织",
+    "description": "1927年6月，徐志摩创办。董事长胡适，经理兼总编辑余上沅。出版徐志摩主编《新月》月刊，所出书籍有梁实秋《骂人的艺术》、陈源《西滢闲话》，徐志摩《志摩的诗》《翡冷翠的一夜》《猛虎集》《云游》《自剖集》《巴黎的鳞爪》《卞昆冈》，丁西林《西林独幕剧》，曹葆华《灵焰》《落日颂》，陈学昭《寸草心》及《新月诗选》《人权论集》等。1931年，徐志摩去世后停业，1933年盘给商务印书馆。店址初设麦赛尔蒂罗路（今兴安路）159号，后迁至望平街和福州路。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/nkecxahoau5aho17",
+    "name": "中华书局@chs",
+    "type": "组织",
+    "description": "1912年1月，陆费逵、陈寅、沈颐、沈季方、戴克敦合资25000元创办，1913年，改股份有限公司。初期人员10多人，多为商务印书馆员工。设编辑、事务、营业、印刷4所。1912年，因适时出版《中华教科书》，规模迅速扩大，几乎独占全国教科书市场，成为商务印书馆主要竞争对手。1916年，设分局40处，员工2000余人，在棋盘街建成5层新楼，静安寺路设印刷厂，资本增至160万元。1935年，建成澳门路新厂，承印外来印件。1937年，总资本400万元，分支局40多处。1937年八一三事变后，上海总办事处解散，1942年在重庆恢复。抗日战争胜利后迁返上海。至1949年，出书5700余种，主要有《中华大字典》《辞海》《四部备要》《古今图书集成》《新文化丛书》《社会科学丛书》等。先后创办期刊40余种，有影响的有《小朋友》《新中华》《中华英文周报》等。1954年，编辑所迁北京。历任编辑所所长：范源濂、戴克敦、舒新城、陆费逵。局址初设福州路，后迁东百老汇路。总店初设抛球场（今河南路南京东路），1916年迁棋盘街，同年，编辑所迁静安寺路（今南京西路）总厂，1935年迁澳门路。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/uvld8jfx8zv5ftmi",
+    "name": "时代出版社@chs",
+    "type": "组织",
+    "description": "1941年，苏联塔斯社驻上海分社社长罗果夫创办。出版英文版《每日战讯》、中文版《时代》周刊、《苏联文艺》等杂志和西蒙诺夫《日日夜夜》、柯涅楚克《前线》等，利用苏商名义和苏日外交关系，成为沦陷后上海唯一正面报道欧洲战场消息和出版文艺作品的宣传机构。抗日战争胜利后，出版《普希金文集》《奥斯特罗夫斯基研究》《高尔基研究年刊》等。上海解放后迁北京，1955年与商务印书馆合并。社址初设斜桥弄，后迁南京路（今南京东路）377号，北京设有分社，杭州、南京设有分店。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/21lyabxtqldlrwkn",
+    "name": "shanghaisilizhonghuashujuhanshouxuexiao@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4rohddq4cbidp2rg",
+    "name": "shanghaisilizhonghuashujuhanshouxuexiao@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/diltbxeqp8urgcpx",
+    "name": "dazhonghuashuju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ftdzxdapaequqt5z",
+    "name": "shanghaizhonghuashuju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ge8fd6j40k4qda3n",
+    "name": "shanghaisilizhonghuashujuhanshouxuexiao@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/qyebwy22e3vvr1dx",
+    "name": "shanghaizhonghuashuju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xnm3tyoe4gk3l164",
+    "name": "shanghaizhonghuashuju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/995gaa193gyk6kxq",
+    "name": "上海西泠印社@chs",
+    "type": "组织",
+    "description": "以吴昌硕为第一任社长的杭州西泠印社成立于清光绪三十年（1904年）。是年，杭州西泠印社的创办人之一吴隐，觉得需要成立一个辅助机构，以配合开展学术研究工作，便在上海创立了上海西泠印社。早年的上海西泠印社，设址于北福建路归仁里5号，旋移至宁波路渭水坊，后迁址广东路239号，一直迄今。上海西泠印社创立后，为印学家提供了许多工具材料和学术研究资料，例如研制有“潜泉印泥”和拓印簿，出版有不少原拓的印谱精品。早在民国4年（1915年），出版吴昌硕的《苦铁碎金》4册。其他先后出版的印谱有《秦汉印玺》、《西泠八家印宝》、《吴昌硕印存》、《赵撝叔印谱》等数百种。同时出版有《印学丛书》等数十种篆刻、印学家著作。并为求中国出版物的美观，首创清新秀丽的活体仿宋字（当初是用木头刻的，后改用铅铸制）。民国8年上海中华书局出版的富有气派的仿宋字体书籍，便是采用上海西泠印社丁辅之设计制作的仿宋字体。上海西泠印社的创始人吴隐谢世后，该社由吴的长子吴幼潜、次子吴振平（均为杭州西泠印社社员）主持管理。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/kg82mrrl96lg78gr",
+    "name": "shang hai ci shu chu ban she@en",
+    "type": "组织",
+    "description": "1958年，成立中华书局辞海编辑所。1978年1月改今名。全国首家专业工具书出版社。编辑出版各类汉语工具书，包括大型综合性辞书、专科辞书、语文辞书、年表、年鉴、手册、索引等。1995年，有员工179人，其中高级专业技术人员29人、中级59人。1978～1995年，出版各类出版物475种。有影响的图书有《辞海》（新版）、《中国历史大辞典》《哲学大辞典》《经济大辞典》《数学题解辞典》《唐诗鉴赏辞典》等。社址陕西北路457号。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/to6022zazrredlgj",
+    "name": "文明书局@chs",
+    "type": "组织",
+    "description": "清光绪二十八年，俞复、廉泉、丁宝书等创办。初称文明编译印书局。设有印刷厂。俞复任经理。创办元年出新式教科书数十种，是辛亥革命前编印教科书最早和最多的出版机构。后印制碑帖书画，行销海内外。大量刊印古代笔记，有《说库》《清代笔记丛刊》《笔记小说大观》等。在国内最早试制成功照相铜版技术，印有《百花图长卷》《潇湘八景图》《黄山胜迹图册》《兰亭序十二种》《黄庭经五种》等，印制精美。1915年8月创办期刊《小说大观》是最早的季刊杂志；1916年创刊《春声》，1917年创办《小说画报》。发行所设南京路498号，印刷所设河南路88号。1932年并入中华书局。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/wk5dqsg0qaaogrsq",
+    "name": "上海古籍出版社@chs",
+    "type": "组织",
+    "description": "1956年11月，成立古典文学出版社，1958年6月中华书局上海办事处与古典出版社合并，定名中华书局上海编辑所，1978年1月成立上海古籍出版社。以整理、出版中国古代文学、历史、哲学、语言文字和科学技术等古籍及研究著作为主。下设4个编辑室。1995年，有员工148人，高级专业技术人员23人，中级31人。1995年，出版图书309种。有影响的图书有中国古典文学丛书、宋蜀刻本唐人集丛刊、唐五十家诗集、清人别集丛刊、《全唐诗》《资治通鉴》《二十五史》（与上海书店合出）、《中国古籍善本书目》《中国丛书综录》《清人室名别称字号索引》等，影印出版《四库全书》、哈佛燕京学社引得等。先后出版郭沫若、茅盾、陈寅恪、郑振铎、钱钟书、郭绍虞、顾颉刚、岑仲勉、吕思勉、邓广铭、谢国桢等研究专著多种。出版《中华文史论丛》《古代文学理论研究丛刊》《红楼梦研究集》等期刊。1980年，建附属印刷厂上海古籍印刷厂。社址瑞金二路272号。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0dj57mlgtcw41dxv",
+    "name": "zhonghuashujuzangshulou@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0kfuhj0blbymu5ff",
+    "name": "zhonghuashujuxiwenbianjibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/2tpt2audyntjbx2t",
+    "name": "zhonghuashujugufenyouxiangongsi@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/61xm8f87e1vztqge",
+    "name": "zhonghuashujugufenyouxiangongsi@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/6a2kx16etzrvxcwm",
+    "name": "zhonghuashujutushuguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/6gqw0ju3jq213baf",
+    "name": "shanghaizhonghuashuju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/78fe4d50pyg8i5v8",
+    "name": "shanghaisilizhonghuashujuhanshouxuexiao@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/a7chznw03467rvo4",
+    "name": "zhonghuashujubianyisuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/k6plth6g1pfrum8w",
+    "name": "zhonghuashujubianyisuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/n4qrrl74s8fwqxzp",
+    "name": "zhonghuashujutongrenjindehui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/nfuzstcwgkeso08y",
+    "name": "zhonghuashujushouxiantuan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xgv85zh0i7ta5h68",
+    "name": "zhonghuashujujiaoyuyongjuzhizaochang@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/cte65d1q3h4kxwa1",
+    "name": "meishangshenbaoguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jif00cpfrlxsu1mn",
+    "name": "申報館@cht",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rkdt176kiwpr0ozi",
+    "name": "shenbaoguanbianjibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8wxfvy2b03rfjjv7",
+    "name": "申昌书局@chs",
+    "type": "组织",
+    "description": "申报馆附属印刷机构。利用申报馆铅印设备，印售科举用书等市场流行图书，规模逐渐扩大。先后印行《聚珍版丛书》（160余种）、《二十四史》《资治通鉴》等大部头中国古籍，印刷精美。宣统三年，《申报》归席子佩后，与点石斋、古今图书集成书局合并为上海集成图书公司，以印售教科书为主。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/f8oo4ieo5zzginvt",
+    "name": "图书集成局@chs",
+    "type": "组织",
+    "description": "申报馆附属印刷出版机构，独立经营。清光绪九年四月二十八日，开始招股，筹印《钦定古今图书集成》（共1682册），十四年铅印完成，次年八月十三日出版发行。其他出版物有《二十四史》《九通》《苦社会》等。宣统三年，席子佩接手《申报》后并入上海集成图书公司。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ajq3oywmdwywlpeb",
+    "name": "大公報館@cht",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0v7elon0u6xtyn10",
+    "name": "shenghuoshudianbianyisuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/3cnzhr7vx0uka7y6",
+    "name": "生活书店@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/fn6jdhbcj0806exa",
+    "name": "shenghuoshudianbianyisuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/giph5m41owo6pm13",
+    "name": "生活书店@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/pw4emmh10wmkrl3k",
+    "name": "shenghuoshudianbianyisuo@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/6szec47jldb9we73",
+    "name": "讀書生活出版社@cht",
+    "type": "组织",
+    "description": "1936年，艾思奇、郑易里创办，黄洛峰任经理，艾思奇任编辑部主任。1937年上海沦陷后，总社迁汉口、重庆，上海分社以辰光书店、鸡鸣书店、高山书店、慧星出版社、北极书店、富春书店等名义出书。1941年太平洋战争爆发后停业。1948年10月，在香港与生活书店、新知书店合并为三联书店。主要出版物有艾思奇《哲学讲话》《实践与理论》《论中国特殊性及其他》，郭大力、王亚南译《资本论》，艾思奇、郑易里译《新哲学大纲》《科学艺术论》《列宁战争论》《辩证唯物论辞典》，李公朴、周巍峙编《中国呼声集》，艾思奇、吴黎平《科学历史观教程》，吴黎平《人怎样变成巨人》及丛书《角半小丛书》《抗日救国丛书》《少年的书》，出版期刊《读书生活》《读书》《大家看》《认识月刊》《学习生活》等。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/cezwtw7x3cc6kc23",
+    "name": "新知书店@chs",
+    "type": "组织",
+    "description": "1935年8月创办，中国共产党领导，钱俊瑞、徐雪寒主持，姜君辰等负责编辑。以出版社会科学论著为主。1937年八一三事变后，总店迁内地，上海设办事处，以实学书局、远方书店名义出书。出版苏联文学丛书。派员在苏北开设大众书店。太平洋战争爆发后，撤往苏北，汤季宏、蒋建忠、孙群等负责，协助根据地在上海采办军需物质。1944年10月，遭汪伪破坏，人员被捕，停止活动。1947年春，在四川北路8号恢复上海门市部。出版《新知丛书》《传记丛书》《新世纪文学译丛》《新认识丛书》《国际现势丛书》。7月，遭淞沪警备司令部查抄，改永年书局，门市部转让给开明书店。总计出书200余种，有《中国货币制度何处去》《意阿战争与第二次世界大战》《中国农村社会性质论战》《通俗经济学》《大众政治经济学》《农村经济基本知识》《中国农村经济常识》《中国经济问题讲话》《苏联文学选集》《中国古代社会史》《中国思想通史》《中国近百年史》《鲁迅传》，翻印《中国通史简编》；期刊近10种。1948年10月，在香港与生活书店、读书出版社合并为三联书店。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rkcz3uclq9riywzv",
+    "name": "生活书店@chs",
+    "type": "组织",
+    "description": "1932年7月，邹韬奋创办生活出版合作社。出版哲学、政治、文艺、年鉴等书籍。1936年，出版茅盾主编《中国的一日》。1937年，总店迁武汉、重庆。1937～1941年，上海分店主要出版马列著作和抗战图书，供应内地。1941年太平洋战争爆发后，被日军查封。1943年春，改新光公司。1945年10月，恢复上海分店。1948年10月，在香港与新知书店、读书出版社合并为三联书店。所出图书有《世界学术名著译丛》《青年自学丛书》《百科小译丛》《世界知识丛书》《时事问题丛刊》《黑白丛书》《妇女生活丛书》《创作文库》《世界文库》《文学丛书》《小型文库》《新世纪丛刊》《少年文库》等及《生活》《世界知识》《太白》《全民抗战》等杂志29多种。店址先后设陶而斐司路（今南昌路）、福州路384弄、河南路爱多亚路（今延安东路）中汇大楼、重庆南路公寓大厦等处，1936年在全国设有56个分店。投资合营华夏书店等8家书店。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/2bosrv5kv8ri5cg2",
+    "name": "duzhechubanshe@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8xlskkrroylpe8qu",
+    "name": "新知书店@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xu56hfnfebqdbq5t",
+    "name": "中国左翼作家联盟@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/n5395npd6ee6znvr",
+    "name": "中华艺术大学@chs",
+    "type": "组织",
+    "description": "民国14年创建，陈望道为校长，是当时文化界进步力量比较集中的一所综合性艺术大学。学校设有中国文学系、西洋画系、音乐系、国画手工系，后增设新闻系、中国画系及图案科。夏衍、郑伯奇、冯乃超、李初梨、沈起予、彭康等都在学校任教。民国18年上海艺术剧社在这里诞生，民国19年时代美术社在这里设立会址，中国左翼作家联盟在这里举行了成立大会，左翼美术家联盟在这里设立总部，是左翼文艺运动的活动中心。民国19年5月学校被国民党军警查封。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8ahorafw7p7lykuf",
+    "name": "光华书局@chs",
+    "type": "组织",
+    "description": "1925年，沈松泉、张静庐、卢芳创办。局址福州路山东路口太和坊。上海第一家专出新文艺图书和期刊的出版机构，后兼出社会科学和实用性图书。共出版《洪水》《幻洲》《狂飙》《戈壁》《萌芽》《巴尔底山》《读书月刊》《新学生》《文学月报》等期刊20种。共出版200多种图书，有郭沫若《三个叛逆的女性》《文艺论集》《幼年时代》《沫若小说戏曲集》，丁玲《自杀日记》，胡也频《三个不统一的人》，郁达夫《小说论》，茅盾《路》，《高尔基文集》，柳亚子编《曼殊小说集》《曼殊诗集》，张定灏《不平等条约研究》，漆树芬《经济侵略之中国》，周建人译《进化和退化》等创造社和“左联”作家文集、著述多种。近40种被当局查禁，造成经营不良，1935年5月因欠债被封。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/w3x9byt8f78zn46r",
+    "name": "hu feng shu dian@en",
+    "type": "组织",
+    "description": "1931年，宣侠父集资创办。周濂卿任经理，“左联”负责编辑。以出版左联成员译著为主，有《北斗》《文学导报》《正路》3种期刊，《文学创作丛书》15种，《世界文学名著丛书》12种和《青年自修文学课本》等。店址初设七浦路734号，后迁老靶子路（今武进路）163号。1933年3月，被政府当局查封。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/go00qdnujyhwkbg8",
+    "name": "上海大学@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/pqmem5tr37hip7ab",
+    "name": "上海大学@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/e3vdbjgsuhuetz37",
+    "name": "shanghaidaxueshehuixi@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/om21k67me4d5gkyz",
+    "name": "shanghaidaxuexueshenghuixuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/qy0rqrawh58kzg1p",
+    "name": "shanghaidaxuexueshenghui?@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/f337b3q5ncenu6dq",
+    "name": "大道剧社@chs",
+    "type": "组织",
+    "description": "1931年成立于上海。左翼戏剧家联盟直接领导的基干剧团，社员遍及上海各学校。演出《洪水》《梁上君子》《街头人》等，还与其他大学剧社联合演出《马特洛》《乱钟》等。1931年九一八事变后，演出活报剧等，广泛开展抗日救亡宣传。1932年剧社停止活动。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/njyukbykrearh5bq",
+    "name": "上海美术学校@chs",
+    "type": "组织",
+    "description": "1959年成立，初期附设于上海中国画院筹委会，1960年改为上海美术专科学校，汤增桐、沈之瑜、陈明先后任副校长主持工作。学校地址陕西北路500号。学校设有中国画、油画、雕塑、工艺美术4个系，学制为5年。教师有吴大羽、周碧初、应野平、江寒汀、张充仁、张雪夫、蔡振华、胡问遂、唐云、曾路夫等，培养出了陈逸飞、王劼音、邱瑞敏、杨正新、吴慧明等一批优秀美术人才。三年困难时期，国务院下令1959年上马的大学一律解散停办，以后由上海市轻工业局接办为中专性质的美术学校。1985年并入上海大学美术学院。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/qtr9fscicgjjinqp",
+    "name": "上海大学美术学院@chs",
+    "type": "组织",
+    "description": "1985年上海大学重建时创立。院长李天祥，院址凯旋路30号。学校设有美术设计系、国画系、油画系、雕塑系4个专业，招收4年制本科和从中专至大专五年一贯制的专科。并附设美术创作研究所和陶瓷美术研究所。学校以美术设计为重点发展学科，遵循多层次、多规格、多形式的办学方针，培养了大批美术设计、中国画、油画和雕塑创作的中高级人才。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ykth3l6j4xrguo4l",
+    "name": "shang hai shi cheng shi diao su wei yuan hui@en",
+    "type": "组织",
+    "description": "1985年4月9日成立。负责制订上海市城市雕塑规划及有关条例，组织市重点城市雕塑项目的竞赛、创作和实施，促进和协调上海市各区、县城市雕塑工作。下设办公室。1986年6月17日，成立下属上海城市雕塑艺术委员会，负责研究城市雕塑的规划，评审城市雕塑的选点、内容、创作设计稿，组织学术活动，与国内外雕塑家进行艺术交流等。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0rvo4kclfjg2js53",
+    "name": "laodongdaxuebianyiguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/45lqc2tb5c8foyql",
+    "name": "laodongdaxuexueshenghuxiaoweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/5q1x6jh7f1amaw8y",
+    "name": "laodongdaxuebianyiguan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/7eas4bz5282wgor2",
+    "name": "laodongdaxue@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/g8z1gczgl5q4tacn",
+    "name": "laodongdaxue@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jm1tb5mucfu3bveq",
+    "name": "laodongdaxuechubanke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ud61fnivhbyig48x",
+    "name": "laodongdaxuezhuceke@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8bn3rtlwibojvdjx",
+    "name": "中国左翼美术家联盟@chs",
+    "type": "组织",
+    "description": "民国19年（1930年）8月成立于上海,简称“美联”,是中国共产党直接领导的美术家团体。执行委员9人:许幸之、于海、张眺、江丰、胡一川、姚馥、沈叶沉、刘露、张谔。执行委员中又选出许幸之为主席,沈叶沉为副主席,于海为总干事。地址设于窦乐安路（今多伦路201弄2号）中华艺术大学绘画科。民国21年,于海又任美联党团书记。美联下设有上海美术专科学校、新华艺术专科学校、中华艺术大学、上海一八艺社研究所盟员小组,另在上海艺术大学、白鹅画会也有盟员,并在日本东京学习美术的中国留学生中设有美联东京分盟。在美联领导下,上海先后成立有春地美术研究所、野风画会、MK木刻研究会、野穗木刻社、涛空画会、未名木刻社、铁马版画会等进步美术团体,以灵活多样的方式开展革命美术活动。到民国25年春宣告解散。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/30wbxtgfj7njlma8",
+    "name": "中华艺术大学@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ss8rfh01mkbzb7ij",
+    "name": "中华艺术大学@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jpp5wb42ddfu86s7",
+    "name": "內山書店@cht",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/69yro14na6q0ol4f",
+    "name": "shang hai shi qun zhong wen hua xue hui@en",
+    "type": "组织",
+    "description": "上海市群众文化学会是从事群众文化理论研究的学术团体，成立于1985年8月29日。工作任务是：在改革、开放的新的历史时期，加强群众文化理论研究，用理论指导实践，使群众文化工作适应新形势发展的需要，开创群众文化工作的新局面。学会的第一批会员共123人，是由市文化局、市总工会、共青团市委、中国福利会、市高教局、市教育局、市文联、市科协、社会科学院、市体委、驻沪部队、新闻学院推荐发展入会的。至1992年底，拥有会员305人。学会设基础理论、应用理论、群众文化史等研究小组，组织会员开展群众文化理论研究的讨论和交流活动。学会主办的群众文化理论刊物《群文论苑》（原名《上海群众文化研究》），1986年试刊，1987年3月创刊，16开本，每季度出1期。1990年7月，在全国部分省、市群众文化刊物第四届年会上获“优秀群文理论刊物奖”。1985年9月，长宁区成立区群众文化学会。此后，黄浦、虹口、静安、闸北、普陀、嘉定、南汇等区县群众文化学会相继成立。上海市群众文化学会1995年共有团体学会9个。学会于1990年10月加入上海市社会科学学科联合会。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/goxjapgn129nfk9r",
+    "name": "shang hai da shi jie yan chu gong si@en",
+    "type": "组织",
+    "description": "成立于1992年10月,隶属于共青团上海市委,公司地址西藏南路1号。公司主要组织上海市范围内的各类演出、比赛活动、演出咨询和承办团市委交办的涉外演出任务。曾组织了许多演出活动,特别是1997年7月1日在大世界游乐中心举办的“上海各界青年喜迎香港回归欢乐之夜”大型庆典活动,影响很大。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/l3xwskl8vqv8jf28",
+    "name": "上海市青年宫@chs",
+    "type": "组织",
+    "description": "上海市青年宫，是共青团上海市委建立的面向全市青年、学生的群众文化事业机构，除指导与辅导青年、学生课（业）余文艺活动外，并开展阵地宣传和文化娱乐活动。上海市青年宫于1958年2月18日开幕。青年宫建于江西中路200号原金城银行大楼，面积1755平方米，共7层。1959年7月，基督教青年会四川中路分会改为该宫的分部。青年宫建立以后，经常举办各类展览、报告、讲座、歌咏、文艺培训班和青年读书活动，并成立学生课余文工团、大学生合唱团等团体，成绩显著，曾得到中共上海市委、共青团上海市委领导的多次表扬。“文化大革命”开始，青年宫被指定为红卫兵接待站。1966年8月，宫址被移作他用。1973年3月16日，经中共上海市委的批复把“大世界”作为青年宫的活动场所。粉碎江青反革命集团以后，青年宫的业务活动迅速发展，培养了一批人才，有获第二届电视金鸡奖的肖雄、获第二十九届国际教学奥林匹克竞赛金奖的陈晞、获全国少年长笛比赛一等奖的李彤、获上海青年武术十佳称号的雍和，以及上海乐团青年指挥家刘健等。1987年1月，大世界游乐中心对市民开放，同时保留青年宫的建制和职能。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rty4bxvf11woa5m4",
+    "name": "shang hai shi qun zhong wen hua gong zuo wei yuan hui@en",
+    "type": "组织",
+    "description": "为了加强中共对群众文艺工作的领导，1958年2月11日，中共上海市委成立了市委群众文艺工作委员会。其后，各区相继建立区委群众文艺工作委员会。是年下半年，江苏省10个县划归上海管辖后，各县群众文艺工作委员会也先后成立。群众文艺工作委员会的任务是：检查贯彻执行中共的群众文艺工作方针和政策的情况，制订重大群众文艺活动规划，协调各方面的工作关系，统一全市性群众文艺活动部署，并及时总结、交流经验。中共上海市委群众文艺工作委员会，由中共上海市委宣传部副部长兼市文化局局长徐平羽任主任，市工会联合会副主席沈涵、共青团市委副书记潘文铮任副主任。委员会的办公室设在市文化局群众文艺处，由群文处处理日常工作。1959年11月18日，该委员会对部分委员进行了调整；1960年8月16日又作了较大的调整，由中共上海市委宣传部常务副部长陈其五为主任，沈涵、林辉山、孟波、张浩波为副主任。1965年8月19日，中共上海市委决定将市委群众文艺工作委员会改名为市委群众文化工作委员会，委员共19人。由中共上海市委宣传部副部长、市文化局局长孟波任主任，沈涵、陆康常、许平、陈启懋任副主任。委员会办公室的日常工作仍由市文化局群文处负责。各区委、县委群众文艺工作委员会，也改名为区委、县委群众文化工作委员会。“文化大革命”期间，市和区县的两级群众文化工作委员会解体。1985年3月1日，上海市人民政府发出《关于成立上海市群众文化工作委员会的通知》，指出：为了加强城市群众文化工作的建设，统筹、规划、指导和协调全市群众文化工作与重大活动的安排，决定成立“上海市群众文化工作委员会”。委员会的组成人员：主任刘振元（上海市副市长）、副主任丁锡满（中共上海市委宣传部副部长）、刘念劬（市文化局副局长）、陈秀凤（市总工会副主席）、范希平（共青团市委副书记）、沈彦芳（市妇联副主任）、朱可常（中福会党组书记），委员22人。市委群众文化工作委员会秘书长由市文化局副局长杨振龙担任（1990年改任副主任）。委员会设办公室，日常工作由市文化局群众文化处办理。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0z8v75okuv15kqc0",
+    "name": "中国共产党@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/325a8nki0dm0yt24",
+    "name": "zhongguogongchandangzhongyangzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4aqkq3e2hoix0xnt",
+    "name": "zhongguogongchandangbeifangquzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4x2jh16kc6kvda13",
+    "name": "zhongguogongchandangkuodazhongyangzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/5ah2086hjl5gav2y",
+    "name": "zhongguogongchandangdianyingxiaozu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/61h5cglgji7rqwpt",
+    "name": "zhongguogongchandangguangdongquweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/77iuz38a22wnhc4m",
+    "name": "zhongguogongchandangsuquzhongyangjuxuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/7f0ggaziudclijxz",
+    "name": "zhongguogongchandangshanghaixiaozu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8euozr554eglb46u",
+    "name": "zhongguogongchandangdianyingxiaozu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8knxp8tf6x6wqe8l",
+    "name": "日本共产党中央委员会宣传教育文化部@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8uwow24dcd2rjtep",
+    "name": "zhongguogongchandangbeijingshidangbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/b44cnm5bxlo8ecrp",
+    "name": "zhongguogongchanqingniantuanjiangsushengzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/b6yjwhm4vykmo3eg",
+    "name": "zhongguogongchandangjinchajizhongyangju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/bre2lgs3vy30hvl8",
+    "name": "chaoxiangongchandangzhongyangweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/clhwvxin6kcnf42b",
+    "name": "eguo.gongchandang@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/crsf13tdok6s6t7y",
+    "name": "zhongguogongchandangzhongyangzhishujiguandangwei@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/gfg4zfkddh6lw251",
+    "name": "ribengongchandangzhongyangweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/hdhmg3ayjfbwofun",
+    "name": "zhongguogongchandangsuquzhongyangju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ipu72bj7jpktvm00",
+    "name": "zhongguogongchandangxiangbeitewei@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/kznpecqj4wkfxt0m",
+    "name": "中国共产党代表团驻沪办事处@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/lrrcteeqy2igild4",
+    "name": "zhongguogongchandanghebeishengwei@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/lw5m2njdu66502wn",
+    "name": "gongchandangguangdongzhibu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/lxtq02gwvaae8435",
+    "name": "zhongguogongchandangbeijingdifangzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/n75hnnav1h88sij2",
+    "name": "zhongguogongchandangsuquzhongyangju@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ndzly2bmk65n22b4",
+    "name": "中国共产党松江地方委员会文艺工作团@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/nzk3vg756c2cax0b",
+    "name": "中国共产党@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/paq6syk2tpqblzes",
+    "name": "中国共产党全国代表大会(第七届第二次全会:西柏坡:1949.3)@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ptyxhaluaa2fvub2",
+    "name": "zhongguogongchandangzhongyangzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/qlzj2ocxqku4godi",
+    "name": "zhongguogongchanzhuyiqingniantuanzhongyangweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/sgv4puzd3sbeckh7",
+    "name": "zhongguogongchandangshanghaiquzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/tggfvjmfsgigpkap",
+    "name": "gongchandanghongjundisijunjundangbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/tjbyx2in8ycz3efg",
+    "name": "中国共产党中国共产主义青年团两广工作委员会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/uxu7wokelkpal4w5",
+    "name": "suliangongchandang（bo）zhongyangweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/yi1atpld44fms5lk",
+    "name": "zhongguogongchandangjiangsushengzhixingweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ywpwkq5k6mvdxajb",
+    "name": "蘇聯共產黨（波）中央委員會所設專門委員會@cht",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/27xafpg63093anmu",
+    "name": "上海剧艺社@chs",
+    "type": "组织",
+    "description": "民国27年(1938年)成立于上海，它的前身为青鸟剧社及上海艺术剧院，领导人为于伶。上海剧艺社在中国共产党地下组织的领导下，集中了“孤岛”的优秀剧作家、导演、演员李健吾、李伯龙、吴仞之、柯灵、黄佐临、顾仲彝、石挥等，运用曲折隐蔽的方式开展革命戏剧活动，先后演出了《夜上海》、《赛金花》、《葛嫩娘》、《上海屋檐下》、《李秀成殉国》、《正气歌》、《家》、《北京人》等，成为坚持“孤岛”剧运最久、最有生机的主力军。上海全部沦陷后，剧艺社于民国30年停止活动。抗日战争胜利后，于伶由重庆回到上海，于民国34年8月后重建剧艺社，恢复演出活动，主要剧目有《戏剧春秋》、《升官图》、《孔雀胆》等。民国37年上海剧艺社解散。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/3r3505qexsjqglkn",
+    "name": "shang hai ye yu xi ju jiao yi she@en",
+    "type": "组织",
+    "description": "民国27年(1938年)成立于上海，社长洪谟。参加的主要业余剧团有“银联”、“保联”、“海关”、“药联”和复旦、沪江、大厦、光华、小教联等，最多时达100多个。在中国共产党领导下曾举行“星期小剧场”，救济难民和支援新四军的大型义演活动，并举办过各种训练，培养演剧人才，扩大了话剧的社会影响。后国内局势恶化，于民国30年停止活动。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/44f95mhyspugqnyi",
+    "name": "shang hai mu ou ju tuan@en",
+    "type": "组织",
+    "description": "1960年6月1日，上海木偶皮影剧团建立。1962年7月，取消皮影队，改上海木偶剧团。建团方针为少年儿童服务，主要道具有杖头木偶，布袋木偶、提线木偶、皮影等，真人与木偶也经常同台演出。创作、改编、移植大中小型剧目140多个，演出1万多场，观众800万人次。大型神话剧《红宝石》，1980～1990年演满2000场（不包括国外演出），观众120万人次，开创木偶戏演出史上的新纪录。科幻木偶剧《哪吒神遇钛星人》获1992年全国木偶皮影戏会演中最高奖优秀剧目奖、1993年文化部第三届文华奖。1992年，与吉林电视台合作，拍摄100集《成语故事》木偶片。1979～1995年，17次出访日本、美国、法国、苏联和西欧等国家。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/45txdwr2wusdst5o",
+    "name": "上海广播乐团@chs",
+    "type": "组织",
+    "description": "1948年5月，由姚牧等10人在中国共产党地下组织领导下组建上海广播乐团，以做商业广告为掩护，先后在国民党的上海广播电台和民营中华自由广播电台播唱世界名曲、民歌、进步歌曲，教歌，编印出版“歌选”。1949年10月，乐团由上海广播电台正式改称上海人民广播电台广播乐团。  1949年5月25日，凌晨，中国人民解放军进入上海市苏州河以南地区，军事管制委员会文化教育接管委员会接管国民党上海广播电台，随即建立上海人民广播电台。清晨，上海广播乐团在中华自由电台播唱《东方红》、《解放大上海》、《我们的队伍来了》。洞庭歌咏队，中华音乐学院师生也在凯旋广播电台、亚美麟记广播电台播唱革命歌曲，与此同时，青年会、银联会、益友社等的咏队也出动欢呼上海解放宣传演唱活动。(上海年华（http://memory.library.sh.cn/node/73128）)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/4ta8qkzjkwkwxk5b",
+    "name": "沪西工友俱乐部@chs",
+    "type": "组织",
+    "description": "民国9年（1920年）10月，上海共产主义小组成员李启汉，在沪西小沙渡地区安远路62号（今锦秀里178～180号，原内外棉九厂工房），创办工人半日学校。是年12月19日，李启汉将工人半日学校改成上海工人游艺会，借上海公学举行成立大会，有400多人参加。中国共产党发起组成员杨明斋、沈玄庐、邵力子等到会演讲。民国11年秋，根据中共中央决定，在沪西工人补习学校的基础上建立沪西工友俱乐部。民国13年9月1日，沪西工友俱乐部在槟榔路德昌里（今安远路278号）成立。项英任主任，孙良惠为副主任，刘华、顾秀等为委员。不久，项英调离，由刘华负责。沪西工友俱乐部于民国14年2月迁至吴淞江（即苏州河）北岸潭子湾三德里，继续开展工作。在俱乐部的指导下，沪西各厂纷纷成立俱乐部小组，2000多名工友参加。同时，沪西工友俱乐部组织日商纱厂工人大罢工，在工人运动史上留下了光辉的一页。是年5月，沪西工友俱乐部改组为上海总工会第四办事处。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/8ggt8rvsd625wa3h",
+    "name": "南国社@chs",
+    "type": "组织",
+    "description": "民国18年(1929年)由田汉创办于上海。主要成员有唐槐秋、陈白尘、赵铭彝、郑君里、金焰等。南国社源于南国艺术学院，以演出田汉的剧作为主，先后演出《获虎之夜》、《名优之死》和《江村小景》、《古潭的声音》、《颤栗》、《火之跳舞》等。剧中对旧社会的咀咒，对人道、自由、个性解放的歌颂，表现了大革命失败后知识青年的苦闷和对光明未来的追求，思想上、艺术上在当时都有很大影响。其中短剧《一致》是田汉在创作上向专制统治反抗的标志，成为南国社投入左翼戏剧运动的预兆。左翼戏剧运动兴起后，南国社部分青年组织摩登社，倡导学校戏剧运动，以改变南国社的演剧思想。在中国共产党的帮助下，南国社进行组织整顿，田汉发表了《我们自己的批判》，鲜明地站在无产阶级一边，将艺术“贡献于新时代之实现”，民国19年6月排演《卡门》，“借外国故事来发挥革命感情影响中国现实”，遭国民党当局禁演，9月南国社被查封。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/9rwodm7pm2avi6x0",
+    "name": "zhong guo ren min jie fang jun jun le tuan@en",
+    "type": "组织",
+    "description": "中国人民解放军军乐团是中国军队大型音乐表演团体。国家的礼仪乐队，中国唯一的大型管乐演奏团体，隶属于中国共产党中央军事委员会政治工作部。于1952年7月正式成立，全团400余人。乐团的主要任务是为国家和军队的重大典礼、重要会议、迎送国宾等仪式举行音乐演奏，在艺术上着意追求中国气派。近年来，乐队合奏水平日益提高，能较完美地演奏不同时代、不同体裁和风格的中外作品;培养出艺术造诣较深的指挥、独唱、教学等人才;建立了具有丰富军乐写作经验的创作队伍。自2018年1月1日起，国旗护卫和礼炮鸣放任务由人民解放军担负。(360百科（https://baike.so.com/doc/5332005-5567307.html）)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ch0b6u6av2e8w3c8",
+    "name": "基督教女青年会@chs",
+    "type": "组织",
+    "description": "基督教女青年会，是由美国人宁格于光绪三十年秋，在上海成立的国际性基督教妇女团体。会址设在静安寺路999号（今南京西路中国工商银行静安区办事处大楼）后面一所老式花园洋房里。一些共产党人在女青年会曾开展群众文艺活动，运用唱歌、演剧形式，提高民众政治觉悟。青年会总会大楼除2、3楼作为中华基督教青年会全国协会、女青年会全国协会、上海基督教青年会和女青年会的会址外，辟有群众活动室，建有舞台的500座位礼堂。4～8楼及10楼的青年宾馆和9楼餐厅，主要接待外宾。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ef7fffpgrzg3h2c2",
+    "name": "上海艺术剧社@chs",
+    "type": "组织",
+    "description": "民国18年(1929年)成立于上海。参加者有创造社的郑伯奇、冯乃超和太阳社的钱杏邨、孟超等，主要负责人为夏衍。艺术剧社的成立，开始了中国共产党对现代戏剧运动的直接领导。艺术剧社编辑出版《艺术》月刊、《沙仑》月刊和《戏剧论文集》，第一次提出和宣传“无产阶级戏剧”的口号，强调戏剧的时代性与阶级性。还先后排演《梁上君子》、《爱与死的角逐》、《炭坑夫》、《西线无战事》和冯乃超等创作的《阿珍》，在舞台上突出强调工人与资本家的斗争，控诉资本家和国民党反动派的罪恶。还举办讲习班培养革命戏剧人才。艺术剧社还和南国社、摩登社等联合组织了“上海戏剧运动联合会”、“中国左翼剧团联盟”，为“中国左翼戏剧家联盟”的成立准备了条件。剧社富有成效的活动，引起国民党当局的恐慌与仇恨，民国19年被警察局查封。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ffy0ussq5hoa17kr",
+    "name": "shang hai ye yu ju ren xie hui@en",
+    "type": "组织",
+    "description": "民国24年(1935年)成立于上海。民国23年秋后白色恐怖严重，上海革命戏剧组织严重受损，“剧联”根据中国共产党中央文化工作委员会的指示，决定以章泯、张庚、徐韬、赵丹、金山、陈鲤庭等出面，联络进步剧人组成上海业余剧人协会，实施以剧场公演为主，突击演出为辅的办法冲破国民党当局的文化“围剿”，先后演出《娜拉》、《钦差大臣》、《慾魔》、《醉生梦死》、《大雷雨》等，为话剧职业化奠定了基础。民国26年，协会更名为上海业余实验剧团，应云卫任团长，章泯、应云卫、陈鲤庭、赵丹、徐韬组成理事会，基本编导有史东山、沈西苓、袁牧之、贺孟斧、章泯、应云卫和欧阳予倩，演员有赵丹、郑君里、顾而已等，还有一批特约编导和顾问，剧团阵容强大，实力雄厚。先后演出《罗密欧与朱丽叶》、《太平天国》、《武则天》等剧目。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/fgyh1d3dmwoaa4us",
+    "name": "shang hai shi huai ju gai jin xie hui@en",
+    "type": "组织",
+    "description": "戏曲群众团体，成立于1950年初。由上海江淮戏公会改组而成。主任骆宏彦，副主任马麟童、何叫天、武旭东。建会宗旨：贯彻中国共产党的文艺方针，团结全市淮剧同仁，推动淮剧改革和发展，提高从业人员的政治水平和艺术素质。设立“淮剧传统剧目整理委员会”，挖掘和整理优秀传统剧目，组织编剧人员编纂《淮剧韵辙》，并和新文艺工作者合作整理剧目幕表提纲，改编成剧本，提供上演剧目，如《王清明》、《李毓昌放粮》等。举办艺术学习班，组织淮剧界为抗美援朝捐献飞机大炮义演，以及慰问中国人民解放军演出，举办淮剧名家演唱会等活动。该会于1955年撤销，并入中国戏剧家协会上海分会。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/g3z6cq1vrhwv33ly",
+    "name": "上海剧作者协会@chs",
+    "type": "组织",
+    "description": "一二·九运动后，中国共产党提出建立抗日民族统一战线，致力于改善和加强对革命文学和戏剧运动的领导，解散中国左翼戏剧家联盟，以联谊会的方式，于民国25年(1936年)组建了上海剧作者协会，广泛团结爱国剧人，开展戏剧活动。负责人为张庚、周纲鸣，主要成员有于伶、章泯、宋之的、石凌鹤等。协会制定并发表《国防剧作纲领》，提出“国防戏剧”的口号，把戏剧与抗日宣传有力地结合起来，形成群众性国防戏剧运动高潮。民国26年协会举行全体会议，将其扩大为全国性的中国剧作家协会，决定集体创作《保卫芦沟桥》，由在沪的戏剧界近百人参加演出，向全国人民发出了“保卫芦沟桥，保卫华北”的庄严呼声，是抗日战争开始后第一个宣传鼓动剧。八一三淞沪抗战爆发，协会与上海剧团联谊社联合发起组织上海戏剧界救亡协会，成立了10多个救亡演剧队，奔赴各地宣传演出。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/gn2noi8zl4i3c2hr",
+    "name": "hong qi ge wu tuan@en",
+    "type": "组织",
+    "description": "1950年4月由吴晓邦倡议成立的民间职业歌舞团。团址设在南京西路834弄内华新拍卖行的仓库,初成立时名“红旗实验舞剧团”,团长吴晓邦、副团长穆尼、业务主任孙培德。是年8月吴晓邦赴北京,“红旗”即由穆尼、孙培德二人领导。聘请汪传钤、张传芳、徐剑豪教授古典舞,孙培德自任芭蕾教师。1950年10月,首次公演于南昌路47号（现科学会堂）,节目有:《胜利属于朝鲜人民》、《太平鼓》、《西班牙舞》、《乌克兰舞》、《水手舞》、《印度舞》、《光荣的共产党员》等。是年孙培德和穆尼创作了小舞剧《胜利属于朝鲜人民》、《麦魔玩具店》,两剧均由陈歌辛作曲。1951年创作大型舞剧《中山狼》（编导孙培德,技术指导汪传钤,作曲刘如曾）。团员60余人,经济上由市文化局补助。1952年底,穆尼、孙培德离团。该团由市文化局接收改编,派董渊任政治指导员、王秉钺任业务指导员,领导全团,更名“红旗歌舞团”。1958年并入“上海实验歌剧院”（今上海歌剧院）。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ivm6yjh87avbx53w",
+    "name": "上海話劇界救亡協會@cht",
+    "type": "组织",
+    "description": "1937年在上海成立。主席郑伯奇。8月，根据指标及中国剧作家协会的会议精神，筹组13个救亡演出队和孩子剧团，领导新安旅行团开展抗日救亡宣传活动。10月，扩大改称上海戏剧界救亡协会，推动全国抗战戏剧发展。同年底停止活动。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/k5opndt74ognnbqf",
+    "name": "yi you zuo tan hui@en",
+    "type": "组织",
+    "description": "民国32年（1943年），上海戏剧界救亡协会歌剧部留沪成员，为了在上海全部沦陷后，继续进行爱国救亡工作组织了该群众团体。主要发起人为吕君樵、李瑞来、何毓如、曹寿春、张白云、李君玉、马骏驿、梁次珊8人。后逐步发展至数十人，大多数是上海京剧舞台上知名的青年演员。该会经“伶界联合会”理事会批准，于当年12月2日宣告成立。不久，中国共产党地下“文委”为扶持这一进步组织沿着正确方向发展，委派领导成员之一的姜椿芳到该会担任宣传教育和辅导工作，还举办一系列活动，如邀请音乐家沈之白、卫仲乐和戏剧家姚克来会作专题报告，组织成员两周免费观剧一次，以开扩艺术眼界。该会章程规定，每周四活动一次，研讨平（京）剧改良问题。嗣后，由专人执笔，通过《罗宾汉》等报，阐述对京剧改革的主张。同时，积极编演改良京剧。编演过《信义村》、《光复河山》等改良平（京）剧，与延安的改良平剧活动遥相呼应。苏联呼声电台将该两剧作多次连续广播。《时代日报》副刊《星空》为“艺友座谈会”成立两周年出了特辑。抗日战争胜利后，“艺友座谈会”改名为“伶界联合会艺友联谊会”。从此，不仅致力于京剧改革，也投入政治斗争行列。如参加上海举行10万人反内战游行示威，组织京剧界近百人在上海文化界反内战、争自由的宣言上签名。由于积极参加政治活动，国民党市政当局下令解散。此后，以化整为零的方式，组织“艺友实验京剧团”到外地演出。在老戏中编进新的内容，如《血滴子》中掺入《白毛女》和《钦差大臣》的某些内容等。上海解放前夕，在中共地下组织的领导下，积极投入迎接解放的各项工作，解放后，“艺友联谊会”宣告解散。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/kodklwntco8s8v00",
+    "name": "中国少年剧团@chs",
+    "type": "组织",
+    "description": "1947年3月，陈育辛、王鼎成、贺宜等联络教育家陈鹤琴倡议成立，以上海幼稚师范学校为活动基地，贺宜任团长。公演《胡子与驼子》《巨人的花园》等剧。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ov1zw8492u75fmef",
+    "name": "北京电影制片厂@chs",
+    "type": "组织",
+    "description": "北京电影制片厂位于北京市北三环中路77号的北京电影制片厂创建于1949年，1948年北平解放后，中国共产党中央人民政府十分关怀人民电影事业的成长，北平市军事管制委员会接收了原国民党中央宣传部中央电影企业公司第三电影制片厂，并从延安及各革命根据地抽调了一批从事电影工作和文艺工作的干部，于1949年4月20日成立北平电影制片厂，同年10月1日改名为北京电影制片厂，第一任厂长为田方，1951年由汪洋继任。\n    1956年原建制中拍摄新闻纪录片的部门分出，另行组建为中央新闻纪录电影制片厂，北京电影制片厂改为拍摄故事片的专业厂，汪洋继续担任厂长。1956年改为故事片专业厂后，在影片创作和生产管理上开始大胆探索，逐渐形成自己的风格，在导演、表演、摄影、美术各方面都有创新。\n    北京电影制片厂先后拍摄了《祝福》、《林家铺子》、《青春之歌》、《革命家庭》、《风暴》、《红旗谱》、《洪湖赤卫队》、《停战以后》、《烈火中永生》、《早春二月》等多部具有民族特色的优秀影片。改编拍摄了《杨门女将》、《野猪林》、《穆桂英大战洪州》等多部传统戏曲片。\"文化大革命\"期间，北京电影制片厂受到摧残，大批艺术家、技术专家遭到迫害，厂房、设备被搁置，除拍摄少量\"样板戏\"外，基本上未拍故事片。到1974年末开始恢复故事片生产，但受到\"四人帮\"多方刁难。\n    1976年粉碎\"四人帮\"后，北京电影制片厂重获新生。拍摄了《大河奔流》、《伤逝》、《知音》、《骆驼祥子》、《包氏父子》、《寒夜》、《双雄会》、《边城》等多部历史及文学名著题材影片，同时也拍摄了一批反映现实生活题材的影片，《小花》、《泪痕(1979)》、《瞧这一家子》、《夕照街》、《良家妇女》受到观众好评。为配合国家改革形势，先后拍摄了《血，总是热的》、《代理市长》、《相思女子客店》、《迷人的乐队》等多部改革题材的影片，受北京电影制片厂多年来在漫长的影片创作、生产道路上逐渐形成自己的风格:影片清新、质朴、富有民族特色，尤其在改编文学名著方面具有独特之处，在改编、导演、摄影、音乐、美术各方面都有创新。\n    1949-1985年，北京电影制片厂共拍摄故事片180部、舞台艺术片58部、新闻纪录片17部，共计255部。此外，还译制了外国影片10部，协助各兄弟电影制片厂拍摄、加工影片多部。这些影片在国内外都具有一定影响，受到观众的喜爱。80年代以来，还与国际制片厂、商合作，拍摄了故事片《一盘没有下完的棋》、立体故事片《侠女十三妹》，并协助拍摄了《马可·波罗》、《末代皇帝》。北京电影制片厂集中了一大批优秀的艺术家和技术专家，具有年产30部故事片、200余集电视剧的能力。建厂至今，有百余部影片在国内外电影节获奖。有将中国文学名著搬上银幕的优势和传统;并有与国际合作拍片的雄厚力量和经验，其合作拍摄的影片中有50余部多次在国际电影节上获奖。(360百科（https://baike.so.com/doc/5906063-6118965.html）)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/pcz7ey6jw31t17vs",
+    "name": "囝囡剧团@chs",
+    "type": "组织",
+    "description": "民国29年(1940年)在上海成立。40年代初，宋超、曾惠、骆印、龚炯、杨公怀和杨文浩等几位具有爱国民主意识的青年教员不满于“孤岛”的沉闷气氛，自发组织起“囝囡（注：“囝囡”，沪语中泛指男女儿童。）剧团”，旨在把儿童的文化活动纳入正轨，通过演剧接受教育，培养团结一致的精神。社员主要由中小学生构成，最盛时达200余人。剧团成立后，在英、法租界先后举行过五次公演，并曾招待孤儿、难童、流浪儿观看。剧目有《学费》、《少年笔耕》、《猩猩王》、《新中国的诞生》等，多为剧团指导教师自己创作。这些剧目从不同侧面抨击不合理的教育制度和方法对儿童身心成长造成的危害；揭示畸型社会中不同阶层儿童的生活遭遇；有的也曲折地表达了对国民党不抵抗主义的讽刺和对抗战胜利的向往。演出曾得到于伶、阿英等的支持，中国共产党地下组织主办的《简报》为此作过报道。太平洋战争爆发后，囝囡剧团暂时中止了一段时间的活动，直至民国31年秋以后假借上海沪剧社囝囡组的名义又进行过两次公演。抗战胜利后，剧团宣布复团并举行公演。由于剧团领导人拒绝了国民党当局的收买，坚持走独立发展的道路而遭到当局忌恨，不久剧团即宣布解散，停止活动。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/uy26qh7drs862nkd",
+    "name": "shang hai guan zhong yan chu gong si@en",
+    "type": "组织",
+    "description": "1946年，张骏祥、黄佐临发起，在苦干剧团和中央电影场的基础上成立。负责人刘厚生、耿震。演出《清宫外史》《结婚进行曲》《天国春秋》《棠棣之花》《北京人》，在电台播音演出《雷雨》《日出》等。1948年停止活动。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/wg0wbs3rbfljezz0",
+    "name": "华东新旅歌舞剧团@chs",
+    "type": "组织",
+    "description": "前名“新安旅行团”。民国24年（1935年）10月成立于江苏省淮安县。是由陶行知的学生、新安小学校长汪达之倡议,并在中国共产党直接领导下的青少年文艺宣传团体。“以旅行全国的方式,一边实践生活教育,一边进行抗日救国的宣传。”由汪达之率领14个贫苦儿童,从淮安出发,历经19个省,至1949年5月进入上海。1950年10月改编建立“华东新旅歌舞剧团”,属华东军政委员会文化部领导,是时编制已达260余人。首任团长张拓、中共党支部书记章力辉。下设:表演队,队长陈明（前）、游惠海（后）；音乐队,队长方南君；美术队，队长王德威；演出队，队长陈强；创作组，组长张渔。该团的重要舞蹈活动是:民国26年（1937年）在甘肃平凉县,八路军的牟永春,苏纯俊来团教授红军中流行的歌舞《儿童舞》、《海军舞》、《工人舞》、《乌克兰舞》等,又用秧歌形式编排了《打倒日本升平舞》。民国29年在桂林,吴晓邦来团教授舞蹈,是年7月演出他编导的儿童歌舞剧《春的消息》（陈歌辛作曲），10月演出他创作的大型舞剧《虎爷》（刘式昕作曲），这是中国近现代舞蹈史上早期的舞剧之一。民国30年“皖南事变”后,按照周恩来指示撤至苏北新四军抗日民主根据地,演出了大量秧歌舞,著名的有《胜利腰鼓》、《解放花鼓》等。1949年在江苏丹阳创作演出4场大型舞蹈《建设新上海》，以迎接上海解放。1950年2月创作排演由吴晓邦编导的大型舞剧《愤怒的火焰》。是年改建为“华东新旅歌舞剧团”,除吴晓邦担任舞蹈教学外,又聘请汪传钤、华传浩教授戏曲舞蹈（中国古典舞）。是年去江苏、安徽、浙江、山东等地采风,学习采集民间舞蹈《采茶扑蝶》、《大鼓子凉伞》、《花鼓灯》、《盾牌舞》等。1951年创作演出《斗鼓》、《红绸舞》、《乾坤剑》、中型舞剧《战斗在鸭绿江边》等。1952年5月,与上海其他文工团合并,组成“华东人民艺术剧院歌剧团”（即今上海歌剧院）。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/yxhmc5w9y1slh9ew",
+    "name": "shang hai shi gong ren wen hua gong ye yu yi shu tuan@en",
+    "type": "组织",
+    "description": "上海市工人文化宫业余艺术团始建于1950年10月13日，是在解放前“益友社”（解放后属店员工会文工团）的基础上组建的。初建时定名为上海市工人文化宫文工团。有话剧、舞蹈、歌咏、乐器4个队；1958年，调整为戏剧、歌咏、乐器、舞蹈4个队。其任务是：在外事接待工作中进行文化交流演出；开办业余艺术训练班，为工厂、企业培养文艺骨干；参加全市性的业余文艺汇演和文化宫的阵地演出，以及下厂慰问演出和去上海人民广播电台演播文艺节目。1954年9月，该团更名为上海市工人业余艺术团，设团长1人、副团长5人。有合唱、器乐、舞蹈、话剧、曲艺5个队，共有团员254人。1960年，又增设沪剧、越剧分团；原有的曲艺分团发展为评弹、滑话、相声一团、相声二团，共计11个分团，近1000名职工文艺积极分子参加，成为具有较完整的各种艺术形式的工人业余文艺表演团体。1958年，艺术团曾一度发展至拥有36个分团（队）。到1962年10月，活动较为稳定的团、队，有18个分团，团员800多人。“文化大革命”中艺术团被迫解散。1978年7月重建。至1980年，建立了11个分团（队），并成立话剧、戏曲、曲艺、诗歌4个创作组，团员850人。话剧团创作、演出的话剧《于无声处》，在全国引起极大反响。其他各团、队创作、演出的节目，有的成为上海市职工文艺舞台上的代表作和保留节目。管弦乐团在重大仪式上充当仪仗队，演奏管弦乐，受到领导和群众的称赞。为了开展国际间的文化艺术交流活动，1984年，挑选各个分团、队中的精英，组成了“上海工人茉莉花艺术团”。是年9月，应法国共产党《人道报》邀请，赴法国巴黎参加该报88周年庆祝活动。1985年8月，应意大利共产党《团结报》邀请，赴意大利参加该报庆祝活动。1988年6月，赴日本参加大阪华侨总会成立30周年庆祝活动。1989年1月，赴日本参加大阪府八屋市建市40周年暨文化会馆落成开业纪念活动。是年10月，赴日本横滨参加第二届神奈川国际业余戏剧节。1990年8月，再次被邀赴日本大阪访问演出。上海市工人文化宫业余艺术团在40年的创作和表演实践中，为各专业文艺团体输送了人才，如漫画家沈天呈、郑辛遥、王益生，微雕家周长兴，剧作家宗福先、史美俊、冯广泉，曲艺演员黄永生、王飘，笛子演奏家俞逊发，电影演员张闵以及上海市“十佳歌手”之一的史燕谊等，被广大职工称赞为“工人艺术家的摇篮”和“通往艺术宫殿的桥梁”。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zlsiml7x9g535qv3",
+    "name": "中国左翼戏剧家联盟@chs",
+    "type": "组织",
+    "description": "1931年成立于上海。中共领导的组织。田汉、刘保罗、赵铭彝等为负责人。起草并通过《中国左翼戏剧家联盟最近行动纲领》，强调演剧是“一种政治的辅助工作，所以是武器艺术，斗争艺术”，开展工人、学生、农民的活动。创作强调暴露地主资产阶级与反动派的罪恶，组织戏剧讲习班加强戏剧理论建设，开展理论斗争，粉碎国民党的“文化围剿”，1935年解散。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zo6y5b8ioemgciki",
+    "name": "人民出版社@chs",
+    "type": "组织",
+    "description": "1921年9月1日创办。中国共产党所办第一家出版社，负责人李达。社址在南成都路辅德里625号（今成都北路7弄30号）李达寓所。1922年，被查封，1923年迁往广州并入新青年社。先后出版《马克思全书》3种、《列宁全书》6种、《康明尼斯特丛书》4种及《俄国共产党党纲》等14种其他图书。(《上海通志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0str3zsioy1flis7",
+    "name": "zhong yang yin le xue yuan shang hai fen yuan yin gong tuan@en",
+    "type": "组织",
+    "description": "中央音乐学院音工团正式成立于1949年11月15日，上海分院音工团是其组成部分之一，1949年10月, 遵照中央的决定,上海、香港中华音乐院和汤雪耕在上海领导的“中国音乐院”的主要骨干 (如李凌、张文纲、汤雪耕等) 和师生33人并入中央音乐学院。“音工团”是类似“文工团” (又称文艺工作团) 的一种文艺表演团体，是在抗日战争特别是解放战争发展起来的、由中国共产党领导的、运用歌唱、舞蹈、演剧等多种艺术形式开展革命宣传活动的综合性文艺表演团体。后根据中央文化部的指示，中央音乐学院音工团与中央戏剧学院舞蹈团、中央青年文工团部分人员合并，于1952年12月成立直属文化部艺术局领导的“中央歌舞团”（即中央乐团、中央歌舞团、中央民族乐团的前身）。(宋学军.短暂而辉煌的一部团史——记中央音乐学院音工团[J].中央音乐学院学报,2010(04):33-38.)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/le6ysmlv8apc1sbz",
+    "name": "zhongguogongchandangsuquzhongyangjuxuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/063swqytknbvikw6",
+    "name": "上海市抗日救國會執行委員會調查部統計股@cht",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/63e6jvvlwplqsfe5",
+    "name": "shanghaifazhengxueyuankangrijiuguohuixuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/6mzqo1debscp46n6",
+    "name": "zhejiangshenglidiyizhongxuekangrijiuguohuixuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/7g24nt68qld5tj6v",
+    "name": "shanghaidianyingjiejiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/874b3hgd081mn7do",
+    "name": "zhonghuajiuguohuibenbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/amqwyr5na0gj1r44",
+    "name": "zhonghuahangkongjiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/iin8hfi65xvngcps",
+    "name": "lvyuehuaqiaosuoshijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/juknpst8ctinu1yy",
+    "name": "baodingminshengzhongxuekangrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/lg7bynnk6h6v2o80",
+    "name": "学生救国会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/pzkjuxuu6eb5ogge",
+    "name": "rongchengxiannongminkangrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rnzbqbivy87gykf5",
+    "name": "zhonghuajiuguohuibenbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/tojha8g6qsnnt0qq",
+    "name": "shanghaifaxueyuankangrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/wjxhp3jcmfm2ni8y",
+    "name": "jiangsushenghuiminzhongfanrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xlm10n56ycm1elja",
+    "name": "上海文化界救国会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xx2qvr3ffhhbkvly",
+    "name": "上海各界救国会和全国各界联合救国会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/yhh8hs2op5pclxml",
+    "name": "zhejiangshengligaojizhongxuekangrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/zqb5d7p3bvlmhug7",
+    "name": "dongbeiminzhongkangrijiuguohui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/pvmz51inyh06hjb1",
+    "name": "蚁社@chs",
+    "type": "组织",
+    "description": "蚁社的前身是许德良发起组织的青年之友社。民国17年（1928年）2月，青年之友社在尚公小学内举行成立大会，共有200多人参加，都是青年店员、职员。之后，在南京路、河南路口租了一个楼面作为社址。经常参加工作的有沙千里、李伯龙、沈仲君、章乃器、许德良等人。民国19年12月，以参加青年之友社的200多人为基础，成立蚁社。蚁社设总务、社友、文化三个部。文化部设有：蚂蚁图书馆、蚂蚁补习学校、蚂蚁剧团和蚂蚁歌咏团、蚂蚁月刊。蚂蚁剧团由李伯龙负责，剧团的演出活动，是蚁社向人民群众扩大宣传教育的重要手段。蚂蚁歌咏团由何惧、孙慎、高恩铭负责，教唱进步的、抗日救亡歌曲。蚂蚁月刊每月出版一次，内部发行。蚁社还成立摄影组，以及开展读书会、时事研究会等活动。民国23年，社友沙千里、李伯龙、杨修范、章乃器、葛师良、许德良参加“苏联之友”社的活动。民国24年10月，由沙千里出面创办《生活知识》杂志，徐步为发行人。艾思奇、柳湜、骆耕漠、夏征农、周纲鸣都是该杂志的特约撰稿人。这个杂志成为文化反“围剿”的一个阵地。是年冬，蚁社与上海各社会团体联合组织成立上海职业界救国会。社友沙千里、章乃器被推选为救国会领导成员，民国25年11月在“七君子事件”中被捕入狱。《生活知识》也于是年12月被查禁停刊。抗日战争爆发后，上海职业界救国会改组为上海职业界救亡协会，沙千里、袁青伟、许德良、李伯龙为协会理事，蚁社成为协会的团体会员之一，工作重点转移到为抗战服务。民国27年11月，又创办了《剧场艺术》月刊，由李伯龙（化名松青）主编，坚持出版3年，为“孤岛”时期的上海抗日话剧运动作出了贡献。上海成为“孤岛”后，蚁社社友沙千里、袁青伟、徐步、杨修范等人离开上海去武汉，在周恩来的关怀下，联络当地爱国职业青年，组成了以沈钧儒、沙千里为首，何惧为总干事的汉口市蚁社，积极开展各种抗日救亡活动。在8个月的时间内，社友发展到369人。民国26年八一三淞沪战争以后，留在上海的蚁社社友以何惧、张庚为正、副队长，带领11名社友，组成蚂蚁救亡宣传队，到了武汉。留在上海的蚂蚁剧团，于民国27年初参加由中共上海文艺工作委员会领导、组织的“星期小剧场”活动。民国27年8月20日，汉口的蚁社被卫戍司令部勒令解散，上海的蚁社已不宜以蚁社名义公开活动，由李伯龙等人把团体名称改为微明社。按照中共上海组织的决定，动员所有在沪的社友参加益友社。民国28年2月21日微明社与益友社合并，蚂蚁剧团也并入益友社，对外称益友剧团。1949年5月，上海解放后，改为店员工会文工团。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/h257ou5sqsiky6wg",
+    "name": "kangrijiuwangyanjusandui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/p5j3sfhgtclj6lmc",
+    "name": "kangrijiuwangyeyuhechangtuan@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/s64qy0mfwr02inv8",
+    "name": "shanghaiwenhuajiekangrijiuwangxiehui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/9ob2a3dm2jl8vm7x",
+    "name": "中国旅行剧团@chs",
+    "type": "组织",
+    "description": "民国22年(1933年)成立于上海，团长唐槐秋，主要成员有戴涯、赵慧深、章曼萍、陶金、白杨、唐若青等，先后在各地演出《梅萝香》、《茶花女》、《少奶奶的扇子》、《雷雨》、《日出》等剧目，在提高话剧表演艺术和扩大话剧影响方面做出了积极贡献。抗日战争爆发后，又投入抗日救亡运动，上演《文天祥》、《洪宣娇》、《绿窗红泪》，曾遭到日伪机关的镇压逮捕，民国36年在南京停止活动。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/0a6olz1wa5exsk6p",
+    "name": "zhonghuaquanguozonggonghuiwenjiaobu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/18g2f8gv6m41moyj",
+    "name": "jinchajibianquzonggonghuigongrenbaoshe@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/7ax30rr3lsebrwjs",
+    "name": "jingsuitieluzonggonghuidaibiaodahui(diyici:zhangjiakou:1925.8)@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/a3vqyckj7vloy1l3",
+    "name": "huabeizonggonghuichouweihui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/a5kmbncg0h4zfniv",
+    "name": "pingjiangxianchisezonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/anqjjdypkf35dfnr",
+    "name": "huabeizonggonghuichoubeiweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/dkwnn0nospko5wvk",
+    "name": "tianjinzonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/erdqfejz6s6pu5mu",
+    "name": "shanghaiyingpianzhiyanzonggonghuichubanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/g4ijp5nmqjd1e4z3",
+    "name": "zhonghuaquanguozonggonghuishenggangbagongweiyuanhuixuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/gmyn078tnjx0awst",
+    "name": "beijingshizonggonghuiwenjiaobu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/gnp8r5cvmliffhpo",
+    "name": "shanghaitebieshizonggonghuichoubeiweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/hgvupz1774hz3w8t",
+    "name": "shanghaizonggonghuichoubeiweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ibsjsg4mej88f2lh",
+    "name": "hubeiquanshengzonggonghuixuanchuanbu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/j1pj8hnkv7s5sf3e",
+    "name": "zhangzhishizonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/j60gckih0lu2mix4",
+    "name": "zhangzhishizonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jovirabj58b8rxt8",
+    "name": "shanghaishizonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jtwcm8yj43gb722d",
+    "name": "wujiangxianzonggonghuizhengliweiyuanhui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/jxxedsyiftoqm2pv",
+    "name": "jingsuitieluzonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/o21v7mhj3r771zcr",
+    "name": "hubeiquanshenggongtuanlianhehuijinghantieluzonggonghuizhuhubanshichu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/qx0uyambg32mddjv",
+    "name": "beijingshizonggonghuiwenjiaobu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/r1tx4n2ygixmr4dl",
+    "name": "tianjinshizonggonghuichouweihui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rp51qlx8rqju7pll",
+    "name": "shandongshengzonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/rvvfq6o45atoyfkp",
+    "name": "上海总工会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/s6jqjkm1vn7smnij",
+    "name": "shanghaizonggonghuidaibiaodahui(disanci)@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/v6xxw1idbjf4x5nk",
+    "name": "shanghaitebieshizonggonghui@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xaak6zs0plv51mzb",
+    "name": "上海总工会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xwpttvb0jw52hy8h",
+    "name": "中华全国总工会@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/aa2002zbrrhpc0q5",
+    "name": "shang hai ying ju gong hui hu ju fen hui@en",
+    "type": "组织",
+    "description": "成立于1950年6月26日，主席解洪元，副主席李玉才、陈宪成。最初会员共504人，其中演员320人。沪剧分会的主要活动有：组织会员学习时事、参加上海市总工会牵头的重大节日庆祝游行、发动保卫世界和平的签名、抗美援朝捐献飞机大炮等，并曾组织青年演员赵筱芳、翁溪耀、汪艺萍、丁越娥、王智萍等，以上海市青年实验沪剧团的名义，分别在各沪剧团演出前加演由陈谷编导的《我要和平》，文牧编剧、周起导演的《吃惊病》。1952年起归属上海市文艺工会，1958年起停止活动。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/bi7xqsu6awn5zczl",
+    "name": "you dian fei che dui@en",
+    "type": "组织",
+    "description": "业余杂技团体，创建于1950年,属上海邮电工会领导。主要节目有车技《12人孔雀屏》、《5人双牌楼》、《7人飞燕展翅》、《顺风撑旗》、《高台定车》、《交车踢碗》、《单轮对手技》等。该队初建时期,由邮电职工蒋文国、张祥林、王连生等首次排练一些《集体一车》、《几人叠罗汉》、《钻车架》等简单的车技节目在邮电职工文艺晚会上演出,受到邮电系统领导与社会各界的重视,影响逐渐扩大,后在市领导的关心下,经常组织他们参加招待宾客及下基层慰问等演出任务。1955年代表上海工人赴京参加全国职工文艺会演,在人民大会堂演出,受到毛泽东、周恩来、邓小平等中央领导人接见和合影留念。回沪后,更进一步提高艺术质量,并新排一批具有一定难度的创新节目。1960年,中央新闻纪录电影制片厂以该队节目为主,拍摄邮电工人生活的纪录片《骑自行车的人》；1980年重点节目《孔雀开屏》、《高台定车》、《双轮活飞》等再次赴京参加全国职工文艺会演；1982年上海电视台在高桥摄制了《邮电飞车30年》的专题片。1986年,在全国总工会的录像调演中,该队《三人定车》获得优秀节目奖。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/bsaaclpijqac0fhy",
+    "name": "shang hai shi zhi gong ai hao zhe zu zhi lian he hui@en",
+    "type": "组织",
+    "description": "1979年开始，花鸟、盆景、钓鱼、收藏等文化兴趣爱好活动，悄然兴起，成为群众性的兴趣爱好活动。1981～1984年，上海市工人文化宫率先成立职工集邮、钓鱼、影视评论3个爱好者协会。1984年4月，市总工会召开基层工会文体工作会议，会议决定在以上3个协会的基础上，成立上海市职工爱好者组织联合会。市职工爱好者组织联合会受市总工会宣传部领导，设正、副会长，由秘书长主持日常工作。联合会负责指导全市职工的兴趣爱好活动，协调和部署各协会的工作，审批单项协会的建制等。1989年底，联合会所属的爱好者协会，由1984年的3个，发展到14个，参加各类兴趣小组活动的会员达3万人。1987年5月12日，联合会在召开第一次代表大会后，又拓宽了活动领域，相继建立了信鸽、桥牌、话剧、电视剧、黑板报、广播等爱好者协会，进一步丰富和充实了上海职工兴趣爱好活动的内容。职工爱好者组织联合会中，集邮、摄影、美术、书法、曲艺、钓鱼、灯谜、影视评论等8个协会的活动，以各具特色而著称。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/kxo2j4lvqw0tr8nc",
+    "name": "yue ju zhi ye gong hui@en",
+    "type": "组织",
+    "description": "越剧业群众组织，民国35年7月，成立于上海龙门路某居民住宅，后迁至辣斐德路（今复兴中路）傅全香住处。理事长尹桂芳，常务理事傅全香、竺水招、许岳兴、张志范，理事与候补理事有姚水娟、竺素娥、李艳芳、钱秀灵等20余人。该工会由上海市社会局批准，隶属于朱学范领导的上海总工会。筹备初期，仅有音乐伴奏、老戏师傅、“厢房”（服装、道具、布景、勤杂）人员等后台职工，后扩大至演员和少量编导。原定宗旨为抵制“越剧业同人联谊会”（俗称“老板工会”）张春帆等老板任意决定演职员去留的霸道行为，维护会员就业权利，向戏院老板交涉提高薪水，谋求会员福利等，因而填表加入者多至上千人，当时在沪演出的36个越剧戏班演职员，几乎全部参加。但成立后并未实行原定宗旨，相反被翁纪根等几个嵊县籍流氓混入其内，以“干事”身份，借“收会费”之名，到各戏班敲诈勒索，寻衅滋事，引起会员与整个越剧界普遍不满。而该组织的经济情况却每况愈下，几位主要负责人常掏腰包以应付各种费用。是年8月25日，尹桂芳在报上公开发表启事，辞去理事长，不久，理事们相继声明退出，该组织乃自行解体。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/nckx3lofmij0b80d",
+    "name": "上海市工人文化宫@chs",
+    "type": "组织",
+    "description": "上海市工人文化宫是市总工会兴办的群众文化事业单位，位于市中心的西藏中路120号，占地面积2591平方米，建筑面积12240平方米（1989年经加层改建，扩大为15824平方米）。1950年5月13日开始筹建，是年9月30日，市文化宫揭幕。市长陈毅为市宫题词“面向生产，学习文化”，并代表中共上海市委市政府赠送由其题写的“工人的学校和乐园”匾额。市文化宫成立后，市宫文工团也同时成立。是年12月，市文化宫参与组织第一次工人戏剧观摩演出，拉开了职工新文艺的序幕。1959年1月4日，又成立职工子女为主的红孩子艺术团。1951年4月起，市文化宫开始连续参加举办上海工人文学写作班，后来成为工人作家的胡万春、唐克新、费礼文等都报名参加首期学习。是年5月，文化宫参与组织上海市红五月工人歌咏比赛和工人美术展览会。1952年5月，文化宫主办“上海工人生产成绩展览会”。1954年初，市文化宫在二楼圆厅设置宣传劳动模范先进事迹的“光荣廊”，第二年迁至南京西路。1958年3月，市文化宫编辑、出版第一期《工人习作》。是年4月，以市宫为主体组织开展鲁迅奖章读书活动；1955年5月又组织开展红旗读书运动。从50年代初起，市文化宫就举办政治理论、文学创作等各类讲座。1954年9月，举办宪法草案专题讲座达30余讲。1955年5月成立由参加五卅运动和上海工人三次武装起义的老同志组成的老工人讲师团，远赴福建等地演讲。1966年，因受“文化大革命”的影响，文化宫基本停止对外活动，直到1973年元旦才重新开放。当时，根据江青反革命集团在上海党羽布置，市文化宫先后参与组织《歌唱无产阶级文化大革命》、《学习革命样板戏》等16场歌咏大会。创作、演出独幕话剧《一月的汽笛》和编辑发行《上海工人文艺作品汇编》、《国内报刊消息》等。1978年9月，市文化宫创作演出轰动全国的话剧《于无声处》。是年，又举办“实践是检验真理的唯一标准”的讲座。为繁荣活动内容，丰富职工业余生活，1980年起，连续举办12届迎春邮展和《上海职工八小时以外——生活集锦展览会》。1981年组建上海市工人文化宫职工旅游服务部。1982年具体负责组织延续至今的“振兴中华”读书活动。1983年主办“体育运动邮票展览”，国际奥委会主席萨马兰奇、国际足联主席阿维兰热出席开幕式。改革开放以来，市宫工人茉莉花艺术团已先后多次出访法国、意大利、日本、香港。从1985年起市文化宫实行内部改革，逐步走上自负盈亏、自我发展的道路。近年来，文化宫从扩大经营自主权着手，积极参与文化市场的竞争，开设了大潮汐文化发展实业总公司，并向外投资欢乐文华休闲村、东方建筑五金有限公司等实业。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/tij26s3zwd5gfh2y",
+    "name": "益友社@chs",
+    "type": "组织",
+    "description": "民国26年（1937年）年底，由陆知悟（陆毅）、张一凡（张蓬）、卓飞、宋育（宋煜章）、袁迪初、高鉴照、王采棠等10余人开始筹建，次年2月20日正式成立。益友社是中共上海组织领导下的一个以店员为主体的群众业余联谊团体。益友社的社友正式成立时有40余人；以后知行社、微明社先后并入，至民国37年发展到1.5万余人，是上海职工运动史上颇具影响的一个社会团体。1949年11月全部工作移交上海总工会。益友社“提倡正当娱乐，改善业余生活”。民国27年建社初期，在厦门路尊德里18号客堂里开展文娱活动，后迁入天津路福绥里13号。先后组成音乐、戏剧、体育3个委员会。益友歌咏队成立后，先后由苏民、马剑民、周一丁担任指挥。当时《时代日报》的记者称赞他们是“钢铁歌咏队”。民国28年，益友社开办舞蹈训练班，邀请舞蹈家吴晓邦前来指导舞蹈基本训练和传授民间舞，并进行演出。民国34年抗战胜利后，正式成立舞蹈班，演出不少进步的舞蹈节目和小歌剧。益友社的话剧活动，是从宣传抗日、排演《放下你的鞭子》活报剧开始的。在“孤岛”时期，上海各业余剧团组织一个“小剧场委员会”，在新光剧场星期实验小剧场演出，益友社话剧股是委员会的执行委员。民国28年2月21日，益友社和微明社合并称为益友剧团，为筹集基金，举行话剧《雷雨》公演。益友剧团多次参加救济难民、慰问孤军、支援新四军的活动。是年7月24～30日，上海业余话剧界的11个团体在黄金大戏院联合举行慈善公演。这次联合演出共筹款七千多元，全部交给了新四军驻沪代表。益友剧团对参加戏剧活动的社友提出“人人有戏演，人人有工做”的口号。剧团成员发展到30多人，按行业分散的特点，同时排练四五个独幕剧。民国28年下半年还自编、自导、自演近20个独幕剧。民国30年冬，日本侵略者占领租界，益友社的话剧、歌咏活动被迫停止。民国31年，又恢复设立娱乐股，排练、演出独幕剧。从民国32年起至抗战胜利时止，益友社先后演出十几场独幕剧。民国37年1～11月，又对外举行6次小型公演。益友社平剧（后称京剧）股公演改良平剧《人面桃花》。民国29年以后，又改编上演《陆文龙》，民国37年演出滑稽平剧《投军别窑》，揭露在国民党统治下民不聊生的情景。上海解放后，益友社的歌咏队、话剧团、舞蹈班成员大部分参加上海市工人文化宫业余文工团，一部分为专业文艺团体所吸收。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/y9wkk84nqs3rgw54",
+    "name": "shang hai gong ren fu li hui pu dong gong ren ju le bu@en",
+    "type": "组织",
+    "description": "民国35年（1946年）上海工人福利会，以“开展工人文娱活动、为工人谋取福利”为名，向工人摊派募捐，扣取每个工人一天的工资，筹集款项，在浦东北护塘路520号（现上海船厂）建造了一所浦东工人俱乐部。1949年5月，上海总工会浦东办事处接管该俱乐部，1950年5月1日正式对外开放。1956年上海船厂因需厂址，出资在浦东大道143号筹建新的浦东工人俱乐部，即今浦东新区浦东工人俱乐部。(《上海文化艺术志》)",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/1rwg4nxohbu4bbk8",
+    "name": "中国左翼戏剧家联盟@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/inl5u1rbpclbus1u",
+    "name": "中国左翼戏剧家联盟@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ljjj7fg3lbf75iel",
+    "name": "zhongsuyinlexiehuizhongguozuoyixijujialianmengyinlexiaozu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/ttpsfzjtssu5b7c7",
+    "name": "中国左翼戏剧家联盟@chs",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/xikj56m0cpc2buyd",
+    "name": "zhongsuyinlexiehuizhongguozuoyixijujialianmengyinlexiaozu@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  },
+  {
+    "id": "http://data.library.sh.cn/entity/organization/c01girqhadtfxl4z",
+    "name": "zhongguozuoyimeishujialianmeng@en",
+    "type": "组织",
+    "description": "",
+    "source": "上海图书馆·机构名录"
+  }
+]

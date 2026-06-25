@@ -1,0 +1,2586 @@
+[
+  {
+    "address": "华山路849号",
+    "created": "1862",
+    "houseNumber": "849号",
+    "designer": [
+      {
+        "name": "艾赛西·罗杰斯",
+        "uri": "http://data.library.sh.cn/entity/person/u5ol5ez1wc6c23ou"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/sm4repfu8n3ga66j",
+    "architecturalStyle": "英国乡村建筑花园别墅，中国传统南方园林",
+    "relation": [
+      {
+        "name": "李鸿章",
+        "uri": "http://data.library.sh.cn/entity/person/7la7uay6h4ehfawq"
+      },
+      {
+        "name": "潘汉年",
+        "uri": "http://data.library.sh.cn/entity/person/b6hvpk0072rrtmau"
+      },
+      {
+        "uri": "http://data.library.sh.cn/entity/person/dxe755iab8l4iq5l"
+      },
+      {
+        "name": "丁香",
+        "uri": "http://data.library.sh.cn/entity/person/uhiqbl312ozagmtw"
+      },
+      {
+        "name": "李经迈",
+        "uri": "http://data.library.sh.cn/entity/person/5g6dh3d6haxduauo"
+      },
+      {
+        "name": "张善绅",
+        "uri": "http://data.library.sh.cn/entity/person/i66nffw0w7kzkj5l"
+      },
+      {
+        "name": "陈赓",
+        "uri": "http://data.library.sh.cn/entity/person/7pfavb6xb2jzasrn"
+      },
+      {
+        "name": "刘亚楼",
+        "uri": "http://data.library.sh.cn/entity/person/vc1dbxjwfdkcd3gv"
+      }
+    ],
+    "hasFile": "0",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "华山路",
+        "uri": "http://data.library.sh.cn/entity/road/fl84zhf34i0v6ln7"
+      }
+    ],
+    "name": "丁香花园",
+    "architectureStructure": "3幢西式花园别墅，占地面积2.67万平方米，总建筑面积2934平方米，砖木结构",
+    "location": [
+      {
+        "lat": "31.217898",
+        "long": "121.444543"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1862",
+        "description": "1862年，建主楼1号楼"
+      },
+      {
+        "startedAtTime": "1918",
+        "description": "1918年，建3号楼"
+      },
+      {
+        "startedAtTime": "1940",
+        "description": "1940年，李经迈逝世后，其子李国超将丁香花园等家产变卖。"
+      },
+      {
+        "startedAtTime": "1942",
+        "description": "1942年，张善绅在此创办中华联合制片股份有限公司。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年后，中共华东局机关所在地，陈毅、潘汉年、刘亚楼、陈赓等人都曾在此居住。"
+      },
+      {
+        "startedAtTime": "1952",
+        "description": "1952年，建2号楼"
+      },
+      {
+        "startedAtTime": "1952",
+        "description": "1952年，政府出资在花园内兴建了一幢轮船状楼房（二号楼）。"
+      },
+      {
+        "startedAtTime": "1971",
+        "description": "1971年，成立上海市委写作组，又被称为“丁香花园写作班”。"
+      },
+      {
+        "startedAtTime": "1994",
+        "description": "1994年，列为上海市优秀历史建筑。"
+      },
+      {
+        "description": "现花园内，一号楼为上海市老干部活动中心，二号楼为申粤轩酒家。"
+      }
+    ]
+  },
+  {
+    "address": "武康路390号",
+    "created": "1932",
+    "houseNumber": "390号",
+    "description": "武康路390号是一幢造型别致、建造精美的花园洋房，由意大利总领事馆府邸委托义品地产公司建造，主人是意大利总领事尼隆。建筑占地面积约300平方米，二层砖木石混合结构，建筑面积612平方米，平面大致呈正方形。底层的东南西三面均设计为敞廊，主立面的中间设计为稍外凸的三开间半圆拱廊，中间为窗，两侧为通道。屋顶为欧洲建筑常见的四坡红瓦顶，在主立面的中轴线屋顶处，设计有白色的石结构阳台，阳台内侧是假二层的房间，房间天花板是流畅的弧顶。从建筑外观看，白墙与红瓦搭配合理，色彩对比强烈。三面使用柱子支撑的敞廊有点像中国四面来风的亭子。1945年抗战胜利后，南京国民政府不承认意大利与汪伪政府的外交关系，意大利总领事馆实际上结束了它的使命，该处产业被中国政府收回。",
+    "designer": [
+      {
+        "label": "义品地产公司",
+        "uri": "http://data.library.sh.cn/entity/organization/jcy1zak6iq2e4vfg"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/fcryfptin8zm6qe4",
+    "architecturalStyle": "地中海式",
+    "relation": [
+      {
+        "name": "L.Neyrone（内龙）",
+        "uri": "http://data.library.sh.cn/entity/person/u20opeyr7fhtzktr"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "上海汽车工业公司办公楼",
+    "architectureStructure": "砖木结构",
+    "location": [
+      {
+        "lat": "31.212184",
+        "long": "121.445218"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1932",
+        "description": "1932年，始建，为意大利总领事馆邸。"
+      },
+      {
+        "startedAtTime": "1999",
+        "description": "1999年，入选上海市第三批优秀历史建筑。"
+      },
+      {
+        "description": "现为上海汽车工业公司办公楼。"
+      }
+    ]
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路395号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "created": "1926",
+    "name": "北平研究院旧址",
+    "houseNumber": "395号",
+    "description": "武康路395号是一幢巴洛克风格的大型花园住宅，建于1926年。建筑为四层砖木结构，欧陆式的红瓦坡屋顶有明显的折脊，檐下有精细的古典檐齿。沿武康路立面及两侧的屋檐口处设有巴洛克式的屋顶窗，椭圆形的窗洞下拖着卷草纹饰，顶部还有石材凿出的弧面形贝壳造型，东西两侧屋面有六个棚式老虎窗。建筑前后立面的各个楼面都有弧形外阳台，围以宝瓶式栏杆，阳台下的支托亦作曲面造型。朝向武康路一侧还有塔司干式的柱廊楼梯通往二层，柱间栏杆作缠绕的绶带式样和椭圆形的透空，极尽装饰之能。曾是叶恭绰府邸，后赠予李石曾作为药物研究所与镭学研究所。1953年，华东文教委员会接管此处房产。文革期间被上海市革命委员会调拨给燎原服装厂。1977年至2003年归属上海电影演员剧团。2008至2013年间两次修缮，现为公司办公使用。",
+    "location": [
+      {
+        "lat": "31.211907",
+        "long": "121.4453"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1936",
+        "description": "1936年，叶恭绰将宅邸赠出，国立北平研究院药物研究所迁入。同年，镭学所也迁入，更名为中法学镭学研究所。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，北平研究院成立原子学研究所，镭学研究所的结晶学和X光学两个科室仍设在武康路395号。"
+      },
+      {
+        "startedAtTime": "1953",
+        "description": "1953年，被华东文教委员会接管。"
+      },
+      {
+        "startedAtTime": "1969",
+        "description": "1969年文革期间，被上海市革命委员会调拨分配给燎原服装厂作生产用房。"
+      },
+      {
+        "startedAtTime": "1977",
+        "endedAtTime": "2003",
+        "description": "1977年，归属上海电影演员剧团使用，至2003年迁出。"
+      },
+      {
+        "startedAtTime": "2008",
+        "endedAtTime": "2013",
+        "description": "2008年-2013年，经历两次修缮，目前为上海文广集团旗下精文投资公司办公使用。"
+      },
+      {
+        "description": "最初主人无法考证，曾为叶恭绰府邸。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/ch60kvos8rubcb1r",
+    "architecturalStyle": "法国文艺复兴样式",
+    "relation": [
+      {
+        "name": "赵承嘏",
+        "uri": "http://data.library.sh.cn/entity/person/qt4cbdx228w0zlxr"
+      },
+      {
+        "name": "吴有训",
+        "uri": "http://data.library.sh.cn/entity/person/vvcyivf77wuinudd"
+      }
+    ]
+  },
+  {
+    "address": "武康路117弄1号 ",
+    "created": "1943",
+    "houseNumber": "1号 ",
+    "description": "武康路117弄1号,建于1931年。为一幢中西合璧混合式建筑，外形具有西方折衷主义风格。楼高3层，面向南，砖木结构。外形带有较多，平缓的四坡瓦顶，底层为水泥砂浆仿石墙面，2、3层为黄色面砖饰面；立面既有尖券柱廊，又有连续半圆形拱券门洞，局部还有螺旋形柱等西班牙风格装饰。初为书画鉴定大家张葱玉宅。1939年12月30日被金城银行买下，后作为总经理周作民宅。1949年后归解放军部队所有。20世纪50年代后，原全国人大常委会副委员长、原上海市市委书记陈丕显、原中共中央华东局书记魏文伯先后居住于此。1999年被列入上海市优秀近代建筑保护单位。",
+    "designer": [
+      {
+        "name": "范能力",
+        "uri": "http://data.library.sh.cn/entity/person/72cnrlnx03oz0a8s"
+      },
+      {
+        "label": "集成建筑师事务所",
+        "uri": "http://data.library.sh.cn/entity/organization/lld7gw3m48b6t342"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/n6bjgtjhduhim6st",
+    "architecturalStyle": "西班牙住宅样式",
+    "relation": [
+      {
+        "name": "杨西光",
+        "uri": "http://data.library.sh.cn/entity/person/k5216stxjr0f52vx"
+      },
+      {
+        "uri": "http://data.library.sh.cn/entity/person/tuevi3n6bhx3jkt5"
+      },
+      {
+        "name": "魏文伯",
+        "uri": "http://data.library.sh.cn/entity/person/v4dnga4gwgibrdzw"
+      },
+      {
+        "name": "周作民",
+        "uri": "http://data.library.sh.cn/entity/person/gy74qxfcg65bgk7n"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "周作民旧居",
+    "architectureStructure": "3层，砖木结构",
+    "location": [
+      {
+        "lat": "31.21426",
+        "long": "121.446832"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，设计。"
+      },
+      {
+        "startedAtTime": "1944",
+        "description": "1944年，建成使用。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年至文革，人大常委会副委员长、原上海市市委书记陈丕显居住，之后，原华东局书记魏文伯也来住过。"
+      },
+      {
+        "startedAtTime": "1999",
+        "description": "1999年，入选上海市第三批优秀历史建筑。"
+      },
+      {
+        "description": "早年房主是金城银行总经理周作民，抗战前夕迁入。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路117弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路391弄1-5号",
+    "created": "1936",
+    "houseNumber": "1-5号",
+    "description": "1916年建造，为砖木结构的假层四西班牙式小楼。1943年初夏，中国最早的歌影两栖明星、流行乐坛的先驱者——“金嗓子”周璇和养母一起搬进武康路391弄1号，居住在三楼的一套房子里。此前，由于时局关系，周璇已歇影一年多。与此同时，周璇加入张善琨主持的中华电影联合股份有限公司，复出拍片。主演了《渔家女》、《鸾凤和鸣》、《红楼梦》、《凤凰于飞》四部影片，并为百代唱片公司录制了这些影片的全部插曲。1946年春，周璇应香港大中华影业公司之邀赴香港拍片，离开了居住三年多的武康路寓所。",
+    "uri": "http://data.library.sh.cn/entity/architecture/p8lpy1b17cgrkse4",
+    "relation": [
+      {
+        "name": [
+          "周璇",
+          "周璇"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/emfzhg6fzke4tzs9"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "周璇旧居",
+    "architectureStructure": "3层",
+    "location": [
+      {
+        "lat": "31.21242",
+        "long": "121.445595"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1916",
+        "description": "1916年，始建。"
+      },
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，中国最早的两栖明星、流行歌曲的先驱者——“金嗓子”周璇，搬入。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，周璇搬离。市房管局档案载：此屋尝在捷克侨民高礼文名下。"
+      },
+      {
+        "startedAtTime": "1953",
+        "description": "1953年，市房地局按无主产业予以代管。"
+      },
+      {
+        "description": "现民居。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路391弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路40弄1号",
+    "created": "1932",
+    "houseNumber": "1号",
+    "description": "初为比利时义品洋行所有，1933年著名建筑师董大酉受邀对这栋建筑进行设计改造。现基本保持原貌，为三层砖木结构，主入口朝北，券形门洞，希腊式立柱。二层有三联券柱落地窗，配有三座大阳台。外观是浑水拉毛的墙面，筒瓦坡顶。室内配有西式的壁炉、烟囱等。此地为民国首任总理唐绍仪的大女婿——外交官诸昌年的家。1937“八一三”事变后，唐绍仪从原先居住的大西路搬迁至此避难，前后居住了一年多。上海沦陷后，唐绍仪的资历、能力和声望，受到日本方面的关注。坊间盛传日方拟利用其组织伪政府，蒋介石遂下令戴笠派特务赵理君等人，以鉴别古董的名义登门，于1938年9月30日将其刺杀于家中。",
+    "designer": [
+      {
+        "name": "董大酉",
+        "uri": "http://data.library.sh.cn/entity/person/so7bha34qqulq50d"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/ak3isapn5uu1k6eu",
+    "architecturalStyle": "西班牙住宅样式",
+    "relation": [
+      {
+        "name": "王兴国",
+        "uri": "http://data.library.sh.cn/entity/person/jq47gnez2iq1yu1d"
+      },
+      {
+        "name": "谢志磐",
+        "uri": "http://data.library.sh.cn/entity/person/811xxom6rulg224x"
+      },
+      {
+        "name": "诸昌年",
+        "uri": "http://data.library.sh.cn/entity/person/pi1r4h5g172y3va6"
+      },
+      {
+        "name": "董大酉",
+        "uri": "http://data.library.sh.cn/entity/person/so7bha34qqulq50d"
+      },
+      {
+        "name": [
+          "唐绍仪",
+          "唐绍仪"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/8m1yi6brq6blydie"
+      },
+      {
+        "name": "李阿大",
+        "uri": "http://data.library.sh.cn/entity/person/63j1glc2razvxpl7"
+      },
+      {
+        "name": "赵理君",
+        "uri": "http://data.library.sh.cn/entity/person/htgdd4kzramhau6w"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "唐绍仪旧居",
+    "architectureStructure": "3层，建筑面积376平方米，砖木结构",
+    "location": [
+      {
+        "lat": "31.218818",
+        "long": "121.446687"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1933",
+        "description": "1933年，民国著名建筑师受诸昌年邀请对福开森路18号进行改造。"
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年，唐绍仪迁居此地。"
+      },
+      {
+        "startedAtTime": "1938",
+        "description": "1938年9月30日，唐绍仪被国民党蓝衣社特务赵理君等人刺杀于家中，数小时后在广慈医院过世。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路40弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路230、232号",
+    "created": "1936",
+    "houseNumber": "230、232号",
+    "description": "武康路230、232号位于湖南路口，建成于1936年，名为国富门公寓，历史记载是以曾在云南邮局工作，第一次世界大战时回国参战，不幸死去的法侨Kauffman命名。在当时，是作为一种新颖的建筑形式被刻意引入上海的。建筑为砖混结构，原先只有4层，不知是何时加建了一层。从外观上看，国富门公寓属于晚起装饰艺术派，略具现代派建筑的形式，形成的大晒台周遭设有女儿墙围护。主立面朝向东北街心，两翼稍稍向后展开，形成沿街折角的三个立面，与对面的密丹公寓相互呼应。室内设计中有更多的装饰艺术风格图案，主入口门上镶嵌有熟铁线条勾勒的南太平洋天堂鸟造型，室内镶嵌花纹的明黄色水磨石地面和同色系墙面仍旧面貌可辨。由于地段适中，兼之设计到位，生活设施配套齐全，故一下子就住满了，都是一些初到上海的侨民或者公司的高级白领。",
+    "designer": [
+      {
+        "name": "Gabriel Rabinovich Architect（罗平建筑师）",
+        "uri": "http://data.library.sh.cn/entity/person/37hgmg5srwyvbqen"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/y7x57sifpaahpe52",
+    "architecturalStyle": "装饰艺术派与现代式",
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "国富门公寓",
+    "architectureStructure": "5层公寓，每层二间一套，共8套，混合结构",
+    "yname": [
+      {
+        "label": "二三二公寓",
+        "uri": "http://data.library.sh.cn/authority/name/h8jnl17ko6p8qw5w"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.214501",
+        "long": "121.446468"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1936",
+        "description": "1936年，国富门公寓始建。"
+      },
+      {
+        "startedAtTime": "2015",
+        "description": "2015年，入选上海市第五批优秀历史建筑。"
+      }
+    ]
+  },
+  {
+    "address": "安福路322号",
+    "created": "1932",
+    "houseNumber": "322号",
+    "description": "安福路322号据推测应该建于1928年前后，为三层砖木结构，西班牙式建筑。赭红色的素面筒瓦覆盖着屋面，与浅黄色的外墙形成鲜明对比。坡度平缓，突出了檐下连续的券齿线脚饰带。建筑东北部八角形塔楼的底层设计为基座层，内置空间宽大。南部有宽阔的室外楼梯通往二层，半层处还设有一座露天大平台。建筑的南立面中部稍前出，构成上下两层外廊，底层正面设有三联装的券拱门洞，二层廊道外墙设置五个长方形窗洞，将空气和阳光引入室内。房子的第一代业主极有可能是侨居上海的西班牙人，后为孔祥熙之子孔令侃所有。新中国成立后，长期由上海电影发行放映公司使用。20世界80年代，上海市电影器材供应站也设在这里。现在位于院内一隅的是上海永乐股份有限公司的办公楼。",
+    "designer": [
+      {
+        "label": "英国公和洋行",
+        "uri": "http://data.library.sh.cn/entity/organization/51japmnyrbau0iiw"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/ihenvbzgz0puajqn",
+    "architecturalStyle": "西班牙式花园住宅",
+    "relation": [
+      {
+        "name": "孔令侃",
+        "uri": "http://data.library.sh.cn/entity/person/la30a2d5aglqcne"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "安福路",
+        "uri": "http://data.library.sh.cn/entity/road/whsc4spd467ht2q0"
+      }
+    ],
+    "name": "孔令侃故居",
+    "architectureStructure": "3层花园住宅，占地面积630平方米，建筑面积9275平方米，砖木结构",
+    "yname": [
+      {
+        "label": "巨泼来斯路322号",
+        "uri": "http://data.library.sh.cn/authority/name/6gy1oj06eytluigr"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.219803",
+        "long": "121.446437"
+      }
+    ],
+    "event": [
+      {
+        "description": "新中国成立后，长期由上海电影发行放映公司使用。20世纪80年代，上海市电影器材供应站也设立在此。"
+      },
+      {
+        "description": "现为上海永乐股份有限公司的办公楼。"
+      },
+      {
+        "description": "推测第一代业主为侨居上海的西班牙人，后为孔令侃所有。"
+      }
+    ]
+  },
+  {
+    "address": "武康路1号（华山路831号）",
+    "created": "1918",
+    "houseNumber": "1号",
+    "description": "武康路67号，建于1946年。占地面积663平方米，为一栋砖木结构的英国乡村式三层建筑。外墙以水泥粉刷，特色是一楼转角部分呈六角形，向前突出，有券形门洞作进出用。二层阳台有水泥栏杆，上下口都有花饰。原国民政府立法院副院长陈立夫曾在此居住。现为民居。",
+    "designer": [
+      {
+        "label": "英国公和洋行",
+        "uri": "http://data.library.sh.cn/entity/organization/51japmnyrbau0iiw"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/d2mlofut4jyxzshk",
+    "architecturalStyle": "西班牙式",
+    "relation": [
+      {
+        "name": [
+          "柯灵",
+          "柯灵"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/lhs15s948kx2qtx2"
+      },
+      {
+        "name": "孙多鑫",
+        "uri": "http://data.library.sh.cn/entity/person/lxrgxyntdw7reuqk"
+      },
+      {
+        "name": "孙多森",
+        "uri": "http://data.library.sh.cn/entity/person/cj1hxqi3bom6rpkp"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "孙家花园",
+    "architectureStructure": "3层花园住宅，砖混结构",
+    "location": [
+      {
+        "lat": "31.218907",
+        "long": "121.446432"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1918",
+        "description": "1918年，孙氏兄弟孙家森、孙多鑫建造此造花园住宅。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年后，由孙家后代变卖。此后，一部住着近十户居民都是机关干部。另一部分是永乐电影公司办公所、上海市拥军优属基金会。传说剧作家柯灵在这里住过。"
+      },
+      {
+        "startedAtTime": "2005",
+        "description": "2005年，选入第四批上海市优秀历史建筑。"
+      },
+      {
+        "description": "现作为居民住宅使用。"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "淮海中路1843号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "淮海中路",
+        "uri": "http://data.library.sh.cn/entity/road/65mtsw8wech2bxfu"
+      }
+    ],
+    "created": "1920",
+    "name": "宋庆龄故居",
+    "houseNumber": "1843号",
+    "architectureStructure": "船形假3层，建筑面积700平方米，占地面积4333平方米，砖木混凝土结构",
+    "location": [
+      {
+        "lat": "31.210585",
+        "long": "121.445171"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1920",
+        "description": "1920年，希腊船主鲍尔建造的私人别墅，其门牌号为霞飞路1803号。"
+      },
+      {
+        "startedAtTime": "1940",
+        "description": "1940年，为银行家朱博泉所购。"
+      },
+      {
+        "startedAtTime": "1945",
+        "description": "1945年，抗日战争结束后，霞飞路1803号被改为林森中路1803号。南京国民政府认定朱博泉有汉奸嫌疑，收归国有。此后该建筑先是为蒋纬国所使用，后交国民党中央信托局苏浙皖区敌伪产业清理处管辖，被改为中央信托局招待所，由美国经济合作总署驻华代表赖普汉居住。"
+      },
+      {
+        "startedAtTime": "1948",
+        "description": "1948年，蒋介石把该处房产被拨归宋庆龄居住，房屋产权也一并划归宋庆龄。同年春，宋庆龄从靖江路45号（今桃江路45号）迁居至此。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年，中华人民共和国成立后，林森中路被改名为淮海中路，而林森中路1803号也被更改为淮海中路1843号。而该处建筑成为宋庆龄在上海从事国务活动的主要场所之一，宋庆龄曾在该处住所接受中共中央和毛泽东、周恩来邀请赴京参加全国首届政协会议，担任政府副主席，并曾在此会见过毛泽东、刘少奇、朱德、周恩来、董必武等中国共产党和中华人民共和国国家领导人，以及金日成、伏罗希洛夫、西哈努克、苏加诺、吴努、班达拉奈克夫人等外国国家元首和政府首脑，还有国际妇联等许多外国朋友。此外这里还曾举行过保卫世界和平运动和中国福利会的许多重大活动。"
+      },
+      {
+        "startedAtTime": "1981",
+        "description": "1981年，故居被上海市人民政府列为上海市重点文物保护单位。"
+      },
+      {
+        "startedAtTime": "2001",
+        "description": "2001年，故居被国务院公布为第五批全国重点文物保护单位。"
+      },
+      {
+        "startedAtTime": "2003",
+        "description": "2003年，故居被上海市人民政府命名为上海市爱国主义教育基地。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/4eqww5yazhokuxt6",
+    "architecturalStyle": "欧式",
+    "relation": [
+      {
+        "name": "蒋纬国",
+        "uri": "http://data.library.sh.cn/entity/person/beuz18g3u8iztf5q"
+      },
+      {
+        "name": "鲍尔",
+        "uri": "http://data.library.sh.cn/entity/person/kbgti3kyvqe7ceoa"
+      },
+      {
+        "name": "周恩来",
+        "uri": "http://data.library.sh.cn/entity/person/2xputl5iryf1g89e"
+      },
+      {
+        "name": "朱德",
+        "uri": "http://data.library.sh.cn/entity/person/2tude11mdzxduxwn"
+      },
+      {
+        "name": [
+          "毛泽东",
+          "毛泽东"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/a7l6iwm39kntjhtq"
+      },
+      {
+        "name": "刘少奇",
+        "uri": "http://data.library.sh.cn/entity/person/ckmf9uev7mw5umkl"
+      },
+      {
+        "name": "董必武",
+        "uri": "http://data.library.sh.cn/entity/person/mw7krcjmn4rj2mwb"
+      },
+      {
+        "name": "宋庆龄",
+        "uri": "http://data.library.sh.cn/entity/person/qbgltkj76hxptyyy"
+      },
+      {
+        "name": [
+          "伟",
+          "蒋介石",
+          "蒋介石"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/9owif43uf6l1tshe"
+      },
+      {
+        "name": "苏加诺",
+        "uri": "http://data.library.sh.cn/entity/person/ie4xdc7xycpc8vww"
+      },
+      {
+        "name": "朱博泉",
+        "uri": "http://data.library.sh.cn/entity/person/1oahzw2scm37ain0"
+      },
+      {
+        "name": "伏罗希洛夫",
+        "uri": "http://data.library.sh.cn/entity/person/aduffnao0bnr8z04"
+      },
+      {
+        "name": "西哈努克",
+        "uri": "http://data.library.sh.cn/entity/person/et77nzemeosaanta"
+      },
+      {
+        "name": "班达拉奈克夫人",
+        "uri": "http://data.library.sh.cn/entity/person/huvwkjyoko26mv52"
+      },
+      {
+        "name": "吴努",
+        "uri": "http://data.library.sh.cn/entity/person/q0ekp8begn2w6oxd"
+      },
+      {
+        "name": "金日成",
+        "uri": "http://data.library.sh.cn/entity/person/igssec2k2pvlwd0k"
+      }
+    ]
+  },
+  {
+    "address": "武康路115号",
+    "created": "1931",
+    "houseNumber": "115号",
+    "description": "武康路115号，名为密丹公寓，由英文“Midget Apartment”音译而来，约建于1931年，占地面积仅93平方米，为五层钢筋混凝土结构。因位于路口，根据当时租界关于沿街住房建设的相关规定，必须让出转角处的部分土地作为行人通道，因而建筑平面呈东北长、西南窄的梯形。站在远处正面看密丹公寓，整幢建筑有点像一头大象，中间是大象的鼻子，两侧是大象的耳朵。公寓底层为附屋，一层以上是住宅，每层一个单元，建筑面积约为90平方米。密丹公寓的早期住户主要是侨民，根据1937年的一份住户登记可以推断，它是由“美孚行”整幢租赁后，提供给员工使用的员工住宅。",
+    "designer": [
+      {
+        "label": "法商赉安洋行",
+        "uri": "http://data.library.sh.cn/entity/organization/i4jmfabadzhlggba"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/rkdm0anh4h5wenaw",
+    "architecturalStyle": "现代派",
+    "relation": [
+      {
+        "name": "孙道临",
+        "uri": "http://data.library.sh.cn/entity/person/14xz4qaa3fkyunty"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "密丹公寓",
+    "architectureStructure": "5层公寓楼，建筑平面为三角形，占地面积93.33平方米，建筑面积为558平方米，钢筋混凝土结构",
+    "location": [
+      {
+        "lat": "31.214765",
+        "long": "121.446881"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1930",
+        "endedAtTime": "1940",
+        "description": "1930-40年代，出版的英文上海黄历显示，密丹公寓昔日的住客几乎清一色是在跨国公司工作的旅沪外籍人士，比如在石油公司Texaco上班的Russakoff先生，还有在建筑公司泰来洋行工作的Berg先生。赉安洋行的Kruze也曾在公寓的顶楼住过。"
+      },
+      {
+        "description": "民国时期为义品放款银行使用（义品放款银行，1907年由法国、比利时两国合办,总行设在布鲁塞尔）。"
+      },
+      {
+        "description": "二十世纪六十年代初期，著名表演艺术家孙道临曾居住于此。"
+      },
+      {
+        "description": "现民居，底楼为果汁店和鞋店。"
+      }
+    ]
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路113号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "created": "1923",
+    "name": "巴金故居",
+    "houseNumber": "113号",
+    "architectureStructure": "3层，占地面积1484平方米，建筑面积508平方米",
+    "description": "1923年建造，原房主为英国人毛特·宝林·海（Maud Pauline Hay）。由一栋主楼、两栋小辅楼和一个花园组成，总占地面积1400平方米左右。主楼是一座花园住宅，假三层，细卵石墙面，装饰简洁。南立面底层为敞廊，上为跌檐式山墙；北立面入口设带券心石的半圆形拱券。原房主返国后由其代理人、丹麦人史宾伯（A.Springborg）照看这处房产。1949年前曾为苏联驻华商务代表处和影片出品协会使用。1950年至1954年左右，上海市委干部李研吾、刘坦、李干辉等都曾在此居住。1955年9月，巴金一家自霞飞路霞飞坊（今淮海中路淮海坊）59号迁居武康路，定居于此长达半个世纪，并在此创作了《随想录》等传世著作。2011年7月作为巴金故居纪念馆进行全面修缮。2011年12月1日，巴金故居纪念馆举行修缮工程竣工仪式并正式开馆，对公众免费开放。",
+    "location": [
+      {
+        "lat": "31.215026",
+        "long": "121.447147"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1923",
+        "description": "1923年，始建，原房主为英国人毛特宝林海。"
+      },
+      {
+        "startedAtTime": "1948",
+        "description": "1948年，改建，原房主返国后由丹麦人史宾伯照看这处房产。"
+      },
+      {
+        "startedAtTime": "1950",
+        "endedAtTime": "1955",
+        "description": "1950-1955年，作为苏联商务代表处。"
+      },
+      {
+        "startedAtTime": "1955",
+        "description": "1955年，史宾伯经手租于上海作家协会上海分会。"
+      },
+      {
+        "startedAtTime": "1955",
+        "description": "1955年9月，巴金一家迁入，并定居于此，《随想录》等诸多重要作品都在此创作。"
+      },
+      {
+        "startedAtTime": "1955",
+        "description": "1955年10月9日，巴金在寓所街道来上海访问的法国作家萨特和德·波伏瓦。"
+      },
+      {
+        "startedAtTime": "1974",
+        "description": "1974年，沈从文来看望历经劫难的巴金，两人坐在一楼的走廊上促膝长谈。"
+      },
+      {
+        "startedAtTime": "1975",
+        "description": "1975年8月，巴金将萧珊的骨灰盒从龙华火葬场接回寓所，安防在卧室里。"
+      },
+      {
+        "startedAtTime": "1978",
+        "description": "1978年1月10日，摄影师祁鸣记录下柯灵、王西彦、张乐平、孔罗荪、师陀与巴金相聚在二楼书房相谈甚欢的瞬间，照片随后被命名为《劫后的笑声》，被全国各地报刊多次转载，引起极大反响。"
+      },
+      {
+        "startedAtTime": "1978",
+        "description": "1978年，巴金开始写作《随想录》。"
+      },
+      {
+        "startedAtTime": "1980",
+        "description": "1980年1月22日，杨振宁访问巴金。"
+      },
+      {
+        "startedAtTime": "1983",
+        "description": "1983年，张光年从北京来探望病中的巴金，两人就文艺界的情况交换意见，畅谈中国文学的发展道路。"
+      },
+      {
+        "startedAtTime": "1984",
+        "description": "1984年11月13日，巴金会见法国总统密特朗及其夫人。"
+      },
+      {
+        "startedAtTime": "1985",
+        "description": "1985年10月2日，上海市党政领导人芮杏文、江泽民看望巴金。"
+      },
+      {
+        "startedAtTime": "1986",
+        "description": "1986年10月21日，鲁迅之子周海婴看望巴金。"
+      },
+      {
+        "startedAtTime": "1999",
+        "description": "1999年9月23日，被上海市人民政府公布为第三批上海市优秀历史建筑。"
+      },
+      {
+        "startedAtTime": "2007",
+        "description": "2007年12月13日，上海市政府召开专题会议，决定正式启动巴金故居纪念馆筹建工作。"
+      },
+      {
+        "startedAtTime": "2008",
+        "description": "2008年12月14日，被徐汇区政府公布为徐汇区文物保护单位。"
+      },
+      {
+        "startedAtTime": "2011",
+        "description": "2011年初，巴金的家人陆续搬离。"
+      },
+      {
+        "startedAtTime": "2011",
+        "description": "2011年7月，徐房建筑实业公司以“修旧如旧”的原则对故居进行全面修缮。"
+      },
+      {
+        "startedAtTime": "2011",
+        "description": "2011年12月1日，举行修缮工程竣工仪式，正式开馆。"
+      },
+      {
+        "startedAtTime": "2011",
+        "description": "2011年12月2日，对公众试行开放。"
+      },
+      {
+        "startedAtTime": "2012",
+        "description": "2012年5月1日，正式对公众开放。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/if3k5yb021u3c4vd",
+    "relation": [
+      {
+        "name": "史宾伯",
+        "uri": "http://data.library.sh.cn/entity/person/s8umm0jhfckay2sd"
+      },
+      {
+        "name": "毛特宝林海",
+        "uri": "http://data.library.sh.cn/entity/person/wgry054vy5onv6a0"
+      },
+      {
+        "name": "巴金",
+        "uri": "http://data.library.sh.cn/entity/person/6pnc6xdap3cfkcup"
+      },
+      {
+        "name": "萧珊",
+        "uri": "http://data.library.sh.cn/entity/person/rlw3ouaz2r6juixn"
+      }
+    ]
+  },
+  {
+    "address": "武康路240号、242、246号",
+    "created": "1940",
+    "houseNumber": "240号、242、246号",
+    "description": "武康路240、242、246号为开普敦（Kempton）公寓，建造于1940年，最初为公和洋行为其员工建造的宿舍，占地面积仅有126.7平方米。特别设计的三菱体外形巧妙地契合了地形，像一艘航行中的船只。但公寓南端的锐角作弧形处理不仅仅是为了张扬个性，还有功能上的考虑。除了减低风切变对建筑的影响，开设在转角端部的小窗还能产生风洞效果，将气流引入室内流通空气。公寓底层配置车库及设施用房，二至四楼有三套独用公寓，里面布局紧凑但功能完备。1941年，太平洋战争爆发后，开普敦公寓被日军掠夺，并于1942年转给伪“复兴银行”作为行址，两年后又转属“中支振兴株式会社”的中大银行所有。上海解放后，老公寓被人民政府房管部门接收，改称二四〇公寓，曾住过许多银行中高层职员，现仍为民居。",
+    "designer": [
+      {
+        "label": "英国公和洋行",
+        "uri": "http://data.library.sh.cn/entity/organization/51japmnyrbau0iiw"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/g8n2iazmx74ejlsa",
+    "architecturalStyle": "现代式",
+    "relation": [
+      {
+        "name": "孙曜东",
+        "uri": "http://data.library.sh.cn/entity/person/0h3i10jkwdg1cmox"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "开普敦公寓",
+    "architectureStructure": "4层现代公寓，占地面积126.7平米，混合结构",
+    "location": [
+      {
+        "lat": "31.214414",
+        "long": "121.446205"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1940",
+        "description": "1940年，公和洋行建造开普敦公寓作为员工宿舍。"
+      },
+      {
+        "startedAtTime": "1941",
+        "description": "1941年，日军侵占。"
+      },
+      {
+        "startedAtTime": "1942",
+        "description": "1942年，被日军转给伪“复兴银行”作为行址。"
+      },
+      {
+        "startedAtTime": "1944",
+        "description": "1944年，转属“中支振兴株式会社”的中大银行所有。"
+      },
+      {
+        "description": "上海解放后，人民政府房管部门接收，改称二四〇公寓，现仍为民居。"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "五原路288弄3号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "五原路",
+        "uri": "http://data.library.sh.cn/entity/road/8gsehz31xmjj7p78"
+      }
+    ],
+    "name": "张乐平故居",
+    "houseNumber": "3号",
+    "location": [
+      {
+        "lat": "31.218622",
+        "long": "121.449895"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，汪精卫政权接收租界，将“赵主教路”改名为“五原路”。"
+      },
+      {
+        "startedAtTime": "1950",
+        "description": "1950年，张乐平一家被分配到五原路288弄三号楼二楼居住。"
+      },
+      {
+        "description": "位于五原路288弄的三幢别墅，原系粤系军阀代表、中国国民党一级上将陈济棠私邸。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/xbfa2broqvrss7ce",
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/8gsehz31xmjj7p78",
+        "label": "五原路288弄"
+      }
+    ],
+    "relation": [
+      {
+        "name": "陈济棠",
+        "uri": "http://data.library.sh.cn/entity/person/znfknp03qehgrzs5"
+      },
+      {
+        "name": "张乐平",
+        "uri": "http://data.library.sh.cn/entity/person/16zu78c9q5ev7mwy"
+      },
+      {
+        "name": "森哲朗",
+        "uri": "http://data.library.sh.cn/entity/person/muvj2wmi338vy2qn"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "武康路129号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "created": "1929",
+    "name": "德利那齐宅",
+    "houseNumber": "129号",
+    "location": [
+      {
+        "lat": "31.218907",
+        "long": "121.446432"
+      }
+    ],
+    "designer": [
+      {
+        "name": "邬达克",
+        "uri": "http://data.library.sh.cn/entity/person/e8zbuk7w0ud3ztd6"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "2015",
+        "description": "2015年，入选上海市第五批优秀历史建筑。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/hmhbhgf88kujjmnv",
+    "architecturalStyle": "西班牙住宅样式"
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路63号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "created": "1928",
+    "name": "朱作同旧居",
+    "houseNumber": "63号",
+    "architectureStructure": "假3层花园住宅，砖木结构，占地面积约150平方左右",
+    "description": "武康路63号，大门口的铁门两侧带有双柱，拉花矮墙，庭院两边各栽有一株高过屋顶的棕榈树，中间是一颗枝叶丰满的桂花树。面向庭院的建筑是一幢建于1928的砖木结构假三层花园住宅，立面及结构对称，占地面积大约150平方米。有折脊的四坡屋顶，南向并列设置了4个老虎窗，住宅底层东西两侧为八字形凸窗，上部为八字形小阳台，中间有三层台阶通往落地钢窗里的客厅。抗日爱国民主人士、《华美晚报》总经理朱作同自20世纪30年代就居住在此。到如今，八十多年过去了，房子外表还是旧时模样，只是已不再是朱家独用，只有二楼朝南的一间仍旧居住着朱作同第三个孩子朱美春一家。",
+    "location": [
+      {
+        "lat": "31.219034",
+        "long": "121.446882"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/1bjwxwlbyjkyqi65",
+    "architecturalStyle": "西班牙式小洋楼",
+    "relation": [
+      {
+        "name": "朱作同",
+        "uri": "http://data.library.sh.cn/entity/person/m0bxsq7gzycf6iu3"
+      },
+      {
+        "name": "黄桂珍",
+        "uri": "http://data.library.sh.cn/entity/person/niaxk75a6s5xgear"
+      },
+      {
+        "name": "朱启华",
+        "uri": "http://data.library.sh.cn/entity/person/te2gn5z6ejuje03n"
+      },
+      {
+        "name": "朱吉华",
+        "uri": "http://data.library.sh.cn/entity/person/ma72g4h4tm5zhlo8"
+      },
+      {
+        "name": "朱美莎",
+        "uri": "http://data.library.sh.cn/entity/person/naz8yyczydrfaweg"
+      },
+      {
+        "name": "朱美春",
+        "uri": "http://data.library.sh.cn/entity/person/nxlgfb2vly8vv2s5"
+      },
+      {
+        "name": "朱美冬",
+        "uri": "http://data.library.sh.cn/entity/person/z75zmue6y1bywpml"
+      }
+    ]
+  },
+  {
+    "address": "武康路117弄2号",
+    "created": "1943",
+    "houseNumber": "2号",
+    "designer": [
+      {
+        "label": "集成建筑师事务所",
+        "uri": "http://data.library.sh.cn/entity/organization/lld7gw3m48b6t342"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/coaio4pnvqgzu6cm",
+    "architecturalStyle": "西班牙住宅样式",
+    "relation": [
+      {
+        "name": "李及兰",
+        "uri": "http://data.library.sh.cn/entity/person/756evxph7wvu7w61"
+      },
+      {
+        "name": "曹荻秋",
+        "uri": "http://data.library.sh.cn/entity/person/ba5zpys4u4f6z2v1"
+      }
+    ],
+    "hasFile": "0",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "李及兰旧居",
+    "architectureStructure": "建筑2层，局部3层，建筑面积572平方米，花园占地1051平方米，砖混结构",
+    "location": [
+      {
+        "lat": "31.2079026962",
+        "long": "121.4403589683"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，始建，抗战胜利后，国民政府总参谋次长李及兰曾在此居住。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年后，上海市市长曹荻秋曾在此居住。"
+      },
+      {
+        "startedAtTime": "1966",
+        "description": "1966年9月，该屋由公家接管，嗣为市革命委员会征用。"
+      },
+      {
+        "startedAtTime": "1984",
+        "description": "1984年，公家分两次将产权退还之。"
+      },
+      {
+        "startedAtTime": "1992",
+        "description": "1992年，广州白天鹅酒店管理公司自赵处购得此屋，翌年5月办理了土地出让合同。"
+      },
+      {
+        "startedAtTime": "1999",
+        "description": "1999年，入选上海市第三批优秀历史建筑。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路117弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路280弄64号",
+    "created": "1945",
+    "houseNumber": "64号",
+    "description": "武康路280弄一代自明清以来一直是李姓居民的世居之地，名之曰“李家宅”。1914年法租界西区建立后，渐次有了“北李家宅”“南李家宅”等聚落，到20世纪40年代初，今280弄东段已成通衢，弄内多数房子被人称之为“老宅基”。城市发展后，有些人通过转让自己的宅基地获得了建立新家的费用，同时给城里的人提供了自建房的机会，慢慢弄内出现了一些新式住宅，64号也许就是这样出现的。64号的建筑外观为简化的西班牙风格花园住宅，二层砖木结构，水泥拉毛外墙，推测应建于1945年前后，1996年进行过大修，外立面变化较大，南立面基本已经看不出原先的柱式与墙面特征。目前外墙为水泥砂浆抹层，钢筋水泥圆柱，檐口局部有券齿线脚。室内已几乎没有装饰。新中国成立后，为老红军林道生的住宅。",
+    "uri": "http://data.library.sh.cn/entity/architecture/wxgrvtfgusgl18l8",
+    "architecturalStyle": "简化的西班牙风格花园住宅",
+    "relation": [
+      {
+        "name": "林道生",
+        "uri": "http://data.library.sh.cn/entity/person/nzb4b7b2eq8dpe84"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "林道生故居",
+    "architectureStructure": "2层，砖木结构，水泥拉毛外墙",
+    "yname": [
+      {
+        "label": "李家宅弄",
+        "uri": "http://data.library.sh.cn/authority/name/bilu0d5km8gze5yk"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.20698",
+        "long": "121.439145"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路280弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路99号",
+    "created": "1928",
+    "houseNumber": "99号",
+    "description": "武康路99号，始建于1928年，沪上英国乡村别墅设计风格的代表性住宅之一，山墙和外墙上有半露木构架，红砖勒脚，屋顶高大而且坡度比较陡，用红瓦铺屋顶，黄色或白色粉刷墙面，墙角有的用红砖镶嵌，庭院开阔，草木丰富。宅子最初是英商正广和契税公司大班麦格雷戈建造，后在抗战期间被原上海江海关监督唐海安占据。抗战胜利后，又迎来了著名的犹太富商哈同的儿子乔奇?哈同和他的妻子，“面粉大王”、“棉纱大王”荣宗敬的女儿荣桌如。1949年荣氏夫妇去香港之后，成为市委招待所。1951年，刘逸云在此修养，刘少奇曾来探望。潘汉年、魏文伯也在此居住过。1957年，拨给文化局，直到1965年，上海声乐研究所一直在这里办公。20世纪70年代，成为空军体检机构。“文革”后，刘靖基搬入此处。",
+    "designer": [
+      {
+        "label": "思久生洋行",
+        "uri": "http://data.library.sh.cn/entity/organization/1xus5gv346f86tqn"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/4i58zbd2c3ribkcd",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "荣卓如",
+        "uri": "http://data.library.sh.cn/entity/person/wnl65023grmfzr5f"
+      },
+      {
+        "name": "潘汉年",
+        "uri": "http://data.library.sh.cn/entity/person/b6hvpk0072rrtmau"
+      },
+      {
+        "name": "马玉涛",
+        "uri": "http://data.library.sh.cn/entity/person/k3xnvqsr7amuyxvf"
+      },
+      {
+        "name": "张依",
+        "uri": "http://data.library.sh.cn/entity/person/iu0plr2cnsvavpcc"
+      },
+      {
+        "name": "夏衍",
+        "uri": "http://data.library.sh.cn/entity/person/8zdvu83fe43b2ffv"
+      },
+      {
+        "name": "周而复",
+        "uri": "http://data.library.sh.cn/entity/person/17gd5s28u5vz5gac"
+      },
+      {
+        "name": "张云逸",
+        "uri": "http://data.library.sh.cn/entity/person/5wgaf1jmk42hftpr"
+      },
+      {
+        "name": "郭颂",
+        "uri": "http://data.library.sh.cn/entity/person/q10jtilxccrq7hv0"
+      },
+      {
+        "name": "王震",
+        "uri": "http://data.library.sh.cn/entity/person/4vkl0xwgoqdhosal"
+      },
+      {
+        "name": "于伶",
+        "uri": "http://data.library.sh.cn/entity/person/917ikus1h7zn16mv"
+      },
+      {
+        "name": "魏文伯",
+        "uri": "http://data.library.sh.cn/entity/person/v4dnga4gwgibrdzw"
+      },
+      {
+        "name": "罗荣钜",
+        "uri": "http://data.library.sh.cn/entity/person/0opmgahxiagty8bl"
+      },
+      {
+        "name": "梅达君",
+        "uri": "http://data.library.sh.cn/entity/person/02y5vww05skomrk7"
+      },
+      {
+        "name": "董振厚",
+        "uri": "http://data.library.sh.cn/entity/person/305djze6mhwfa1jt"
+      },
+      {
+        "name": "麦格雷戈（N.C.Macgregor）",
+        "uri": "http://data.library.sh.cn/entity/person/3cqhofrc0tb7g3ew"
+      },
+      {
+        "name": "钟振发",
+        "uri": "http://data.library.sh.cn/entity/person/52mpwt3x58qta7cy"
+      },
+      {
+        "name": "杨云华",
+        "uri": "http://data.library.sh.cn/entity/person/amoy8iximsruedyk"
+      },
+      {
+        "name": "张映哲",
+        "uri": "http://data.library.sh.cn/entity/person/aype5aobxr0a4ogp"
+      },
+      {
+        "name": "顾瑞英",
+        "uri": "http://data.library.sh.cn/entity/person/owcr524i0ooxsxp6"
+      },
+      {
+        "name": "大卫·乔治·哈同",
+        "uri": "http://data.library.sh.cn/entity/person/q58pap1aaqqam6ru"
+      },
+      {
+        "name": "唐海安",
+        "uri": "http://data.library.sh.cn/entity/person/umfbc3k1ni7fgzgk"
+      },
+      {
+        "name": "曾渭贤",
+        "uri": "http://data.library.sh.cn/entity/person/x3v5500euk5k53ab"
+      },
+      {
+        "name": "戚长伟王昆",
+        "uri": "http://data.library.sh.cn/entity/person/z6ibp11304o0e27l"
+      },
+      {
+        "name": "荣宗敬",
+        "uri": "http://data.library.sh.cn/entity/person/2nxb2bwieu4stg3m"
+      },
+      {
+        "name": "蒋燕 ",
+        "uri": "http://data.library.sh.cn/entity/person/cldg8r0ppokdspwo"
+      },
+      {
+        "name": "盛康年",
+        "uri": "http://data.library.sh.cn/entity/person/qzhzp307y4xjzua5"
+      },
+      {
+        "name": "刘靖基",
+        "uri": "http://data.library.sh.cn/entity/person/r40oxpw5apqpdyk2"
+      },
+      {
+        "name": "哈同",
+        "uri": "http://data.library.sh.cn/entity/person/tr5tmg12cc8oazp8"
+      },
+      {
+        "name": "林俊卿",
+        "uri": "http://data.library.sh.cn/entity/person/w8pdvzftpglaxtve"
+      },
+      {
+        "name": "胡松华",
+        "uri": "http://data.library.sh.cn/entity/person/zi8ddqcxs51gjwae"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "正广和老屋",
+    "architectureStructure": "3层砖木结构，占地3900平方米",
+    "yname": [
+      {
+        "label": "刘靖基旧居",
+        "uri": "http://data.library.sh.cn/authority/name/2b2er7rvwqd0as3u"
+      },
+      {
+        "label": "那门别墅",
+        "uri": "http://data.library.sh.cn/authority/name/mchid5dib1xyaqpn"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.21749",
+        "long": "121.44771"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1928",
+        "description": "1928年，英商正广和汽水公司大班麦格雷戈初建。"
+      },
+      {
+        "startedAtTime": "1947",
+        "description": "1947年，乔奇•哈同和他的妻子，“面粉大王”、“棉纱大王”荣宗敬的女儿荣桌如夫妻买下房子并在此居住。"
+      },
+      {
+        "startedAtTime": "1949",
+        "endedAtTime": "1957",
+        "description": "1949年-1957年归房管所所有，成为市委招待所。"
+      },
+      {
+        "startedAtTime": "1957",
+        "endedAtTime": "1965",
+        "description": "1957年-1965年拨给文化局，成为上海声乐研究所办公地。"
+      },
+      {
+        "description": "抗战期间，上海江海关监督唐海安占据房子。"
+      },
+      {
+        "description": "20世纪70年代，空军体检机构。"
+      },
+      {
+        "description": "“文革”后为刘靖基宅邸。"
+      }
+    ]
+  },
+  {
+    "address": "淮海中路1842-1858号",
+    "created": "1924",
+    "houseNumber": "1842-1858号",
+    "description": "武康大楼于1924年由邬达克设计建造，既是典型的法国文艺复兴建筑式样的大楼，也是上海最早的外廊式公寓建筑。南面沿街底层以连绵不绝的拱形门洞构成了一个半开放式的走廊，门洞里看得见不同店面的陈列。建成后占地1580平方米，建筑面积9755平方米，地上8层，地下室86平发米，楼内房间76个，附屋30多间。整栋楼房有梁而没有承重墙，每户房型都不同，独一无二。1953年，上海市人民政府接管将其原名诺曼底公寓更名为武康大楼。武康大楼的第一批主人几乎都是欧美在沪侨民。“孤岛”时期，新华影业和联华影业距离大楼只有一步之遥，因而许多电影圈人士租住在此，其中包括王人美、吴茵和吴君谋夫妇。到了新中国成立后，郑君里、赵丹黄宗英夫妇、孙道临王文娟夫妇也相继入驻，加上老报人孙叔衡、老画家邵洛羊等，使得武康大楼群星闪耀、名流如云，而如今的武康大楼则以民居为主。",
+    "designer": [
+      {
+        "name": "邬达克",
+        "uri": "http://data.library.sh.cn/entity/person/e8zbuk7w0ud3ztd6"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/amknmwvk01qaykng",
+    "architecturalStyle": "法国文艺复兴式",
+    "relation": [
+      {
+        "name": "赵丹",
+        "uri": "http://data.library.sh.cn/entity/person/i26b21fkvl5ehhgz"
+      },
+      {
+        "name": "王人美",
+        "uri": "http://data.library.sh.cn/entity/person/ifco1rew50xd4fxd"
+      },
+      {
+        "name": "秦怡",
+        "uri": "http://data.library.sh.cn/entity/person/55hl1ecjsbi3a073"
+      },
+      {
+        "name": "郑君里",
+        "uri": "http://data.library.sh.cn/entity/person/hbav1lxp54b4t7vl"
+      },
+      {
+        "name": "孙道临",
+        "uri": "http://data.library.sh.cn/entity/person/14xz4qaa3fkyunty"
+      },
+      {
+        "name": "王文娟",
+        "uri": "http://data.library.sh.cn/entity/person/2nj6tfgf6q635lhk"
+      },
+      {
+        "name": "孔令伟",
+        "uri": "http://data.library.sh.cn/entity/person/ah8e6q1kb4ag1uw1"
+      },
+      {
+        "name": "赵祖康",
+        "uri": "http://data.library.sh.cn/entity/person/dfnu8sotqd294ppu"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "淮海中路",
+        "uri": "http://data.library.sh.cn/entity/road/65mtsw8wech2bxfu"
+      }
+    ],
+    "name": "武康大楼",
+    "architectureStructure": "8层高30米，占地1580平方米，建筑面积9275平方米，钢筋混凝土结构",
+    "yname": [
+      {
+        "label": "诺曼底公寓（I.S.S Normandy Apartments）",
+        "uri": "http://data.library.sh.cn/authority/name/3wxgrznxzfkkgbwe"
+      },
+      {
+        "label": "东美特公寓",
+        "uri": "http://data.library.sh.cn/authority/name/5jgw1evod1rbs4ke"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.210919",
+        "long": "121.444788"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1924",
+        "description": "1924年，诺曼底公寓始建。"
+      },
+      {
+        "startedAtTime": "1930",
+        "description": "1930年，建新武康大楼楼（武康大楼副楼）。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，上海市政府出资购入大部分套间分配给公务员。"
+      },
+      {
+        "startedAtTime": "1953",
+        "description": "1953年，诺曼底公寓被上海市人民政府接管并更名为武康大楼。"
+      },
+      {
+        "startedAtTime": "1994",
+        "description": "1994年，武康大楼选入第二批上海市优秀历史建筑。"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "武康路376号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "武康庭(FERGUSON LANE）",
+    "houseNumber": "376号",
+    "yname": [
+      {
+        "label": "郭泰祺故居",
+        "uri": "http://data.library.sh.cn/authority/name/jfzogqxycfmovrib"
+      },
+      {
+        "label": "老演员张翼故居",
+        "uri": "http://data.library.sh.cn/authority/name/ua2u1dtsi85l7o52"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.212883",
+        "long": "121.445453"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1949",
+        "description": "1949年，解放后为民居。"
+      },
+      {
+        "startedAtTime": "1950",
+        "description": "1950年，三楼住过老演员张翼一家。"
+      },
+      {
+        "startedAtTime": "2015",
+        "description": "2015年，入选上海市第五批优秀历史建筑。"
+      },
+      {
+        "description": "上世纪20年代中叶，初为民国时期外交官郭泰祺的府邸。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/b4kfg663vvxvczyu",
+    "architecturalStyle": "法国文艺复兴样式",
+    "relation": [
+      {
+        "name": "张翼",
+        "uri": "http://data.library.sh.cn/entity/person/ksoh2fo9q4w6wcfx"
+      },
+      {
+        "name": "郭泰祺",
+        "uri": "http://data.library.sh.cn/entity/person/85odejnxd7vtocuh"
+      }
+    ]
+  },
+  {
+    "address": "湖南路262号",
+    "created": "1931",
+    "houseNumber": "262号",
+    "description": "湖南别墅位于湖南路262号，总体为假三层，坐北朝南，呈L形布局。主要居室在南侧，北侧为厨房、卫生间、储藏室等辅助用房。主楼的一楼是客厅、餐厅等，二楼是卧室，三楼是客房和储藏室。卧室外面有大阳台和外露台，高墙环绕中，草木葱茏，1943至1945年间，郑正铎为躲避日本人追捕隐居在这所大宅子后面的房子里，后来被房东告知此乃周佛海向英国人买下的新居。1948年，周佛海在监狱里结束了自己可耻的一生，这里被军统局接收，次年作为他们统辖的中国新社会事业建设会总会会址。1949年，邓小平与陈毅两家搬入已改名为市委小招待所的别墅里暂住。1962年，贺子珍搬了进来，但她只住到第二年就偏瘫了，直到1984年去世一直都在华东医院中度过。",
+    "designer": [
+      {
+        "label": "GOWOOTTEN建筑师事务所",
+        "uri": "http://data.library.sh.cn/entity/organization/w1lywkv8nl4eeeb8"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/h50xogw5ipn1fl5b",
+    "architecturalStyle": "西式独立式花园住宅",
+    "relation": [
+      {
+        "name": [
+          "周佛海",
+          "周佛海"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/117hny6ly45sxpqg"
+      },
+      {
+        "uri": "http://data.library.sh.cn/entity/person/dxe755iab8l4iq5l"
+      },
+      {
+        "name": "邓小平",
+        "uri": "http://data.library.sh.cn/entity/person/vvfp99ae712f4yye"
+      },
+      {
+        "name": "贺子珍",
+        "uri": "http://data.library.sh.cn/entity/person/t3ccr2cfwijbt6z7"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      },
+      {
+        "name": "湖南路",
+        "uri": "http://data.library.sh.cn/entity/road/3k2qjvvhxjwxmdwm"
+      }
+    ],
+    "name": "湖南别墅",
+    "architectureStructure": "假3层，歇山式屋顶，混合结构",
+    "yname": [
+      {
+        "label": "锦隆别墅",
+        "uri": "http://data.library.sh.cn/authority/name/d8uxzerzrtkdhv47"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.2152",
+        "long": "121.446466"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1931",
+        "description": "1931年，英商锦隆洋行的一位大股东建造此别墅。"
+      },
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，汪伪政权的第三号人物周佛海从外国人手里买下这栋豪宅作为他在上海的官邸，他和其妻子杨淑慧成为了该宅的新主人。周佛海为湖南人，改门前的居尔典路为湖南路，这栋洋房也被称作“湖南别墅”。抗日战争胜利后，周佛海被逮下狱，公审公判定为死刑，后改判无期徒刑。1948年2月，病死在南京老虎桥监狱。　"
+      },
+      {
+        "startedAtTime": "1945",
+        "description": "1945年，该楼为国民政府接收，用为军统局一下属机关。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年起，作为“中国新社会事业建设协会”总会会址。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年下半年，邓小平、陈毅两家曾入住此楼，当时邓家住在二楼，陈家住在一楼。"
+      },
+      {
+        "startedAtTime": "1954",
+        "description": "1954年，贺子珍从前苏联回国就医，后寓居在这栋住宅之内，直到1984年病故。"
+      },
+      {
+        "startedAtTime": "1999",
+        "description": "1999年，入选上海市第三批优秀历史建筑。"
+      },
+      {
+        "description": "现为瑞金宾馆分馆。"
+      }
+    ]
+  },
+  {
+    "address": "武康路100弄1号",
+    "created": "1918",
+    "houseNumber": "1号",
+    "description": "武康路100弄建于1918年，是当时来沪发展的美商德士古石油公司为其高级职员建造的公寓，建筑为欧陆风格的花园住宅。弄内共有4幢三层英式乡村别墅式的住宅，其中1号与2号联立。住宅山墙和外墙上均有半露木构架，红砖勒脚，屋顶高大而且坡度陡，干粘石墙面，门前有五级台阶。住宅底楼南向有连续拱形敞廊，二楼有宽大的长长的带木质栅栏的内阳台，面向一大片绿荫草坪，楼梯护栏有着精致的雕花图案。三楼为斜坡屋顶，同样有裸露木架构，住宅顶部有小露台。北面入口较小，门前有简单的廊柱和五级台阶，廊柱上部设置阳台。1949年新中国成立前夕，外侨撤离回国。上海解放后，该房产由上海市委机关安排给华东局高干居住，弄内1号的花园洋房分配给了王元化。尽管后来他因胡风案蒙冤受屈，但这里却存留下了他与妻子张可无忧无虑的一段美好岁月。",
+    "designer": [
+      {
+        "label": "美商德士古石油公司",
+        "uri": "http://data.library.sh.cn/entity/organization/qs5ghpk0pi0iopse"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/ekj8766dtt3jlui6",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "张可",
+        "uri": "http://data.library.sh.cn/entity/person/v2smz2y37d6dubme"
+      },
+      {
+        "name": "王元化",
+        "uri": "http://data.library.sh.cn/entity/person/f3szpbfqgv7me65u"
+      },
+      {
+        "name": "王承义",
+        "uri": "http://data.library.sh.cn/entity/person/gbvhm8wleb1a1y1k"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "王元化故居",
+    "architectureStructure": "3层花园别墅，东南立面，砖木结构",
+    "location": [
+      {
+        "lat": "31.218064",
+        "long": "121.447078"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路100弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路210号",
+    "created": "1932",
+    "houseNumber": "210号",
+    "description": "武康路210号，建于1932年。为西班牙式花园式住宅。建筑主体三层，局部二层。浅黄色外墙，墙上饰有绿釉构建装饰。屋顶坡度较缓，用红色铺盖，屋面出檐小，檐口一圈券出锦带。有半圆券和矩形的门、窗洞散布在建筑各个里面上。住宅主入口处圆拱形门与墙面处理成弧形，设计成对着转角与二楼窗户的小阳台。作家陈丹燕曾在《上海的风花雪月》中以细腻生动的文笔描述这个阳台：“不知道是哪个朋友曾经点着它说，那是罗密欧要爬的阳台，从此，大家都叫它罗密欧阳台。”",
+    "designer": [
+      {
+        "label": "Eastern Asia Development Co.",
+        "uri": "http://data.library.sh.cn/entity/organization/kqr62qc706hy5tye"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/jpewp50mwi6sv1vu",
+    "architecturalStyle": "西班牙住宅样式",
+    "relation": [
+      {
+        "name": "吴顺发",
+        "uri": "http://data.library.sh.cn/entity/person/xian4yzobj21ji1x"
+      },
+      {
+        "name": "周芝生",
+        "uri": "http://data.library.sh.cn/entity/person/p4uilhejijmhj7ap"
+      },
+      {
+        "name": "李藏拙",
+        "uri": "http://data.library.sh.cn/entity/person/qaroc07b0tu6z8uf"
+      },
+      {
+        "name": "李志鹏",
+        "uri": "http://data.library.sh.cn/entity/person/spfi2621511qp5ss"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "罗密欧阳台",
+    "architectureStructure": "2层",
+    "location": [
+      {
+        "lat": "31.215746",
+        "long": "121.446986"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1935",
+        "description": "1935年前，此房的业主是炒房人吴顺发，他在快速获利后，将房子转手卖给了一个叫周芝生的投机商。"
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年，周芝生离婚，他将此房及一笔钱留给妻儿，金巧珍从此带着八个子女生活在这幢房里。"
+      },
+      {
+        "startedAtTime": "1951",
+        "description": "1951年年底，年过花甲的金女士也离开了久居的寓所，新的房主李藏拙买下了这里，举家迁入。但不久，国有化进程到来，还有那场运动，让李藏拙一家被迫搬离这里。"
+      },
+      {
+        "startedAtTime": "1976",
+        "description": "1976年，上海房产局开始陆续归还这幢房子的产权和使用权，先是单间，再是两室一厅，逐渐把一层归还给了房主。"
+      },
+      {
+        "startedAtTime": "1982",
+        "description": "1982年，李藏拙的二儿子，已定居美国的李志鹏申请回国探亲，并请求全部归还该房产的归属权，获得批准。"
+      },
+      {
+        "startedAtTime": "1984",
+        "description": "1984年，武康路210号重新回归李家旧主人手中。"
+      },
+      {
+        "startedAtTime": "2015",
+        "description": "2015年，入选上海市第五批优秀历史建筑。"
+      }
+    ]
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路135号、137号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "created": "1940",
+    "name": "美杜公寓",
+    "houseNumber": "135号、137号",
+    "architectureStructure": "4层住宅楼，占地面积486.67平方米，建筑面积856平方米，混合结构",
+    "description": "武康路135号、137号门牌号都是美杜公寓，资料记载，该公寓建造于1940年，是一幢混合结构的4层住宅楼，占地面积486.67平方米，但建成后的总占地面积有856平方米。底层沿街设计为铺面，可以开设商店，二至四楼共配置了六套单元公寓，每层两套，设施齐全。三层以上部位有对称的山墙，但一侧墙体稍稍前出，巧妙地增加了室内空间。平缓的坡屋顶覆盖红色筒瓦，建筑立面多处使用简单装饰，如三联窗、劵齿、螺旋纹窗间柱等，都是当时时兴的西班牙建筑符号。西南侧还另建有平房车库一间，建筑面积47平方米，以便于用户停车。据推测，这座公寓可能是哈同洋行的经理人或者股东隐匿而造，早期居住者为外国侨民。",
+    "location": [
+      {
+        "lat": "31.213106",
+        "long": "121.446173"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/wc65cfvuwvmaxp36",
+    "architecturalStyle": "西班牙建筑",
+    "relation": [
+      {
+        "name": "罗迦陵",
+        "uri": "http://data.library.sh.cn/entity/person/g4dd6navmagifz5j"
+      },
+      {
+        "name": "琪·沙味克",
+        "uri": "http://data.library.sh.cn/entity/person/q04yvpld3fa2840p"
+      },
+      {
+        "name": "侨民赛雪儿·爱士拉",
+        "uri": "http://data.library.sh.cn/entity/person/xvqjvs4wkjurmg2i"
+      },
+      {
+        "name": "哈同",
+        "uri": "http://data.library.sh.cn/entity/person/tr5tmg12cc8oazp8"
+      }
+    ]
+  },
+  {
+    "address": "武康路2号",
+    "created": "1922",
+    "houseNumber": "2号",
+    "description": "武康路2号建于1922年，占地面积2400平方米，建筑面积937平方米。是一座假三层砖混结构的立式洋房，南立面三开间结构，中建是一个突出的大半圆厅，半圆之上是一个弧形阳台，入口处是两根塔司干立柱，造型别致；北立面入口是朱红券拱形门洞，两侧各有一个佛龛。洋房前是一座大的花园，树木繁盛。该处最初为洋人住宅，1926年为上海丝绸业大亨莫殇清购得，后又将花园的一部分给女儿莫怀珠和女婿蔡声白居住，即今天武康路4号的雏形。1949年新中国成立后，此处短暂成为中国上海市委负责人的住处，后又成为市委机关幼儿园的所在地。1978年，上海科技情报研究所入驻此处。1981年，上海科技文献出版社迁入，至2005年迁出。2006年，蔡声白的外孙女，香港益达集团掌门人杨敏德重回武康路2号，并进行局部修缮和恢复原貌，并设立莫殇清、蔡声白家族企业历史遗迹纪念室。",
+    "uri": "http://data.library.sh.cn/entity/architecture/w66p0twqlp6w6bw4",
+    "architecturalStyle": "法国文艺复兴样式",
+    "relation": [
+      {
+        "name": "杨敏德",
+        "uri": "http://data.library.sh.cn/entity/person/cg2cs31s2nd4gx8b"
+      },
+      {
+        "name": "莫觞清",
+        "uri": "http://data.library.sh.cn/entity/person/i8fanl2ycxyswigs"
+      },
+      {
+        "name": "蔡声白",
+        "uri": "http://data.library.sh.cn/entity/person/p8a7f427dlp426l4"
+      },
+      {
+        "name": "徐景贤",
+        "uri": "http://data.library.sh.cn/entity/person/lu9g5ub3mes1mmhq"
+      },
+      {
+        "name": "王范",
+        "uri": "http://data.library.sh.cn/entity/person/pgrfpj1apqby5s23"
+      },
+      {
+        "name": "莫怀珠",
+        "uri": "http://data.library.sh.cn/entity/person/6oyb3rudhjq8h7xh"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "莫觞清旧居",
+    "architectureStructure": "立式假3层，总占地面积2400平方米，建筑面积937平方米，传统的砖混结构",
+    "yname": [
+      {
+        "label": "觞庐",
+        "uri": "http://data.library.sh.cn/authority/name/ysjddhkya1iljnzv"
+      },
+      {
+        "label": "玲珑别墅",
+        "uri": "http://data.library.sh.cn/authority/name/z1o8krdrtt4al5ks"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.2131616101",
+        "long": "121.4393651593"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1926",
+        "description": "1926年莫殇清购买并入住"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年市委机关幼儿园所在地"
+      },
+      {
+        "startedAtTime": "1978",
+        "description": "1978年，上海科技情报研究所入驻。"
+      },
+      {
+        "startedAtTime": "1981",
+        "description": "1981年，上海科技文献出版社迁入"
+      },
+      {
+        "startedAtTime": "2006",
+        "description": "2006年，蔡声白的外孙女杨敏德入住。"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "武康路378号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "贝祖诒、蒋士云夫妇旧居",
+    "houseNumber": "378号",
+    "location": [
+      {
+        "lat": "31.212865",
+        "long": "121.445247"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/pos57bp8hm1v58x1",
+    "relation": [
+      {
+        "name": "宋嘉树",
+        "uri": "http://data.library.sh.cn/entity/person/8uvo5irmaywzy7de"
+      },
+      {
+        "name": "贝祖诒",
+        "uri": "http://data.library.sh.cn/entity/person/n955yw91526na7zl"
+      },
+      {
+        "name": [
+          "伟",
+          "蒋介石",
+          "蒋介石"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/9owif43uf6l1tshe"
+      },
+      {
+        "name": "蒋士云",
+        "uri": "http://data.library.sh.cn/entity/person/dgjhp73d6jy7gajn"
+      },
+      {
+        "name": "蒋廷黻",
+        "uri": "http://data.library.sh.cn/entity/person/iw536tpgh4uw67mf"
+      },
+      {
+        "name": "宋子文",
+        "uri": "http://data.library.sh.cn/entity/person/r5rgd13kfbr3auds"
+      },
+      {
+        "name": "盛宣怀",
+        "uri": "http://data.library.sh.cn/entity/person/4lnpsgh342b2n1ru"
+      },
+      {
+        "name": "陈光甫",
+        "uri": "http://data.library.sh.cn/entity/person/lynlda9exp4vttkf"
+      },
+      {
+        "name": "贝聿铭",
+        "uri": "http://data.library.sh.cn/entity/person/eotrobp6rtvdf2ej"
+      },
+      {
+        "name": "贝理泰",
+        "uri": "http://data.library.sh.cn/entity/person/5hhv7cqjoahq3itw"
+      },
+      {
+        "name": [
+          "虞洽卿",
+          "虞洽卿"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/4yyqs4xyvu7vxim5"
+      },
+      {
+        "name": "庄箓",
+        "uri": "http://data.library.sh.cn/entity/person/63n1jd6pbrxt9dxr"
+      },
+      {
+        "name": "贝晋恩",
+        "uri": "http://data.library.sh.cn/entity/person/nur2h4ou581uttqo"
+      },
+      {
+        "name": "贝润生",
+        "uri": "http://data.library.sh.cn/entity/person/rtwyf3xr1234toyw"
+      }
+    ]
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路274号（原280弄4号）",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "郑洞国旧居",
+    "houseNumber": "274号",
+    "architectureStructure": "L型分布，立砖饰带压檐，砖混结构",
+    "description": "武康路274号据推测应该建于1930年代晚期或者20世纪40年代初期，这个门牌号原是武康路286弄4号，后来因为世界小学的校舍建设将进出通道堵住，才在1965年的时候添加了这个地址。现在，它是以“郑洞国旧居”的名义为世人所知晓。该建筑面积约1300平方米，主体建筑占地315平方面，呈L型分布，为二层砖混结构的现代风格建筑，局部有线脚装饰。建筑南立面二层中部有钢筋混凝土悬挑的大阳台，浅黄色水泥拉毛墙面以赤陶面砖饰带收口，加上红砖勒脚。目前结构稳定，十一户居民合用，露天阳台已封窗加顶为房。北侧内院中间设有花坛，四周环绕分布着原来的汽车间和辅助用房等。",
+    "location": [
+      {
+        "lat": "31.214266",
+        "long": "121.446494"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1950",
+        "endedAtTime": "1952",
+        "description": "1950至1952年，抗日名将、原全国政协常委郑洞国曾居住于此。"
+      },
+      {
+        "description": "建于二十世纪二十年代晚期。"
+      },
+      {
+        "description": "现为多户居民合用。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/yyknd1unz1xonxp7",
+    "architecturalStyle": "装饰艺术派与现代式",
+    "relation": [
+      {
+        "name": "郑洞国",
+        "uri": "http://data.library.sh.cn/entity/person/hzbe6jakr7f8b4of"
+      }
+    ]
+  },
+  {
+    "hasFile": "0",
+    "address": "武康路321号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "陈云裳旧居",
+    "houseNumber": "321号",
+    "location": [
+      {
+        "lat": "31.206489",
+        "long": "121.439052"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/3xdq1migrlh47r5e",
+    "relation": [
+      {
+        "name": [
+          "陈云裳",
+          "陈云裳"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/4xxaflqd8tml2g8o"
+      },
+      {
+        "name": "霍英东",
+        "uri": "http://data.library.sh.cn/entity/person/oeeoonrw5um3p8sa"
+      },
+      {
+        "name": "汤于翰",
+        "uri": "http://data.library.sh.cn/entity/person/2tfyb0quri3n7h22"
+      }
+    ]
+  },
+  {
+    "address": "武康路107弄2号",
+    "created": "1946",
+    "houseNumber": "2号",
+    "description": "武康路107号，幢假三层英国乡村式花园洋房。红色双陡瓦坡瓦屋顶，清水砖砌烟囱，底层东南侧设带有出檐的开敞拱券门，东窗带有厚实梯形窗套、窗楣，具有西方古典主义特征。原国民政府中央组织部部长陈果夫曾在此居住。",
+    "designer": [
+      {
+        "label": "王迈士建筑师事务所",
+        "uri": "http://data.library.sh.cn/entity/organization/ik5jwwmrmv3iv6ko"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/1wjyj6veopvz4qdj",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "陈果夫",
+        "uri": "http://data.library.sh.cn/entity/person/87xeqpp1qb9fsrzr"
+      },
+      {
+        "name": "陈立夫",
+        "uri": "http://data.library.sh.cn/entity/person/suijd35b2t7opaf6"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "陈果夫旧居",
+    "architectureStructure": "3层，砖木结构",
+    "location": [
+      {
+        "lat": "31.2087326101",
+        "long": "121.4408541593"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1946",
+        "endedAtTime": "1948",
+        "description": "1946～1948年，陈果夫曾在此居住。"
+      },
+      {
+        "startedAtTime": "2008",
+        "description": "2008年12月10日，徐汇区文化局公布为徐汇区登记不可移动文物。"
+      },
+      {
+        "description": "现为民居。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路107弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路67号",
+    "created": "1946",
+    "houseNumber": "67号",
+    "description": "武康路67号，建于1946年。占地面积663平方米，为一栋砖木结构的英国乡村式三层建筑。外墙以水泥粉刷，特色是一楼转角部分呈六角形，向前突出，有券形门洞作进出用。二层阳台有水泥栏杆，上下口都有花饰。原国民政府立法院副院长陈立夫曾在此居住。现为民居。",
+    "uri": "http://data.library.sh.cn/entity/architecture/8dr8j4zmyf2pcyfn",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "陈立夫",
+        "uri": "http://data.library.sh.cn/entity/person/suijd35b2t7opaf6"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "陈立夫旧居",
+    "architectureStructure": "3层砖木结构，占地663平方米",
+    "location": [
+      {
+        "lat": "31.218867",
+        "long": "121.446988"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，始建，此后陈立夫曾住在此。"
+      },
+      {
+        "description": "现民居，几户人家共同居住在这里。"
+      }
+    ]
+  },
+  {
+    "hasFile": "1",
+    "address": "武康路109号",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "顾祝同旧居",
+    "houseNumber": "109号",
+    "architectureStructure": "山墙和外墙上有半露木构架，红砖勒脚，屋顶高大而且坡度比较陡，与西班牙式住宅相比，其用地范围和建筑面积较大，围墙高耸，浅黄色粉刷的外墙，外有窗棂修饰",
+    "description": "武康路109号,为英国乡村式样假三层楼房。浅黄色粉刷的外墙，外有窗棂修饰。曾为国民政府陆军总司令、参谋总长、国防部长顾祝同旧居。现为私宅。",
+    "location": [
+      {
+        "lat": "31.215655",
+        "long": "121.447203"
+      }
+    ],
+    "event": [
+      {
+        "description": "曾为国军“陆军一级上将”顾祝同故居。"
+      },
+      {
+        "description": "现民居。"
+      }
+    ],
+    "uri": "http://data.library.sh.cn/entity/architecture/7wn2kh7ybheonx2y",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "顾祝同",
+        "uri": "http://data.library.sh.cn/entity/person/989z5vr65fs1n3aq"
+      }
+    ]
+  },
+  {
+    "address": "武康路40弄4号",
+    "created": "1923",
+    "houseNumber": "4号",
+    "description": "武康路40弄4号，是一幢英国乡村别墅式住宅，为砖木结构假三层西式民居。几经修缮，不复旧貌，仍保持红砖券门，略存遗风。由于地面不断抬高，台阶已经埋没。从1930年代末至1950年左右，房子的主人是中国近代著名的医学教育家、公共卫生学家颜福庆。他先后创办湖南湘雅医学专门学校（中南大学湘雅医学院前身）、国立第四中山大学医学院（复旦大学上海医学院前身）、中山医院、澄衷肺病疗养院（上海肺科医院前身），并与中国红十字会订约合作，接办该会总医院（复旦大学附属华山医院前身）等医学教育和医疗机构，为中国医学教育事业作出了卓越的贡献。建国前夕，为筹办中山医院的相关事宜，颜福庆卖掉了居住了几十年的这幢住宅，迁移到枫林桥居住。",
+    "uri": "http://data.library.sh.cn/entity/architecture/gzy06s8ag2n8s5ww",
+    "architecturalStyle": "英国乡村别墅式",
+    "relation": [
+      {
+        "name": "颜福庆",
+        "uri": "http://data.library.sh.cn/entity/person/tmfx38fzkpqrdq6l"
+      },
+      {
+        "name": "陈光甫",
+        "uri": "http://data.library.sh.cn/entity/person/lynlda9exp4vttkf"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "颜福庆旧居",
+    "architectureStructure": "砖木结构，假三层普通西式民居",
+    "location": [
+      {
+        "lat": "31.218763",
+        "long": "121.446764"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1943",
+        "endedAtTime": "1950",
+        "description": "1943年至1950年之间，颜福庆在这里居住（一说抗战期间由上海商业储蓄银行使用。1945年初，该行用作副账办事处，1946至1949年间，该行创办者陈光甫居止于此）。"
+      },
+      {
+        "startedAtTime": "1956",
+        "description": "1956年，由上海市委行政处租用。"
+      },
+      {
+        "description": "现为徐汇区登记不可移动文物，由徐房集团（上海衡复置业有限公司）管理。"
+      }
+    ],
+    "lane": [
+      {
+        "road": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv",
+        "label": "武康路40弄"
+      }
+    ]
+  },
+  {
+    "address": "武康路392号",
+    "created": "1912",
+    "houseNumber": "392号",
+    "description": "武康路392号甲是一幢四层砖木结构的西式别墅，建于1912年。这幢洋房的体量不小，用大型廊柱支撑房屋骨架，对称劵窗、阳台装饰里面，属于20世纪初至30年代在上海流行的欧洲大都市建筑风格。自清朝、北洋、南京政府、汪伪政府和人民政府，加上法租界公董局，一百年间有五六个行政权力相继管理过这条马路，使得房屋最初的主人以及后续的更迭变得扑朔迷离。根据徐汇区文化局文物普查时从老居民处得到的信息，投资此处别墅的是一位军阀，推测为中华民国总统袁世凯的大公子袁克定所拥有。曾一度租给某银行高级职员居住，1949年以后，成为上海市公安局的机关宿舍，目前整幢楼房已经分隔开来，由多户居民合用。",
+    "uri": "http://data.library.sh.cn/entity/architecture/1a6ej3wmr6akckm8",
+    "architecturalStyle": "法国文艺复兴样式",
+    "relation": [
+      {
+        "name": "马步芳",
+        "uri": "http://data.library.sh.cn/entity/person/ko503bocs37ycouy"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "马步芳故居",
+    "architectureStructure": "3层，砖木结构",
+    "location": [
+      {
+        "lat": "31.211965",
+        "long": "121.445815"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1949",
+        "description": "1949年人民政府接管之前，为国府将领马步芳旧居。"
+      },
+      {
+        "startedAtTime": "1955",
+        "description": "1955年由华东文教委员会移交，归入公房，曾用作上海市公安局的机关宿舍。"
+      },
+      {
+        "startedAtTime": "2015",
+        "description": "2015年，入选上海市第五批优秀历史建筑。"
+      },
+      {
+        "description": "目前由十八户居民合用。"
+      }
+    ]
+  },
+  {
+    "address": "武康路393号",
+    "created": "1912",
+    "houseNumber": "393号",
+    "description": "武康路393号，原为中华民国临时政府沪交涉使司衙署，初建于1912年，1915年修建完毕。整个建筑坐北朝南，建筑南部为英国乡村式，半露木结构，陡坡顶，大理石台阶，三层有阳台，覆花架。南向至宝昌路（今淮海中路）为花园。宅北部为1933年增建，外墙立面和室内楼梯栏杆均为典型装饰艺术派风格，带有大量装饰艺术派特征的浮雕和装饰线脚。<br><br>1914-1916年，近代民主革命家、同盟会创始人几度黄兴寓居此地。1916年，黄兴逝世后，此地曾为世界社、世界学院、中国学典馆、上海国际图书馆使用，后改为世界中小学，现部分由南洋模范中学使用，部分为民宅。",
+    "uri": "http://data.library.sh.cn/entity/architecture/uyqtjpz062tqjvty",
+    "architecturalStyle": "美国乡村式（南幢）装饰艺术派（北幢）",
+    "relation": [
+      {
+        "name": [
+          "吴稚晖",
+          "吴稚晖"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/aoqdafvug7m7mqzu"
+      },
+      {
+        "name": [
+          "蔡元培",
+          "蔡元培"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/p3jjhbg6ygfwd1by"
+      },
+      {
+        "name": "黄兴",
+        "uri": "http://data.library.sh.cn/entity/person/8a8p8s9l3flkw4wi"
+      },
+      {
+        "name": "李石曾",
+        "uri": "http://data.library.sh.cn/entity/person/pp3fr1l7e7porgvr"
+      },
+      {
+        "name": [
+          "萧伯纳",
+          "萧伯纳"
+        ],
+        "uri": "http://data.library.sh.cn/entity/person/ueqhvdz1ia1teknf"
+      }
+    ],
+    "hasFile": "1",
+    "road": [
+      {
+        "name": "武康路",
+        "uri": "http://data.library.sh.cn/entity/road/24v4webnqbccmflv"
+      }
+    ],
+    "name": "黄兴故居",
+    "architectureStructure": "分南北两幢，建筑面积1749平方米，钢筋混凝土结构",
+    "yname": [
+      {
+        "label": "黄公馆",
+        "uri": "http://data.library.sh.cn/authority/name/h2j42kq76moo7fv1"
+      }
+    ],
+    "location": [
+      {
+        "lat": "31.212115",
+        "long": "121.445442"
+      }
+    ],
+    "event": [
+      {
+        "startedAtTime": "1912-06-14",
+        "description": "1912年6月14日，黄兴辞职，离开南京赴沪，寓居福开森路393号。"
+      },
+      {
+        "startedAtTime": "1912-06-30",
+        "description": "1912年6月30日，孙中山在南方考察，自粤经港抵沪，在福开森路393号与黄兴见面，并留影。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/87157a3corsm8rh1.jpg",
+          "description": "孙中山（二排右三），黄兴（右四）、陈其美（右二）、王芝祥（右一）、黄一中（黄兴二子，前排左二）等及日人合影",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/87157a3corsm8rh1"
+        }
+      },
+      {
+        "startedAtTime": "1913-03-25",
+        "description": "1913年3月25日，宋教仁被刺案发生后，黄兴于是日，与孙中山、陈其美、居正、戴季陶、柏文蔚等商讨对策，孙中山主张兴兵，黄兴主张法律解决。"
+      },
+      {
+        "startedAtTime": "1916-07-06",
+        "description": "1916年7月6日，黄兴抵沪，初寓圣母院路（今瑞金一路）100号，继居福开森路393号。"
+      },
+      {
+        "startedAtTime": "1916-10-26",
+        "description": "1916年10月26日，黄兴夫人徐宗汉于黄公馆产一男，名一球。"
+      },
+      {
+        "startedAtTime": "1916-10-31",
+        "description": "1916年10月31日，黄兴在福开森路393号去世，时年42岁。"
+      },
+      {
+        "startedAtTime": "1916-12-21",
+        "endedAtTime": "1916-12-22",
+        "description": "1916年12月21日至22日，设黄兴灵堂于福开森路393号。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/qk1c23bn1lsn1437.jpg",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/qk1c23bn1lsn1437"
+        }
+      },
+      {
+        "startedAtTime": "1917",
+        "description": "1917年，1月18日，黄兴原配廖淡如于黄公馆产一男，名一寰。"
+      },
+      {
+        "startedAtTime": "1917",
+        "description": "1917年，孔祥熙买下福开森路393号。"
+      },
+      {
+        "startedAtTime": "1927-09-11",
+        "description": "1927年9月11日，孔祥熙在福开森路宅设宴，出席的有汪精卫、谭延闿、朱培德、顾孟余、宋子文、孙科、陈公博等。"
+      },
+      {
+        "startedAtTime": "1929",
+        "description": "1929年，世界社迁入福开森路393号。"
+      },
+      {
+        "startedAtTime": "1929-06-23",
+        "description": "1929年6月23日，宋庆龄偕宋霭龄访福开森路。"
+      },
+      {
+        "startedAtTime": "1931",
+        "description": "1931年，蒋介石汪精卫再度合作。汪精卫在沪无寓所，孔祥熙邀请其寓居福开森路宅。"
+      },
+      {
+        "startedAtTime": "1932-07-15",
+        "description": "1932年7月15日，书画家陈树人二百余幅画在福开森路393号展出，刘亚子、李石曾、张静江、叶恭绰、林风眠、蔡元培，经亨颐、刘海粟、徐悲鸿、黄宾虹即葡萄牙画家加华路等莅临观赏，观众总计三万余人。"
+      },
+      {
+        "startedAtTime": "1932-10-05",
+        "description": "1932年10月5日，新华艺术专科学校教授作品在福开森路393号展出，汪亚尘、杨秀涛、吴恒勤、周碧初、陈抱一、陈静波、朱屺瞻、徐郎西、徐悲鸿、潘天寿、张大千、钱瘦铁、张聿光、江小鹣等均有佳作呈现。"
+      },
+      {
+        "startedAtTime": "1933",
+        "description": "1933年5月，吴稚晖、蔡元培、李石曾等设世界文化合作中国协会筹办委员会办事处于福开森路393号。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/546dfr55ec3gqzkl.jpg",
+          "description": "1933年5月，世界文化合作中国协会筹备委员会第一次常务会议出席人留影于福开森路393号。坐者为张静江。后排左起：吴稚晖、蔡元培、褚民谊、陈和铣、庄文亚、李石曾。",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/546dfr55ec3gqzkl"
+        }
+      },
+      {
+        "startedAtTime": "1933",
+        "description": "1933年，国民政府出资，于黄公馆至其北侧围墙空隙，建藏书楼，为钢筋混凝土结构，建筑面积1266平方米。"
+      },
+      {
+        "startedAtTime": "1933-01-23",
+        "description": "1933年1月23日，美国哥伦比亚大学教授庞福安临沪，世界社举行茶会招待，到蔡元培、陈立廷、杨肇烦、魏通如、齐致、林文铮等十余人。"
+      },
+      {
+        "startedAtTime": "1933-01-24",
+        "description": "1933年1月24日，段祺瑞临沪，暂寄居福开森路393号。"
+      },
+      {
+        "startedAtTime": "1933-02-17",
+        "description": "1933年2月17日下午2时，英国文豪萧伯纳及夫人，偕蔡元培、杨杏佛、林语堂、鲁迅等，赴福开森世界社，应中国笔会招待，与梅兰芳、叶恭绰、张歆海及其夫人韩湘眉、邵洵美、唐瑛等会晤。"
+      },
+      {
+        "startedAtTime": "1933-06-04",
+        "description": "1933年6月4日，世界文化合作中国协会筹备文员会第一次全体会议出席人留影于福开森路393号。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/pgielwo4r7ualy2l.jpg",
+          "description": "前排右起：李石曾、张静江、蔡元培、钮永健后排右起：吴稚晖、褚民谊、程其保、黄炎培、李熙谋、李书华、庄文亚、厉家祥、陈和铣、郭有守。",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/pgielwo4r7ualy2l"
+        }
+      },
+      {
+        "startedAtTime": "1933-10-03",
+        "description": "1933年10月3日，美国作家赛珍珠与丈夫及女儿抵沪，翌日赴世界社预笔会演讲“新爱国主义”，林语堂做翻译。"
+      },
+      {
+        "startedAtTime": "1933-10-10",
+        "description": "1933年10月10日，决澜社第二次画展在福开森路393号开幕。"
+      },
+      {
+        "startedAtTime": "1933-10-15",
+        "description": "1933年10月15日，世界文化合作中国协会常务委员会议在福开森路393号举行，筹商建筑会所事。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/fxgi6dezlf3wvgo6.jpg",
+          "description": "左起：李石曾、韦尔登（法国驻华公使，列席）、吴稚晖、蔡元培、张静江、陈和铣、庄文亚",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/fxgi6dezlf3wvgo6"
+        }
+      },
+      {
+        "startedAtTime": "1933-11-10",
+        "endedAtTime": "1933-11-11",
+        "description": "1933年11月10日-11日，柏林中国美术展览会筹备委员会所征集的中国近代美术作品（350件）在福开森路393号预展。蔡元培为之举行茶会。"
+      },
+      {
+        "startedAtTime": "1934",
+        "description": "1934年，李石曾于1932年发起创办的中国国际图书馆于是年在福开森路393号开馆，名为上海中国国际图书，藏中外图书五万余册，中外杂志五百余种。"
+      },
+      {
+        "startedAtTime": "1934-01-03",
+        "description": "1934年1月3日下午3点，李石曾于福开森路393号举行世界社新年茶会，到会者有蔡元培、汪精卫、陈璧君、张静江、曾仲民、褚民谊等。席间，梅兰芳、大同乐会和中国教育电影协会的戏曲、音乐、电影等助兴。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/2iik8mbimmcm8lqd.jpg",
+          "description": "1934年1月3日摄于福开森路393号。前排坐者张静江，左右为其儿女，后排右起：蔡元培、褚民谊、李石曾、汪精卫",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/2iik8mbimmcm8lqd"
+        }
+      },
+      {
+        "startedAtTime": "1934-02-05",
+        "description": "1934年2月5日，现代德国印刷展览在福开森路393号开幕。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/mheckxfzv6d1ucax.jpg",
+          "description": "1934年3月31日，世界文化中国协会等文化机关公宴国际劳工局（属国际联盟）局长莫列德。",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/mheckxfzv6d1ucax"
+        }
+      },
+      {
+        "startedAtTime": "1934-05-06",
+        "description": "1934年5月6日，南京中央大学新疆学生组成的新疆回族音乐团，应世界文化合作中国协会会长吴稚晖、上海市长吴铁城邀请，在福开森路393号公演。"
+      },
+      {
+        "startedAtTime": "1935-03-04",
+        "description": "1935年3月4日，张公权、李石曾在福开森路393号为杜重远兴办江西光大瓷厂募股。"
+      },
+      {
+        "startedAtTime": "1935-05-24",
+        "description": "1935年5月24日下午五时，中国国际图书馆举行茶会，欢迎法国狄德罗社代表、作家杨思奇夫人捐赠图书，到场中、法来宾二百余人。"
+      },
+      {
+        "startedAtTime": "1935-07-26",
+        "description": "1935年7月26日，蔡元培、李石曾发起设黄兴纪念馆于福开森路393号。"
+      },
+      {
+        "startedAtTime": "1936",
+        "description": "1936年，世界社创办世界学校于福开森路393号。"
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年春，法国狄德罗学会赠上海中国国际图书馆以首批世界各国百科全书，计一千一百八十余册。",
+        "image": {
+          "path": "https://img.library.sh.cn/whzk/img/q6sd4oj4hdsa1dxp.jpg",
+          "description": "1937年，世界社招待法国狄（岱麓，今译狄德罗）社代表魏达士。前排：杜月笙（左三）、褚民谊（左五）、李石曾（立柱右侧）",
+          "uri": "http://data.library.sh.cn/shmemory/resource/img/q6sd4oj4hdsa1dxp"
+        }
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年11月，上海沦陷。"
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年4月，上海中国国际图书馆于福开森路393号举办“世界百科全书联合展览会”暨“纪晓岚、狄德罗纪念会”，十九国三百余种图书参展。"
+      },
+      {
+        "startedAtTime": "1937",
+        "description": "1937年春，李石曾设上海生物学研究所于福开森路393号二楼。"
+      },
+      {
+        "startedAtTime": "1937-08-24",
+        "description": "1937年8月24日，淞沪战争爆发，救国公债劝募总会正式成立，设在福开森路393号。宋子文任会长，陈立夫任副会长，宋庆龄、孙科、李石曾、刘尚清、何东、施肇基、顾维钧、郭泰祺、俞鸿钧、杜月笙、宋汉章、吴开先等政界、实业界人士任常委。"
+      },
+      {
+        "startedAtTime": "1943",
+        "description": "1943年，汪伪政府易福开森路为“武康路”"
+      },
+      {
+        "startedAtTime": "1945",
+        "description": "1945年抗战胜利。是年秋，世界学院中国学典馆自重庆迁武康路393号。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年8月，国立北平研究员胜利学研究所与上海生物学研究所合并，更名国立北平研究院上海生理研究所，设武康路393号。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，世界学校中学部称为世界中学，小学部称为世界小学。夏，开班高中，设于黄公馆内。"
+      },
+      {
+        "startedAtTime": "1946",
+        "description": "1946年，世界社还于旧址，李石曾在沪组织世界书局董事会，创办《世界月刊》等刊物。"
+      },
+      {
+        "startedAtTime": "1949",
+        "description": "1949年5月，上海解放。"
+      }
+    ]
+  }
+]
