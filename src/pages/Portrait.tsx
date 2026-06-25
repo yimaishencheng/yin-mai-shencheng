@@ -1,11 +1,11 @@
-import React, { useState, useMemo, useRef, useEffect } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import ReactEChartsCore from 'echarts-for-react/lib/core'
 import * as echarts from 'echarts/core'
 import { GraphChart } from 'echarts/charts'
 import { TooltipComponent } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
-import { generatePortrait } from '../api/deepseek'
+
 import { usePersons } from '../hooks/usePersons'
 import relations from '../data/relations.json'
 import { useEvents } from '../hooks/useEvents'
@@ -16,7 +16,7 @@ type P = Person
 
 export default function Portrait() {
   const { personId } = useParams(); const nav = useNavigate()
-  const [st, setSt] = useState(''); const [bio, setBio] = useState(''); const [gen, setGen] = useState(false)
+  const [st, setSt] = useState('')
   const { persons, loading } = usePersons()
   const id = personId ? decodeURIComponent(personId) : ''
   const { events } = useEvents()
@@ -60,17 +60,6 @@ export default function Portrait() {
   const relEvts = events.filter(e => ((e as any).person_ids||[]).includes(person.id) || e.description.includes(person.name)).slice(0, 10)
   const actEvts = events.filter(e => e.description.includes(person.name) || e.name.includes(person.name)).sort((a, b) => a.year - b.year)
 
-  const handleGen = async () => {
-    if (!person || gen) return; setGen(true); setBio('')
-    try {
-      const text = await generatePortrait(person); let i = 0
-      const tmr = setInterval(() => {
-        if (i < text.length) { setBio(text.slice(0, i + 1)); i++ }
-        else { clearInterval(tmr); setGen(false) }
-      }, 16)
-    } catch { setBio('\u751f\u6210\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5'); setGen(false) }
-  }
-
   return (
     <div className="h-full flex flex-col" style={{ backgroundColor: '#0a0a0f' }}>
       <div className="px-5 py-2 shrink-0" style={{ borderBottom: '1px solid #1a1a25', backgroundColor: '#111118' }}>
@@ -83,17 +72,8 @@ export default function Portrait() {
         <div style={{ width: 1, backgroundColor: '#2a2a3a' }} />
         <RightPanel person={person} actEvts={actEvts} />
       </div>
-      <div className="shrink-0 flex items-center gap-4 px-5" style={{ height: 120, backgroundColor: '#111118', borderTop: '1px solid #2a2a3a' }}>
-        <div className="flex flex-col flex-1 min-w-0">
-          <span style={{ color: '#888899', fontSize: 11, marginBottom: 2 }}>AI \u5386\u53f2\u5c0f\u4f20</span>
-          <div ref={r => { if (r) r.scrollIntoView({ block: 'end' }) }} style={{ color: '#e8e8ea', fontSize: 13, lineHeight: 1.5, maxHeight: 56, overflow: 'auto' }}>{bio}</div>
-          {!bio && <span style={{ color: '#555566', fontSize: 10 }}>\u7531AI\u57fa\u4e8e\u6863\u6848\u6570\u636e\u751f\u6210</span>}
-        </div>
-        <button onClick={handleGen} disabled={gen}
-          className="px-5 py-2 rounded-lg text-sm font-medium shrink-0 disabled:opacity-50"
-          style={{ backgroundColor: '#d97706', color: '#0a0a0f' }}>
-          {gen ? '\u751f\u6210\u4e2d\u2026' : '\u751f\u6210\u5c0f\u4f20'}</button>
-      </div>
+
+
     </div>
   )
 }
