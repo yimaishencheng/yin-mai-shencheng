@@ -34,17 +34,7 @@ export default function RelationGraph() {
   const nav = useNavigate()
   const { persons, loading } = usePersons()
 
-  if (loading) {
-    return (
-      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密上海特科关系图谱...</span>
-      </div>
-    )
-  }
-
-  const selPerson = persons.find(p => p.id === selId) || null
-
+  // All hooks must be called unconditionally
   const linkMeta = useMemo(() => {
     const m: Record<string, { color: string; dashed: boolean }> = {}
     for (const r of relations) {
@@ -153,6 +143,17 @@ export default function RelationGraph() {
       if (ps.dataType === 'node' && ps.data?.id) nav('/portrait/' + encodeURIComponent(ps.data.id))
     },
   }), [nav])
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
+        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>解密上海特科关系图谱...</span>
+      </div>
+    )
+  }
+
+  const selPerson = persons.find(p => p.id === selId) || null
 
   return (
     <div className="h-full flex flex-col fade-in-up" style={{ backgroundColor: '#08080f' }}>

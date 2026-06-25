@@ -45,15 +45,7 @@ export default function Anomalies() {
   const { persons, loading: pLoading } = usePersons()
   const { places, loading: plLoading } = usePlaces()
 
-  if (pLoading || plLoading) {
-    return (
-      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>算法审计并归档异常文献中...</span>
-      </div>
-    )
-  }
-
+  // All hooks must be called unconditionally
   const broken = useMemo(() => findBroken(persons, relations), [persons])
   const orgs = useMemo(() => findOrgs(persons), [persons])
   const [expOrg, setExpOrg] = useState<string | null>(null)
@@ -64,6 +56,15 @@ export default function Anomalies() {
     { label: '间接网络断裂', value: broken.length, color: '#3d5a80' },
     { label: '沉默历史群落', value: orgs.filter(o=>o.count===1).length, color: '#7a8a9e' },
   ]
+
+  if (pLoading || plLoading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
+        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>算法审计并归档异常文献中...</span>
+      </div>
+    )
+  }
 
   return (
     <div className="h-full flex flex-col overflow-y-auto fade-in-up" style={{ backgroundColor: '#08080f' }}>

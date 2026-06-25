@@ -35,6 +35,20 @@ export default function MapExplorer() {
   const { places, loading: plLoading } = usePlaces()
   const { events } = useEvents()
 
+  // All hooks must be called unconditionally
+  const allTypes = useMemo(() => {
+    const s = new Set(places.filter(p => p.lat && p.lat !== 0).map(p => p.type))
+    return Array.from(s).sort()
+  }, [places])
+
+  const visible = useFilter(places, year, selTypes)
+
+  const personMap = useMemo(() => {
+    const m: Record<string, string> = {}
+    for (const p of persons) if (p.name && p.id) m[p.id] = p.name
+    return m
+  }, [persons])
+
   if (pLoading || plLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
@@ -44,17 +58,11 @@ export default function MapExplorer() {
     )
   }
 
-  const allTypes = useMemo(() => {
-    const s = new Set(places.filter(p => p.lat && p.lat !== 0).map(p => p.type))
-    return Array.from(s).sort()
-  }, [places])
-
   const toggleType = (t: string) => {
     setSelTypes(prev => prev.includes(t) ? prev.filter(x => x !== t) : [...prev, t])
     setSelId(null)
   }
 
-  const visible = useFilter(places, year, selTypes)
   const selPlace = places.find(p => p.id === selId) || null
 
   const relatedEvents = useMemo(() => {
@@ -65,12 +73,6 @@ export default function MapExplorer() {
       (e.name && e.name.includes(name))
     ).slice(0, 5)
   }, [selPlace, events])
-
-  const personMap = useMemo(() => {
-    const m: Record<string, string> = {}
-    for (const p of persons) if (p.name && p.id) m[p.id] = p.name
-    return m
-  }, [persons])
 
   const totalOK = places.filter(p => p.lat && p.lat !== 0).length
 

@@ -11,15 +11,7 @@ export default function Timeline() {
   const { persons, loading: pLoading } = usePersons()
   const { events } = useEvents()
 
-  if (pLoading) {
-    return (
-      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
-        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
-        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>秘密纪年史料编纂中...</span>
-      </div>
-    )
-  }
-
+  // All hooks must be called unconditionally
   const [yF, setYF] = useState(1925)
   const [yT, setYT] = useState(1940)
   const [types, setTypes] = useState<string[]>([])
@@ -41,6 +33,15 @@ export default function Timeline() {
   }).sort((a, b) => a.year - b.year), [yF, yT, types, kw, events])
 
   useEffect(() => { setPg(1) }, [yF, yT, types, kw])
+
+  if (pLoading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
+        <div className="w-10 h-10 rounded-full border-2 border-t-transparent animate-spin mb-4" style={{ borderColor: '#d4a853', borderTopColor: 'transparent' }} />
+        <span className="text-xs font-serif tracking-widest" style={{ color: '#7a8a9e' }}>秘密纪年史料编纂中...</span>
+      </div>
+    )
+  }
 
   const totalPages = Math.ceil(filtered.length / PAGE)
   const items = filtered.slice((pg - 1) * PAGE, pg * PAGE)
