@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.npm-cache/
+*.log
+.env
+__pycache__/
+*.pyc
