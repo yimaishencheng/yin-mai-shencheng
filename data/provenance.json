@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-08-16T22:16:20+0800",
+  "source_api": "https://data1.library.sh.cn",
+  "license_notice": "上海图书馆开放数据竞赛数据仅授权本届竞赛非商业使用，禁止篡改、伪造或用于任何非法及未授权用途。",
+  "counts": {
+    "persons": 2848,
+    "places": 6224,
+    "events": 4433,
+    "organizations": 2107,
+    "relations": 8437
+  },
+  "source_counts": {
+    "上图唱片知识库": 148,
+    "上海图书馆·上海地名志": 1286,
+    "上海图书馆·事件详情": 1953,
+    "上海图书馆·地名志道路": 249,
+    "上海图书馆·建筑详情": 350,
+    "上海图书馆·武康路建筑": 161,
+    "上海图书馆·红色旅游": 842,
+    "上海图书馆·红色旅游建筑详情": 1038,
+    "上海图书馆开放数据平台": 7767,
+    "上海年华电影知识库": 128,
+    "历史人文大数据平台": 169,
+    "年谱事件库": 293,
+    "民国图书": 868,
+    "舆图": 13,
+    "革命文献": 347
+  },
+  "datasets": {
+    "persons": {
+      "label": "人物",
+      "source_files": [
+        "persons.json",
+        "person_details.json"
+      ],
+      "transformations": [
+        "clean_name",
+        "normalize_yearish",
+        "parse_year",
+        "anomaly_annotation",
+        "is_incomplete_marking"
+      ],
+      "derived_fields": [
+        "is_anomaly",
+        "anomaly_note",
+        "is_incomplete"
+      ]
+    },
+    "places": {
+      "label": "地点",
+      "source_files": [
+        "places.json",
+        "places_list.json",
+        "gazetteer.json"
+      ],
+      "transformations": [
+        "clean_name",
+        "coordinate_validation",
+        "anomaly_annotation"
+      ],
+      "derived_fields": [
+        "is_anomaly",
+        "anomaly_score",
+        "anomaly_note",
+        "related_persons"
+      ]
+    },
+    "events": {
+      "label": "事件",
+      "source_files": [
+        "events.json",
+        "event_details.json",
+        "wkl_events.json"
+      ],
+      "transformations": [
+        "clean_name",
+        "date_normalization",
+        "synthetic_architecture_events"
+      ],
+      "derived_fields": [
+        "person_ids",
+        "location_id"
+      ]
+    },
+    "organizations": {
+      "label": "机构",
+      "source_files": [
+        "organizations.json",
+        "org_label_map.json"
+      ],
+      "transformations": [
+        "clean_name",
+        "member_linking"
+      ],
+      "derived_fields": [
+        "member_ids"
+      ]
+    },
+    "relations": {
+      "label": "人物关系",
+      "source_files": [],
+      "transformations": [
+        "event_cooccurrence",
+        "manual_relations"
+      ],
+      "derived_fields": [
+        "strength",
+        "year"
+      ]
+    }
+  },
+  "transformations": {
+    "clean_name": "清洗多语言标签，例如去除 @chs/@en 后缀",
+    "normalize_yearish": "修正明显缺失千位或年份格式异常的日期",
+    "parse_year": "从日期文本提取年份",
+    "coordinate_validation": "仅保留上海市范围内的有效坐标，无效坐标置 0",
+    "anomaly_annotation": "基于人工规则或记录字段缺失生成的异常分析标签",
+    "is_incomplete_marking": "根据人物字段完整度生成“档案待考”标签",
+    "date_normalization": "统一事件日期格式并提取年份",
+    "synthetic_architecture_events": "为建筑详情中的事件生成本地合成编号",
+    "member_linking": "根据事件详情将人物关联到机构成员列表",
+    "event_cooccurrence": "根据同一事件中的人物共现生成关系边",
+    "manual_relations": "人工维护的关系，不属于开放数据原始记录"
+  },
+  "raw_files": [
+    {
+      "name": "architecture_details.json",
+      "sha256": "459e32e29f54d59bc5bfcf65e99eed63168040a97c83bfb36aa1cc6b9bac9e98",
+      "bytes": 3400169
+    },
+    {
+      "name": "event_details.json",
+      "sha256": "42f5ef1932fcfc48db672dbd98dadaa6056c7aeb6ce41d359870b00258b0cb0c",
+      "bytes": 6851308
+    },
+    {
+      "name": "events.json",
+      "sha256": "3a21f724eb61a0392f998181facd72c9921a7fb1cc6cf3559183dbf3f7cd23d9",
+      "bytes": 10993587
+    },
+    {
+      "name": "full_payload.json",
+      "sha256": "83d0b4b67673d06966d0c81c616861f53da7ff675db092d21046b7e856dd3313",
+      "bytes": 40639169
+    },
+    {
+      "name": "literature.json",
+      "sha256": "d4d22659ffa0c7c830e02371f4378ffd7786332855786b8cb8f3607abbfa3ce1",
+      "bytes": 583946
+    },
+    {
+      "name": "org_label_map.json",
+      "sha256": "a96a05dd1274a908e0cfcbc52c95f5cab4acc7616bc1eb24ac759a497250d540",
+      "bytes": 18748
+    },
+    {
+      "name": "organizations.json",
+      "sha256": "2197b555cb75f2bfc7ff2f148e5e4983a9eae34e9532cd7fc9b9952f67bb8a25",
+      "bytes": 1042374
+    },
+    {
+      "name": "person_details.json",
+      "sha256": "8cdb7ef767ca7f6208c51c8076a3fede77d9f9654ab305c23930f0dc30bf2f46",
+      "bytes": 11942914
+    },
+    {
+      "name": "persons.json",
+      "sha256": "7e8b97d7aecb9cc8e0e7f449f570b3f862990056dd4dec9b906c8ff88a4a71ff",
+      "bytes": 290258
+    },
+    {
+      "name": "places.json",
+      "sha256": "4a23d5f0edd0a0943277c71f34d714e39462ac87239ea8abe7a4603a05572c73",
+      "bytes": 4271655
+    },
+    {
+      "name": "places_list.json",
+      "sha256": "e2ea954f4756a12db69fbd0c631148d884efc6417ec78291e587b80c7fdcd064",
+      "bytes": 626646
+    },
+    {
+      "name": "wkl_events.json",
+      "sha256": "fc6b2e26834ff6071e68162a549f312cbf981392a538fb19e6384eecae3f465e",
+      "bytes": 61445
+    }
+  ]
+}
