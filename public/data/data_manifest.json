@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-08-16T22:16:20+0800",
+  "counts": {
+    "persons": 2848,
+    "places": 6224,
+    "events": 4433,
+    "organizations": 2107,
+    "relations": 8437
+  },
+  "places_with_related_persons": 455,
+  "events_with_person_ids": 1127,
+  "complete_persons": 861,
+  "incomplete_persons": 1987
+}

@@ -18,17 +18,31 @@ export function usePersons(): { persons: Person[]; loading: boolean } {
     }
     if (!_pending) {
       _pending = fetch(`${BASE}data/persons.json`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error(`Failed to load persons: HTTP ${res.status}`)
+          return res.json()
+        })
         .then(data => {
           _cache = data
-          _pending = null
           return data
         })
+        .finally(() => {
+          _pending = null
+        })
     }
-    _pending.then(data => {
-      setPersons(data)
-      setLoading(false)
-    })
+    let active = true
+    _pending
+      .then(data => {
+        if (!active) return
+        setPersons(data)
+        setLoading(false)
+      })
+      .catch(() => {
+        if (active) setLoading(false)
+      })
+    return () => {
+      active = false
+    }
   }, [])
 
   return { persons, loading }

@@ -18,17 +18,31 @@ export function useOrganizations(): { organizations: Organization[]; loading: bo
     }
     if (!_pending) {
       _pending = fetch(`${BASE}data/organizations.json`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error(`Failed to load organizations: HTTP ${res.status}`)
+          return res.json()
+        })
         .then(data => {
           _cache = data
-          _pending = null
           return data
         })
+        .finally(() => {
+          _pending = null
+        })
     }
-    _pending.then(data => {
-      setOrganizations(data)
-      setLoading(false)
-    })
+    let active = true
+    _pending
+      .then(data => {
+        if (!active) return
+        setOrganizations(data)
+        setLoading(false)
+      })
+      .catch(() => {
+        if (active) setLoading(false)
+      })
+    return () => {
+      active = false
+    }
   }, [])
 
   return { organizations, loading }

@@ -90,6 +90,9 @@ export default function Anomalies() {
             </div>
           </div>
           <span className="text-[10px] font-serif" style={{ color: '#525f6e' }}>[ 算法拟合审计结果仅供学术研判参考 ]</span>
+          <span className="text-[10px] font-serif mt-1" style={{ color: '#525f6e' }}>
+            [ “异常”“断裂”为算法或人工分析标签，不构成历史事实认定 ]
+          </span>
         </div>
 
         {/* 审计概览 */}
@@ -193,7 +196,7 @@ function Tab1({ persons, nav }: { persons: Person[]; nav: ReturnType<typeof impo
             <span className="text-[11px]" style={{ color: '#c44b4b', fontWeight: 600 }}>史料记载骤然断裂于 {p.active_to} 年</span>
             {p.anomaly_note && (
               <span className="text-[10px] mt-0.5 line-clamp-1" style={{ color: '#7a8a9e' }}>
-                {p.anomaly_note}
+                分析标注：{p.anomaly_note}
               </span>
             )}
           </div>

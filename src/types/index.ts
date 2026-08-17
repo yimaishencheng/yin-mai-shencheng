@@ -9,8 +9,12 @@ export interface Person {
   organizations: string[]
   description: string
   source: string
+  source_detail?: string
+  source_uri?: string
+  provenance?: 'raw' | 'cleaned' | 'inferred' | 'manual' | 'synthetic'
   is_anomaly?: boolean
   anomaly_note?: string
+  is_incomplete?: boolean
 }
 
 export interface Place {
@@ -25,6 +29,9 @@ export interface Place {
   closed: number | null
   related_persons: string[]
   description: string
+  source_detail?: string
+  source_uri?: string
+  provenance?: 'raw' | 'cleaned' | 'inferred' | 'manual' | 'synthetic'
   is_anomaly?: boolean
   anomaly_score?: number
   anomaly_note?: string
@@ -40,6 +47,9 @@ export interface HistoricalEvent {
   person_ids: string[]
   description: string
   source: string
+  source_detail?: string
+  source_uri?: string
+  provenance?: 'raw' | 'cleaned' | 'inferred' | 'manual' | 'synthetic'
 }
 
 export interface Relation {
@@ -48,6 +58,7 @@ export interface Relation {
   type: string
   strength: number
   year: number
+  provenance?: 'raw' | 'cleaned' | 'inferred' | 'manual' | 'synthetic'
 }
 
 export interface Organization {
@@ -56,4 +67,8 @@ export interface Organization {
   type: string
   description: string
   source: string
+  source_detail?: string
+  source_uri?: string
+  provenance?: 'raw' | 'cleaned' | 'inferred' | 'manual' | 'synthetic'
+  member_ids: string[]
 }

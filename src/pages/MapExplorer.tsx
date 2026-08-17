@@ -1,6 +1,7 @@
-import React, { useState, useMemo } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React, { useState, useMemo, useEffect, useRef } from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { MapContainer, TileLayer, CircleMarker, Tooltip } from 'react-leaflet'
+import type { Map as LeafletMap } from 'leaflet'
 import { usePersons } from '../hooks/usePersons'
 import { usePlaces } from '../hooks/usePlaces'
 import { useEvents } from '../hooks/useEvents'
@@ -31,10 +32,17 @@ export default function MapExplorer() {
   const [year, setYear] = useState(1937)
   const [selTypes, setSelTypes] = useState<string[]>([])
   const [selId, setSelId] = useState<string | null>(null)
+  const [searchParams] = useSearchParams()
   const nav = useNavigate()
   const { persons, loading: pLoading } = usePersons()
   const { places, loading: plLoading } = usePlaces()
   const { events } = useEvents()
+  const mapRef = useRef<LeafletMap | null>(null)
+
+  useEffect(() => {
+    const highlight = searchParams.get('highlight')
+    if (highlight) setSelId(decodeURIComponent(highlight))
+  }, [searchParams])
 
   // All hooks must be called unconditionally
   const allTypes = useMemo(() => {
@@ -43,12 +51,40 @@ export default function MapExplorer() {
   }, [places])
 
   const visible = useFilter(places, year, selTypes)
+  const selPlace = places.find(p => p.id === selId) || null
+
+  useEffect(() => {
+    const highlight = searchParams.get('highlight')
+    if (!highlight) return
+    const id = decodeURIComponent(highlight)
+    setSelId(id)
+    const target = places.find(p => p.id === id)
+    if (!target || !target.lat || target.lat === 0) return
+    if (!visible.some(p => p.id === id)) {
+      setSelTypes([])
+      setYear(target.established && target.established > 0 ? Math.max(target.established, 1919) : 1937)
+    }
+  }, [searchParams, places])
+
+  useEffect(() => {
+    if (!selPlace || !mapRef.current || !selPlace.lat || selPlace.lat === 0) return
+    mapRef.current.setView([selPlace.lat, selPlace.lng], 15, { animate: true })
+  }, [selPlace])
 
   const personMap = useMemo(() => {
     const m: Record<string, string> = {}
     for (const p of persons) if (p.name && p.id) m[p.id] = p.name
     return m
   }, [persons])
+
+  const relatedEvents = useMemo(() => {
+    if (!selPlace) return []
+    const name = selPlace.name
+    return events.filter(e =>
+      (e.description && e.description.includes(name)) ||
+      (e.name && e.name.includes(name))
+    ).slice(0, 5)
+  }, [selPlace, events])
 
   if (pLoading || plLoading) {
     return (
@@ -64,17 +100,6 @@ export default function MapExplorer() {
     setSelId(null)
   }
 
-  const selPlace = places.find(p => p.id === selId) || null
-
-  const relatedEvents = useMemo(() => {
-    if (!selPlace) return []
-    const name = selPlace.name
-    return events.filter(e =>
-      (e.description && e.description.includes(name)) ||
-      (e.name && e.name.includes(name))
-    ).slice(0, 5)
-  }, [selPlace, events])
-
   const totalOK = places.filter(p => p.lat && p.lat !== 0).length
 
   return (
@@ -84,6 +109,7 @@ export default function MapExplorer() {
         <MapContainer
           center={[31.2304, 121.4737]}
           zoom={13}
+          ref={mapRef}
           className="w-full h-full"
           zoomControl={false}
           attributionControl={false}
@@ -264,9 +290,9 @@ function PlaceDetail({ place, events, pMap, nav }: {
         <div className="p-4 rounded mb-5 relative overflow-hidden" style={{ backgroundColor: 'rgba(196, 75, 75, 0.08)', border: '1px solid rgba(196, 75, 75, 0.35)' }}>
           <div className="absolute top-[-10px] right-[-10px] text-[36px] font-bold opacity-[0.08] select-none text-[#c44b4b] uppercase font-serif">CRITICAL</div>
           <p style={{ color: '#c44b4b', fontSize: '11px', fontWeight: 700, letterSpacing: '1px', marginBottom: '4px' }}>
-            ⚠️ 史料完整度异常判定
+            ⚠️ 史料完整度分析标注
           </p>
-          {place.anomaly_note && <p className="text-[11px] mb-2 leading-relaxed" style={{ color: '#fca5a5' }}>{place.anomaly_note}</p>}
+          {place.anomaly_note && <p className="text-[11px] mb-2 leading-relaxed" style={{ color: '#fca5a5' }}>分析标注：{place.anomaly_note}</p>}
           {(place.anomaly_score ?? 0) > 0 && (
             <div className="w-full">
               <div className="flex justify-between text-[9px] text-[#7a8a9e] mb-1">
@@ -298,7 +324,7 @@ function PlaceDetail({ place, events, pMap, nav }: {
                 }}
               >
                 <span>👤</span>
-                <span className="font-serif">{pMap[pid] || '未知人员'}</span>
+                <span className="font-serif">{pMap[pid] || '人物待考'}</span>
               </button>
             ))}
           </div>

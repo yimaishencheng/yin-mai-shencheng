@@ -1,7 +1,14 @@
 node_modules/
 dist/
 .npm-cache/
+data/raw/
 *.log
 .env
+.env.oss
+.env.*.local
+.env.oss.example
 __pycache__/
 *.pyc
+submission/
+*.zip
+*.tmp

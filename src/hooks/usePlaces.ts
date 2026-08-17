@@ -18,17 +18,31 @@ export function usePlaces(): { places: Place[]; loading: boolean } {
     }
     if (!_pending) {
       _pending = fetch(`${BASE}data/places.json`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error(`Failed to load places: HTTP ${res.status}`)
+          return res.json()
+        })
         .then(data => {
           _cache = data
-          _pending = null
           return data
         })
+        .finally(() => {
+          _pending = null
+        })
     }
-    _pending.then(data => {
-      setPlaces(data)
-      setLoading(false)
-    })
+    let active = true
+    _pending
+      .then(data => {
+        if (!active) return
+        setPlaces(data)
+        setLoading(false)
+      })
+      .catch(() => {
+        if (active) setLoading(false)
+      })
+    return () => {
+      active = false
+    }
   }, [])
 
   return { places, loading }

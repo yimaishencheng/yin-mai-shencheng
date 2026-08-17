@@ -19,9 +19,22 @@ export default function Portrait() {
   const { personId } = useParams()
   const nav = useNavigate()
   const [st, setSt] = useState('')
+  const [onlyComplete, setOnlyComplete] = useState(false)
   const { persons, loading } = usePersons()
   const id = personId ? decodeURIComponent(personId) : ''
   const { events } = useEvents()
+
+  const results = useMemo(() => {
+    const q = st.trim().toLowerCase()
+    return persons.filter(p => {
+      if (!q) return true
+      const matched = (
+        p.name.toLowerCase().includes(q) ||
+        (p.aliases || []).some(a => a.toLowerCase().includes(q))
+      )
+      return matched && (!onlyComplete || !p.is_incomplete)
+    })
+  }, [st, persons, onlyComplete])
 
   if (loading) {
     return (
@@ -33,7 +46,6 @@ export default function Portrait() {
   }
 
   const person = persons.find(p => p.id === id) || null
-  const results = useMemo(() => persons.filter(p => p.name.includes(st)), [st, persons])
 
   if (id === 'search' || !personId) {
     return (
@@ -54,7 +66,7 @@ export default function Portrait() {
             type="text"
             value={st}
             onChange={e => setSt(e.target.value)}
-            placeholder="输入历史人物姓名（如：潘汉年、李白）..."
+            placeholder="输入姓名、代号或化名（如：潘汉年、雁冰）..."
             className="w-full px-4 py-3 rounded text-sm outline-none transition-all focus:border-[#d4a853]/50"
             style={{
               backgroundColor: '#12121a',
@@ -62,6 +74,17 @@ export default function Portrait() {
               color: '#ececed'
             }}
           />
+
+          <label className="mt-3 flex items-center gap-2 text-xs cursor-pointer" style={{ color: '#7a8a9e' }}>
+            <input
+              type="checkbox"
+              checked={onlyComplete}
+              onChange={e => setOnlyComplete(e.target.checked)}
+              className="rounded"
+              style={{ accentColor: '#d4a853' }}
+            />
+            <span className="font-serif">只看信息完整人物</span>
+          </label>
 
           <div className="mt-6 flex flex-col gap-2 max-h-72 overflow-y-auto pr-1">
             {results.map(p => (
@@ -77,9 +100,17 @@ export default function Portrait() {
                 <div>
                   <div style={{ color: '#d4a853', fontSize: '14px', fontWeight: 600 }} className="font-serif">
                     {p.name}
+                    {p.is_incomplete && (
+                      <span className="ml-2 text-[9px] font-normal" style={{ color: '#c44b4b' }}>档案待考</span>
+                    )}
                   </div>
+                  {st.trim() && p.aliases?.some(a => a.toLowerCase().includes(st.trim().toLowerCase())) && (
+                    <div className="text-[10px] mt-0.5 italic" style={{ color: '#7a8a9e' }}>
+                      化名 / 曾用名：{p.aliases.join('、')}
+                    </div>
+                  )}
                   <div style={{ color: '#7a8a9e', fontSize: '11px' }}>
-                    {p.occupation || '生平社会职业不详'}
+                    {p.occupation || (p.is_incomplete ? '仅关联线索，传记待考' : '生平社会职业不详')}
                   </div>
                 </div>
                 <div style={{ color: '#525f6e', fontSize: '11px' }} className="font-serif">
@@ -155,6 +186,9 @@ function LeftPanel({ person }: { person: P }) {
         <h2 className="font-serif text-2xl font-bold tracking-widest mb-1.5" style={{ color: '#d4a853' }}>
           {person.name}
         </h2>
+        {person.is_incomplete && (
+          <span className="seal-stamp mb-2">档案待考</span>
+        )}
         {person.aliases && person.aliases.length > 0 && (
           <p className="text-xs italic" style={{ color: '#7a8a9e' }}>
             化名、曾用名：{person.aliases.join('、')}
@@ -163,7 +197,7 @@ function LeftPanel({ person }: { person: P }) {
       </div>
 
       <div className="flex flex-col gap-3.5 mb-6 text-xs">
-        <InfoRow label="社会公开身份" value={person.occupation || '未知职业'} />
+        <InfoRow label="社会公开身份" value={person.occupation || (person.is_incomplete ? '档案待考' : '未知职业')} />
         <InfoRow label="活跃历史年段" value={`${person.active_from || '?'} - ${person.active_to || '不详'}`} />
         <InfoRow label="主要革命区域" value={person.district || '暂无精确记载'} />
         <InfoRow label="党团秘密组织" value={person.organizations?.join('、') || '暂无登记'} />
@@ -177,7 +211,7 @@ function LeftPanel({ person }: { person: P }) {
           </p>
           {person.anomaly_note && (
             <p className="text-[11px] leading-relaxed" style={{ color: '#fca5a5' }}>
-              {person.anomaly_note}
+              分析标注：{person.anomaly_note}
             </p>
           )}
         </div>
@@ -185,12 +219,12 @@ function LeftPanel({ person }: { person: P }) {
 
       {person.description && (
         <div className="p-4 rounded text-xs leading-relaxed" style={{ backgroundColor: '#12121a', border: '1px solid rgba(214,168,83,0.06)', color: '#ececed' }}>
-          <p style={{ textIndent: '2em' }} className="line-clamp-6">{person.description}</p>
+          <p style={{ textIndent: '2em', whiteSpace: 'pre-wrap' }}>{person.description}</p>
         </div>
       )}
 
       <p className="text-[10px] mt-auto text-center" style={{ color: '#525f6e' }}>
-        史学界定考证出处: {person.source}
+        数据来源: {person.source_detail || person.source}
       </p>
     </div>
   )
@@ -238,10 +272,11 @@ function MiddlePanel({
   }), [person, relPersons, rels])
 
   const [graphKey, setGraphKey] = useState(0)
+  const [detail, setDetail] = useState<HistoricalEvent | null>(null)
   useEffect(() => setGraphKey(k => k + 1), [person.id])
 
   return (
-    <div className="flex flex-col" style={{ width: '40%' }}>
+    <div className="relative flex flex-col" style={{ width: '40%' }}>
       {/* 局部社交图谱 */}
       <div style={{ height: '50%' }} className="relative border-b border-dashed border-[#d4a853]/12">
         <div className="absolute top-3 left-4 z-10">
@@ -287,12 +322,45 @@ function MiddlePanel({
                   <span style={{ color: '#c44b4b', fontSize: '10px' }} className="font-serif block mb-0.5">⏱ {ev.year || '?'} 年</span>
                   <span style={{ color: '#ececed', fontSize: '11.5px', fontWeight: 500 }} className="line-clamp-1">{ev.name}</span>
                 </div>
-                <span className="text-[9px] shrink-0 font-serif" style={{ color: '#525f6e' }}>[ 查看详案 ]</span>
+                <button
+                  onClick={() => setDetail(ev)}
+                  className="text-[9px] shrink-0 font-serif cursor-pointer hover:text-[#d4a853]"
+                  style={{ color: '#525f6e' }}
+                >
+                  [ 查看详案 ]
+                </button>
               </div>
             ))}
           </div>
         )}
       </div>
+
+      {detail && (
+        <div className="absolute inset-0 z-30 overflow-y-auto p-5" style={{ backgroundColor: 'rgba(8,8,15,0.97)', borderLeft: '1px solid rgba(214,168,83,0.18)' }}>
+          <div className="flex items-start justify-between gap-3 mb-4">
+            <div>
+              <span className="text-[10px] font-serif tracking-widest" style={{ color: '#c44b4b' }}>EVENT DOSSIER</span>
+              <h3 className="font-serif text-lg font-bold mt-1 leading-snug" style={{ color: '#d4a853' }}>
+                {detail.name}
+              </h3>
+            </div>
+            <button onClick={() => setDetail(null)} className="text-xs cursor-pointer hover:text-[#c44b4b]" style={{ color: '#7a8a9e' }}>
+              ✕ 关闭
+            </button>
+          </div>
+          <div className="text-[10px] font-serif mb-4 flex flex-wrap gap-2" style={{ color: '#7a8a9e' }}>
+            <span>{detail.year || '?'} 年</span>
+            {detail.date && <span>· {detail.date}</span>}
+            {detail.type && <span>· {detail.type}</span>}
+          </div>
+          <div className="p-4 rounded text-xs leading-relaxed" style={{ backgroundColor: '#12121a', border: '1px solid rgba(214,168,83,0.1)', color: '#ececed' }}>
+            <p style={{ whiteSpace: 'pre-wrap' }}>{detail.description || '暂无详细描述'}</p>
+          </div>
+          {detail.source && (
+            <p className="text-[10px] mt-4" style={{ color: '#525f6e' }}>数据来源：{detail.source}</p>
+          )}
+        </div>
+      )}
     </div>
   )
 }
@@ -365,11 +433,8 @@ function RightPanel({ person, actEvts }: { person: P; actEvts: HistoricalEvent[]
             />
             <div className="p-3 rounded" style={{ backgroundColor: 'rgba(196, 75, 75, 0.05)', border: '1px solid rgba(196, 75, 75, 0.2)' }}>
               <div style={{ color: '#c44b4b', fontSize: '11.5px', fontWeight: 700 }} className="font-serif">
-                ☠️ 存疑：此后断绝记载
+                档案完止
               </div>
-              <p className="text-[10px] mt-1 leading-normal" style={{ color: '#7a8a9e' }}>
-                史料纪年自 {person.active_to} 年后再无该人活动，推测被捕、转移或英勇牺牲。
-              </p>
             </div>
           </div>
         )}

@@ -2,10 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const navItems = [
+  { path: '/', icon: '🏛️', label: '档案大厅' },
   { path: '/map', icon: '🗺️', label: '时空地图' },
   { path: '/graph', icon: '🕸️', label: '关系网络' },
   { path: '/timeline', icon: '📅', label: '历史时间轴' },
   { path: '/portrait/search', icon: '👤', label: '人物画像' },
+  { path: '/orgs', icon: '🏷️', label: '机构名册' },
   { path: '/anomalies', icon: '⚠️', label: '异常发现' },
 ] as const
 
@@ -77,11 +79,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         >
           <div className="flex items-center gap-1.5 mb-1">
             <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: '#c44b4b' }} />
-            <span style={{ color: '#7a8a9e', fontWeight: 500 }}>史料来源</span>
+            <span style={{ color: '#7a8a9e', fontWeight: 500 }}>数据来源</span>
           </div>
           上海图书馆开放数据
-          <br />中共上海地下党相关史料及
-          <br />革命遗址普查报告
+          <br />及竞赛支持机构
+          <br />详见 DATA_SOURCES.md
         </div>
       </nav>
 

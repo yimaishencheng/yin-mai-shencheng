@@ -2,23 +2,21 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ReactEChartsCore from 'echarts-for-react/lib/core'
 import * as echarts from 'echarts/core'
-import { LineChart, BarChart, PieChart } from 'echarts/charts'
-import { TooltipComponent, TitleComponent, GridComponent, LegendComponent, GraphicComponent } from 'echarts/components'
+import { LineChart } from 'echarts/charts'
+import { TooltipComponent, GridComponent, GraphicComponent } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
 import { MapContainer, CircleMarker, TileLayer, Tooltip } from 'react-leaflet'
 import { usePersons } from '../hooks/usePersons'
 import { usePlaces } from '../hooks/usePlaces'
 import { useEvents } from '../hooks/useEvents'
+import { useOrganizations } from '../hooks/useOrganizations'
+import relations from '../data/relations.json'
 import { HeroSilhouette, UnsealingLoader } from '../components/Illustrations'
 
 echarts.use([
   LineChart,
-  BarChart,
-  PieChart,
   TooltipComponent,
-  TitleComponent,
   GridComponent,
-  LegendComponent,
   GraphicComponent,
   CanvasRenderer
 ])
@@ -46,8 +44,9 @@ export default function Dashboard() {
   const { persons, loading: pLoading } = usePersons()
   const { places, loading: plLoading } = usePlaces()
   const { events, loading: eLoading } = useEvents()
+  const { organizations, loading: oLoading } = useOrganizations()
 
-  if (pLoading || plLoading || eLoading) {
+  if (pLoading || plLoading || eLoading || oLoading) {
     return (
       <div className="flex flex-col items-center justify-center h-screen" style={{ backgroundColor: '#08080f' }}>
         <UnsealingLoader />
@@ -63,6 +62,26 @@ export default function Dashboard() {
     { label: '异常断裂标注', value: places.filter(p => p.is_anomaly).length, color: '#c44b4b', icon: '⚠️' },
   ]
 
+  const degreeMap: Record<string, number> = {}
+  for (const r of relations) {
+    degreeMap[r.source] = (degreeMap[r.source] || 0) + 1
+    degreeMap[r.target] = (degreeMap[r.target] || 0) + 1
+  }
+  const topPersons = persons
+    .map(p => ({ person: p, degree: degreeMap[p.id] || 0 }))
+    .filter(x => x.degree > 0)
+    .sort((a, b) => b.degree - a.degree)
+    .slice(0, 8)
+
+  const archiveIndex = [
+    { label: '人物档案', value: persons.length, color: '#d4a853' },
+    { label: '地点索引', value: places.length, color: '#3d5a80' },
+    { label: '事件卷宗', value: events.length, color: '#c44b4b' },
+    { label: '机构名册', value: organizations.length, color: '#7a8a9e' },
+    { label: '情报连线', value: relations.length, color: '#c44b4b' },
+    { label: '完整人物', value: persons.filter(p => !p.is_incomplete).length, color: '#d4a853' },
+  ]
+
   // Events by year (1919-1945)
   const yearMap: Record<number, number> = {}
   for (const e of events) {
@@ -72,123 +91,70 @@ export default function Dashboard() {
   const years = Array.from({ length: 1945 - 1919 + 1 }, (_, i) => 1919 + i)
   const yearData = years.map(y => yearMap[y] || 0)
 
-  // Events by type
-  const typeMap: Record<string, number> = {}
-  for (const e of events) {
-    const t = e.type || '其他'
-    typeMap[t] = (typeMap[t] || 0) + 1
-  }
-  const typeEntries = Object.entries(typeMap).sort((a, b) => b[1] - a[1])
-  const typeTotal = events.length
-
-  // Persons by occupation (top 8)
-  const occMap: Record<string, number> = {}
-  for (const p of persons) {
-    const o = p.occupation && p.occupation.trim() ? p.occupation : '未标注'
-    occMap[o] = (occMap[o] || 0) + 1
-  }
-  const occEntries = Object.entries(occMap).sort((a, b) => b[1] - a[1]).slice(0, 8)
+  const peak = Math.max(0, ...yearData)
+  const peakYear = years[yearData.indexOf(peak)]
 
   const lineOpt = {
     backgroundColor: 'transparent',
     tooltip: {
       trigger: 'axis',
-      textStyle: { color: '#ececed', fontFamily: 'var(--font-sans)', fontSize: 11 },
-      backgroundColor: '#161620',
-      borderColor: 'rgba(214, 168, 83, 0.2)',
+      confine: true,
+      textStyle: { color: '#ececed', fontFamily: 'var(--font-archive)', fontSize: 11 },
+      backgroundColor: 'rgba(18, 18, 26, 0.96)',
+      borderColor: 'rgba(196, 75, 75, 0.35)',
       borderWidth: 1
     },
-    grid: { left: '8%', right: '4%', top: '15%', bottom: '15%' },
+    grid: { left: '9%', right: '5%', top: '18%', bottom: '18%' },
     xAxis: {
       type: 'category',
+      boundaryGap: false,
       data: years.map(String),
       axisLine: { lineStyle: { color: 'rgba(122, 138, 158, 0.2)' } },
-      axisLabel: { color: '#7a8a9e', fontSize: 10, rotate: 35, fontFamily: 'var(--font-sans)' }
+      axisTick: { show: false },
+      axisLabel: { color: '#7a8a9e', fontSize: 9, rotate: 30, fontFamily: 'var(--font-archive)' }
     },
     yAxis: {
       type: 'value',
+      minInterval: 1,
       axisLine: { show: false },
-      axisLabel: { color: '#7a8a9e', fontSize: 10 },
-      splitLine: { lineStyle: { color: 'rgba(122, 138, 158, 0.1)', type: 'dashed' } }
+      axisLabel: { color: '#7a8a9e', fontSize: 9 },
+      splitLine: { lineStyle: { color: 'rgba(122, 138, 158, 0.12)', type: 'dashed' } }
     },
     series: [{
       type: 'line',
       data: yearData,
       smooth: true,
-      lineStyle: { color: '#d4a853', width: 2 },
+      symbol: 'rect',
+      symbolSize: 6,
+      showSymbol: false,
+      lineStyle: {
+        color: '#c44b4b',
+        width: 2.2,
+        shadowBlur: 12,
+        shadowColor: 'rgba(196, 75, 75, 0.65)'
+      },
+      itemStyle: { color: '#d4a853', borderColor: '#c44b4b', borderWidth: 1 },
       areaStyle: {
         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          { offset: 0, color: 'rgba(214, 168, 83, 0.2)' },
-          { offset: 1, color: 'rgba(214, 168, 83, 0.0)' }
+          { offset: 0, color: 'rgba(196, 75, 75, 0.34)' },
+          { offset: 0.5, color: 'rgba(214, 168, 83, 0.12)' },
+          { offset: 1, color: 'rgba(214, 168, 83, 0)' }
         ])
       },
-      symbol: 'circle',
-      symbolSize: 5,
-      itemStyle: { color: '#d4a853', borderColor: '#08080f', borderWidth: 1 }
-    }],
-  }
-
-  const pieOpt = {
-    backgroundColor: 'transparent',
-    tooltip: {
-      trigger: 'item',
-      textStyle: { color: '#ececed', fontSize: 11 },
-      backgroundColor: '#161620',
-      borderColor: 'rgba(214, 168, 83, 0.2)',
-      borderWidth: 1
-    },
-    color: THEME_COLORS,
-    series: [{
-      type: 'pie',
-      radius: ['45%', '70%'],
-      center: ['50%', '50%'],
-      data: typeEntries.map(([n, v]) => ({ name: n, value: v })),
-      itemStyle: { borderRadius: 4, borderColor: '#08080f', borderWidth: 2 },
-      label: { color: '#7a8a9e', fontSize: 10, show: true, formatter: '{b}\n({d}%)' },
-      emphasis: { label: { color: '#ececed', fontWeight: 'bold' } },
-    }],
-    graphic: [{
-      type: 'text', left: 'center', top: '44%',
-      style: { text: `${typeTotal}`, fill: '#ececed', fontSize: 22, fontWeight: 'bold', fontFamily: 'var(--font-serif)', textAlign: 'center' },
-    }, {
-      type: 'text', left: 'center', top: '56%',
-      style: { text: '起史料记录', fill: '#7a8a9e', fontSize: 10, textAlign: 'center' },
-    }],
-  }
-
-  const barOpt = {
-    backgroundColor: 'transparent',
-    tooltip: {
-      trigger: 'axis',
-      textStyle: { color: '#ececed', fontSize: 11 },
-      backgroundColor: '#161620',
-      borderColor: 'rgba(214, 168, 83, 0.2)',
-      borderWidth: 1
-    },
-    grid: { left: '22%', right: '6%', top: '10%', bottom: '10%' },
-    xAxis: {
-      type: 'value',
-      axisLine: { show: false },
-      axisLabel: { color: '#7a8a9e', fontSize: 10 },
-      splitLine: { lineStyle: { color: 'rgba(122, 138, 158, 0.1)' } }
-    },
-    yAxis: {
-      type: 'category',
-      data: occEntries.map(([n]) => n.length > 6 ? n.slice(0, 6) + '…' : n),
-      axisLine: { lineStyle: { color: 'rgba(122, 138, 158, 0.2)' } },
-      axisLabel: { color: '#7a8a9e', fontSize: 10, fontFamily: 'var(--font-serif)' }
-    },
-    series: [{
-      type: 'bar',
-      data: occEntries.map(([, v]) => v),
-      itemStyle: {
-        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-          { offset: 0, color: '#3d5a80' },
-          { offset: 1, color: '#d4a853' }
-        ]),
-        borderRadius: [0, 4, 4, 0]
+      markLine: {
+        silent: true,
+        symbol: 'none',
+        lineStyle: { color: 'rgba(196, 75, 75, 0.35)', type: 'dashed' },
+        label: { color: '#525f6e', fontSize: 9, fontFamily: 'var(--font-archive)' },
+        data: [{ xAxis: '1927' }, { xAxis: '1932' }, { xAxis: '1937' }]
       },
-      barWidth: 10
+      markPoint: {
+        symbol: 'pin',
+        symbolSize: 36,
+        itemStyle: { color: 'rgba(196, 75, 75, 0.92)', borderColor: '#d4a853', borderWidth: 1 },
+        label: { color: '#08080f', fontWeight: 700, fontSize: 9, fontFamily: 'var(--font-archive)' },
+        data: [{ coord: [String(peakYear), peak], value: String(peak) }]
+      }
     }],
   }
 
@@ -235,16 +201,55 @@ export default function Dashboard() {
 
       {/* ── 图表网格区域 (提升呼吸感) ── */}
       <div className="flex shrink-0" style={{ height: '51%', borderBottom: '1px solid rgba(214, 168, 83, 0.12)', backgroundColor: '#0a0a12' }}>
-        <ChartPanel title="革命活动历史年代分布 (1919-1945)" style={{ width: '36%' }}>
+        <ChartPanel
+          title="革命活动历史年代分布 (1919-1945)"
+          code="1930-A"
+          summary={`峰值 ${peakYear} 年 · ${peak} 条`}
+          style={{ width: '36%' }}
+        >
           <ReactEChartsCore echarts={echarts} option={lineOpt} style={{ height: '100%', width: '100%' }} notMerge />
         </ChartPanel>
         <div style={{ width: '1px', backgroundColor: 'rgba(214, 168, 83, 0.12)' }} />
-        <ChartPanel title="事件史料类别构成" style={{ width: '30%' }}>
-          <ReactEChartsCore echarts={echarts} option={pieOpt} style={{ height: '100%', width: '100%' }} notMerge />
+        <ChartPanel
+          title="重点人物速查"
+          code="1930-B"
+          summary={`关联广度最高 ${topPersons[0]?.person.name || '暂无'}`}
+          style={{ width: '30%' }}
+        >
+          <div className="flex flex-col gap-1.5 overflow-y-auto h-full pr-1">
+            {topPersons.map(({ person, degree }, i) => (
+              <button
+                key={person.id}
+                onClick={() => nav('/portrait/' + encodeURIComponent(person.id))}
+                className="flex items-center gap-2 w-full px-2.5 py-2 rounded text-left transition-all hover:bg-[#d4a853]/10"
+                style={{ backgroundColor: 'rgba(18,18,26,0.72)', border: '1px solid rgba(214,168,83,0.1)' }}
+              >
+                <span className="font-serif text-[10px] shrink-0" style={{ color: '#c44b4b' }}>{String(i + 1).padStart(2, '0')}</span>
+                <span className="font-serif text-xs truncate flex-1" style={{ color: '#d4a853' }}>{person.name}</span>
+                <span className="text-[9px] shrink-0" style={{ color: '#7a8a9e' }}>{degree} 条连线</span>
+              </button>
+            ))}
+          </div>
         </ChartPanel>
         <div style={{ width: '1px', backgroundColor: 'rgba(214, 168, 83, 0.12)' }} />
-        <ChartPanel title="核心人物主要社会职业构成 (Top 8)" style={{ width: '34%' }}>
-          <ReactEChartsCore echarts={echarts} option={barOpt} style={{ height: '100%', width: '100%' }} notMerge />
+        <ChartPanel
+          title="档案馆藏索引"
+          code="1930-C"
+          summary={`在库总量 ${archiveIndex.reduce((sum, item) => sum + item.value, 0)}`}
+          style={{ width: '34%' }}
+        >
+          <div className="grid grid-cols-2 gap-2 overflow-y-auto h-full pr-1">
+            {archiveIndex.map(item => (
+              <div
+                key={item.label}
+                className="relative p-2.5 rounded overflow-hidden"
+                style={{ backgroundColor: 'rgba(18,18,26,0.72)', border: '1px solid rgba(214,168,83,0.1)' }}
+              >
+                <span className="font-serif text-lg font-bold block" style={{ color: item.color }}>{item.value.toLocaleString()}</span>
+                <span className="text-[10px]" style={{ color: '#7a8a9e' }}>{item.label}</span>
+              </div>
+            ))}
+          </div>
         </ChartPanel>
       </div>
 
@@ -336,19 +341,29 @@ function StatCard({ value, label, color, icon }: { value: number; label: string;
   )
 }
 
-function ChartPanel({ title, children, style: panelStyle }: { title: string; children: React.ReactNode; style?: React.CSSProperties }) {
+function ChartPanel({ title, code, summary, children, style: panelStyle }: {
+  title: string
+  code: string
+  summary: string
+  children: React.ReactNode
+  style?: React.CSSProperties
+}) {
   return (
-    <div className="flex flex-col p-4" style={panelStyle}>
-      <div className="px-1 pb-2 shrink-0 flex items-center justify-between border-b border-dashed border-[#d4a853]/15">
-        <div className="flex items-center gap-2">
-          <span className="w-1 h-3" style={{ backgroundColor: '#d4a853' }} />
-          <h3 className="font-serif tracking-wider" style={{ color: '#ececed', fontSize: '13px', fontWeight: 500 }}>
+    <div className="archive-paper relative flex flex-col min-w-0" style={panelStyle}>
+      <div className="relative z-10 px-4 pt-4 pb-2 shrink-0 flex items-center justify-between border-b border-dashed border-[#d4a853]/15">
+        <div className="flex items-center gap-2 min-w-0">
+          <span className="w-1.5 h-4 shrink-0" style={{ backgroundColor: '#c44b4b', boxShadow: '0 0 10px rgba(196,75,75,.6)' }} />
+          <h3 className="font-serif tracking-wider truncate" style={{ color: '#ececed', fontSize: '13px', fontWeight: 600, letterSpacing: '0.04em' }}>
             {title}
           </h3>
         </div>
-        <span className="text-[9px]" style={{ color: '#525f6e' }}>[ 档号 1930-B ]</span>
+        <span className="text-[9px] shrink-0 font-serif" style={{ color: '#525f6e' }}>[ 档号 {code} ]</span>
       </div>
-      <div className="flex-1 min-h-0 px-1 py-2">{children}</div>
+      <div className="relative z-10 flex-1 min-h-0 px-2 pt-1 pb-1">{children}</div>
+      <div className="relative z-10 px-4 pb-3 shrink-0 flex items-center justify-between text-[9px] font-serif" style={{ color: '#525f6e' }}>
+        <span>档案摘要</span>
+        <span style={{ color: '#7a8a9e' }}>{summary}</span>
+      </div>
     </div>
   )
 }
